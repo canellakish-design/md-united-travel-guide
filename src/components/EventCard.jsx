@@ -18,7 +18,7 @@ export default function EventCard({ event }) {
   } else if (!event.confirmed && !event.action) {
     guidance = {
       cls: 'caution',
-      text: 'We have applied for this event but participation is NOT yet confirmed. Please do not book flights, hotels, or make any travel arrangements until participation is confirmed.',
+      text: 'This event is on our travel plan but participation is NOT yet confirmed. Please do not book flights, hotels, or make any travel arrangements until participation is confirmed.',
     }
   } else if (event.confirmed && !hasHotels && !event.action) {
     guidance = {
