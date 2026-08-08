@@ -75,7 +75,69 @@ a { color: inherit; }
 .age-select:focus { border-color: var(--mu-red); }
 .count { color: var(--muted); font-size: 13px; white-space: nowrap; }
 
-/* ---------- Event (collapsible) ---------- */
+/* ---------- Index list ---------- */
+.list { display: flex; flex-direction: column; gap: 8px; }
+.list-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 16px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.05s ease;
+}
+.list-row:hover { border-color: var(--mu-red); box-shadow: 0 3px 12px rgba(0,0,0,0.06); }
+.list-row:active { transform: translateY(1px); }
+.list-num {
+  flex: 0 0 auto;
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  background: var(--mu-red);
+  color: #fff;
+  font-weight: 800;
+  font-size: 14px;
+  display: grid; place-items: center;
+}
+.list-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.list-name { font-weight: 800; font-size: 16px; letter-spacing: -0.2px; }
+.list-meta { color: var(--slate); font-size: 13.5px; }
+.list-teams { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+.list-tags { flex: 0 0 auto; display: flex; align-items: center; gap: 7px; }
+.dot { width: 9px; height: 9px; border-radius: 50%; }
+.dot-green { background: var(--green); }
+.dot-grey { background: #c4c8ce; }
+.tag { font-size: 10.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; padding: 3px 7px; border-radius: 5px; }
+.tag-red { background: var(--red-bg); color: var(--mu-red); }
+.tag-blue { background: #e6eefb; color: #1f4fa3; }
+.list-chevron {
+  width: 8px; height: 8px;
+  border-right: 2px solid var(--muted);
+  border-top: 2px solid var(--muted);
+  transform: rotate(45deg);
+  margin-left: 2px;
+}
+
+/* ---------- Detail view ---------- */
+.detail-back {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--mu-red);
+  text-decoration: none;
+}
+.detail-back:hover { text-decoration: underline; }
+.detail-head { margin-bottom: 6px; }
+.detail-name { margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.3px; }
+.detail-meta { margin: 5px 0 0; color: var(--slate); font-size: 15px; }
+.detail-head .indicators { margin-top: 12px; }
+.detail-ages { margin: 16px 0 0; font-size: 15px; color: var(--slate); }
+.detail-ages-label { color: var(--muted); font-weight: 700; }
+
+/* ---------- Event (collapsible, legacy) ---------- */
 .event-list { display: flex; flex-direction: column; gap: 10px; }
 
 .event {
