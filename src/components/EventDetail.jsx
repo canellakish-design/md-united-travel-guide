@@ -33,9 +33,21 @@ export default function EventDetail({ event }) {
             <TeamBlock key={`${team.team}-${i}`} team={team} />
           ))}
         </div>
+      ) : event.games ? (
+        <ul className="games">
+          {event.games.map((g, i) => (
+            <li key={i} className="game-row">
+              <span className="game-team">{g.team}</span>
+              <span className="game-time">{g.time}</span>
+              <span className={`game-flag ${g.overnight ? 'on' : 'off'}`}>
+                {g.overnight ? 'Stay night before' : 'Same-day OK'}
+              </span>
+            </li>
+          ))}
+        </ul>
       ) : (
         <p className="detail-ages">
-          <span className="detail-ages-label">Age groups:</span> {attendingLabels(event).join(' · ')}
+          <span className="detail-ages-label">Teams:</span> {attendingLabels(event).join(' · ')}
         </p>
       )}
     </div>

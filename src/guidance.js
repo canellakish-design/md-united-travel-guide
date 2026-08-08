@@ -24,6 +24,7 @@ export function getGuidance(event, hasHotels) {
 
 // The teams/age groups attending an event, as short labels.
 export function attendingLabels(event) {
+  if (event.teamsList && event.teamsList.length) return event.teamsList
   if (event.teams && event.teams.length) return event.teams.map((t) => t.team)
   return event.ages || []
 }

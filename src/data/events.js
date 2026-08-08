@@ -24,6 +24,19 @@ export const CLUB = {
 
 const NJ_BOOKING = 'https://book.onlocationexp.com/ecnl-boys-girls-new-jersey-2026/team-members-booking/'
 
+// Conference away-game rosters differ by season:
+//   Fall  = U12–U14 ECNL & ECNL RL
+//   Spring = U11 ECNL, plus U12–U18/19 ECNL & ECNL RL (U11 is spring-only)
+const FALL_LEAGUE_AGES = ['U12', 'U13', 'U14']
+const FALL_LEAGUE_TEAMS = ['U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL']
+const SPRING_LEAGUE_AGES = ['U11', 'U12', 'U13', 'U14', 'U15', 'U16', 'U17', 'U18/19']
+const SPRING_LEAGUE_TEAMS = [
+  'U11 ECNL',
+  'U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL',
+  'U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL',
+  'U18/19 ECNL', 'U18/19 ECNL RL',
+]
+
 export const events = [
   // ================= CONFIRMED — ECNL New Jersey (booking open) =================
   {
@@ -208,24 +221,34 @@ export const events = [
   // overnight rule (NJ before 1 PM · elsewhere before 11 AM). No action until game times
   // are released; then flip action:true and list only the teams that qualify.
   { no: 18, sortDate: '2026-09-26', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
-    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
+    ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
     name: 'League @ PDA Blue', dates: 'Sat, Sep 26, 2026', location: 'New Jersey', note: '', teams: [] },
   { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
-    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
+    ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
     name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026', location: 'New Jersey', note: '', teams: [] },
-  { no: 20, sortDate: '2026-10-24', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
-    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
-    name: 'League @ Penn Fusion', dates: 'Sat, Oct 24, 2026', location: 'Pennsylvania', note: '', teams: [] },
+  { no: 20, sortDate: '2026-10-24', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
+    ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
+    name: 'League @ Penn Fusion', dates: 'Sat, Oct 24, 2026', location: 'Downingtown, PA', note: '',
+    // PA venue: overnight if kickoff before 11:00 AM
+    games: [
+      { team: 'U12 ECNL', time: '10:30 AM', overnight: true },
+      { team: 'U12 RL', time: '9:00 AM', overnight: true },
+      { team: 'U13 ECNL', time: '9:00 AM', overnight: true },
+      { team: 'U13 RL', time: '12:30 PM', overnight: false },
+      { team: 'U14 ECNL', time: '10:45 AM', overnight: true },
+      { team: 'U14 RL', time: '12:00 PM', overnight: false },
+    ],
+    teams: [] },
   { no: 21, sortDate: '2027-03-21', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
-    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
+    ages: SPRING_LEAGUE_AGES, teamsList: SPRING_LEAGUE_TEAMS,
     name: 'League @ Hex FC', dates: 'Sun, Mar 21, 2027', location: 'Pennsylvania', note: '', teams: [] },
   { no: 22, sortDate: '2027-04-11', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
-    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
+    ages: SPRING_LEAGUE_AGES, teamsList: SPRING_LEAGUE_TEAMS,
     name: 'League @ Philadelphia Ukrainians', dates: 'Sun, Apr 11, 2027', location: 'Pennsylvania', note: '', teams: [] },
   { no: 23, sortDate: '2027-04-25', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
-    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
+    ages: SPRING_LEAGUE_AGES, teamsList: SPRING_LEAGUE_TEAMS,
     name: 'League @ Match Fit', dates: 'Sat, Apr 25, 2027', location: 'New Jersey', note: '', teams: [] },
   { no: 24, sortDate: '2027-05-08', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
-    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
+    ages: SPRING_LEAGUE_AGES, teamsList: SPRING_LEAGUE_TEAMS,
     name: 'League @ FC Delco', dates: 'Sat, May 8, 2027', location: 'Pennsylvania', note: '', teams: [] },
 ]
