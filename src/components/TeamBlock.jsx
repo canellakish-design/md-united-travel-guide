@@ -6,9 +6,9 @@ export default function TeamBlock({ team }) {
     team.bookDeadline && { label: 'Book by', value: team.bookDeadline, key: 'deadline' },
     team.arrivalDate && { label: 'Arrive', value: team.arrivalDate },
     team.travelMode && { label: 'Travel', value: team.travelMode },
-    team.players != null && { label: 'Players', value: team.players },
+    team.players != null && { label: 'Players', value: `${team.players}` },
     team.coaches && { label: 'Coaches', value: team.coaches },
-    team.numRooms != null && { label: 'Rooms', value: `${team.numRooms}-room block` },
+    team.numRooms != null && { label: 'Rooms needed', value: `${team.numRooms}` },
   ].filter(Boolean)
 
   return (

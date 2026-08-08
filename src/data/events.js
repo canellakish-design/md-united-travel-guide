@@ -42,6 +42,7 @@ export const events = [
       {
         team: 'U13 ECNL',
         bookDeadline: 'Wed, Jul 29 @ 9:00 AM',
+        players: 18,
         numRooms: 18,
         teamCode: 'ECN--A8',
         hotelLink: NJ_BOOKING,
@@ -54,7 +55,8 @@ export const events = [
       {
         team: 'U14 ECNL',
         bookDeadline: 'Wed, Jul 29 @ 9:00 AM',
-        numRooms: 18,
+        players: 17,
+        numRooms: 17,
         teamCode: 'ECN--M9',
         hotelLink: NJ_BOOKING,
         hotels: [
@@ -82,6 +84,7 @@ export const events = [
       {
         team: 'U13 RL',
         bookDeadline: 'Fri, Jul 31 @ 10:30 AM',
+        players: 18,
         numRooms: 18,
         teamCode: 'ECN--F5',
         hotelLink: NJ_BOOKING,
@@ -93,7 +96,8 @@ export const events = [
       {
         team: 'U14 RL',
         bookDeadline: 'Fri, Jul 31 @ 10:30 AM',
-        numRooms: 18,
+        players: 17,
+        numRooms: 17,
         teamCode: 'ECN--E8',
         hotelLink: NJ_BOOKING,
         hotels: [
@@ -153,8 +157,8 @@ export const events = [
     location: 'Wilmington, NC',
     note: '',
     teams: [
-      { team: 'U13 ECNL', bookDeadline: '', numRooms: null, teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U14 ECNL', bookDeadline: '', numRooms: null, teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U13 ECNL', players: 18, numRooms: 18, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U14 ECNL', players: 17, numRooms: 17, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
     ],
   },
 
@@ -225,31 +229,31 @@ export const events = [
   {
     no: 15,
     ages: ['U13', 'U14'], confirmed: false, action: false, league: 'Showcase',
-    name: 'NCFC Jr. Showcase', dates: 'Nov 14–15, 2026 (verify)', location: 'Raleigh, NC',
-    note: 'Non-ECNL travel showcase. Dates/ages to confirm.', teams: [],
+    name: 'NCFC Jr. Showcase', dates: 'Nov 14–15, 2026', location: 'Raleigh, NC',
+    note: 'Non-ECNL travel showcase.', teams: [],
   },
   {
     no: 16,
     ages: ['U16', 'U17', 'U18/19'], confirmed: false, action: false, league: 'Showcase',
-    name: 'NCFC Showcase', dates: 'Dec 5–7, 2026 (verify)', location: 'Raleigh, NC',
-    note: 'Non-ECNL travel showcase. Dates/ages to confirm.', teams: [],
+    name: 'NCFC Showcase', dates: 'Dec 5–7, 2026', location: 'Raleigh, NC',
+    note: 'Non-ECNL travel showcase.', teams: [],
   },
   {
     no: 17,
     ages: ['U15', 'U16', 'U17', 'U18/19'], confirmed: false, action: false, league: 'Showcase',
-    name: 'PDA Thanksgiving Showcase', dates: 'Nov 22–23, 2026 (verify)', location: 'New Jersey',
-    note: 'Non-ECNL travel showcase. Dates/ages to confirm.', teams: [],
+    name: 'PDA Thanksgiving Showcase', dates: 'Nov 22–23, 2026', location: 'New Jersey',
+    note: 'Non-ECNL travel showcase.', teams: [],
   },
   {
     no: 18,
     ages: ['U15', 'U16', 'U17', 'U18/19'], confirmed: false, action: false, league: 'Tournament',
-    name: 'Jefferson Cup', dates: 'March 2027 (verify)', location: 'Richmond, VA',
-    note: 'Non-ECNL travel tournament (Youngers/Olders weekends). Dates/ages to confirm.', teams: [],
+    name: 'Jefferson Cup', dates: 'March 20–22, 2027', location: 'Richmond, VA',
+    note: 'Non-ECNL travel tournament.', teams: [],
   },
   {
     no: 19,
     ages: ['U16', 'U17'], confirmed: false, action: false, league: 'Showcase',
-    name: 'PDA Memorial Day', dates: 'May 23–25, 2027 (verify)', location: 'New Jersey',
-    note: 'Non-ECNL travel showcase. Dates/ages to confirm.', teams: [],
+    name: 'PDA Memorial Day', dates: 'May 23–25, 2027', location: 'New Jersey',
+    note: 'Non-ECNL travel showcase.', teams: [],
   },
 ]
