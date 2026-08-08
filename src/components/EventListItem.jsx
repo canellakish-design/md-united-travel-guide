@@ -14,7 +14,8 @@ export default function EventListItem({ event, number }) {
       <span className="list-tags">
         <span className={`dot ${event.confirmed ? 'dot-green' : 'dot-grey'}`} title={event.confirmed ? 'Participation Confirmed' : 'Pending Confirmation'} />
         {event.action && <span className="tag tag-red">Action</span>}
-        {(event.travel === 'fly' || event.travel === 'either') && <span className="tag tag-blue">✈</span>}
+        {event.travel === 'fly' && <span className="tag tag-blue">✈</span>}
+        {event.travel === 'either' && <span className="tag tag-blue">✈ – 🚗</span>}
         <span className="list-chevron" aria-hidden="true" />
       </span>
     </a>

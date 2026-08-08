@@ -4,7 +4,7 @@ export function getGuidance(event, hasHotels) {
     return { cls: 'fly', text: '✈ Flights required. Families may begin booking flights now — team hotel details will follow.' }
   }
   if (event.action && event.travel === 'either') {
-    return { cls: 'fly', text: '✈/🚗 Long-distance trip — families may fly or drive. If flying, you may begin booking flights now. Team hotel details will follow.' }
+    return { cls: 'fly', text: '✈ – 🚗 Long-distance trip — families may fly or drive. If flying, you may begin booking flights now. Team hotel details will follow.' }
   }
   if (!event.confirmed && !event.action) {
     return { cls: 'caution', text: 'This event is on our travel plan but participation is NOT yet confirmed. Please do not book flights, hotels, or make any travel arrangements until participation is confirmed.' }
