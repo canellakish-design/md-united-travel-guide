@@ -44,6 +44,7 @@ export const events = [
         bookDeadline: 'Wed, Jul 29 @ 9:00 AM',
         players: 18,
         numRooms: 18,
+        coaches: 'Darrell Gonzalez',
         teamCode: 'ECN--A8',
         hotelLink: NJ_BOOKING,
         hotels: [
@@ -57,6 +58,7 @@ export const events = [
         bookDeadline: 'Wed, Jul 29 @ 9:00 AM',
         players: 17,
         numRooms: 17,
+        coaches: 'Scott Villagran',
         teamCode: 'ECN--M9',
         hotelLink: NJ_BOOKING,
         hotels: [
@@ -86,6 +88,7 @@ export const events = [
         bookDeadline: 'Fri, Jul 31 @ 10:30 AM',
         players: 18,
         numRooms: 18,
+        coaches: 'KJ Davis',
         teamCode: 'ECN--F5',
         hotelLink: NJ_BOOKING,
         hotels: [
@@ -98,6 +101,7 @@ export const events = [
         bookDeadline: 'Fri, Jul 31 @ 10:30 AM',
         players: 17,
         numRooms: 17,
+        coaches: 'Darrell Gonzalez',
         teamCode: 'ECN--E8',
         hotelLink: NJ_BOOKING,
         hotels: [
@@ -157,8 +161,8 @@ export const events = [
     location: 'Wilmington, NC',
     note: '',
     teams: [
-      { team: 'U13 ECNL', players: 18, numRooms: 18, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U14 ECNL', players: 17, numRooms: 17, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U13 ECNL', players: 18, numRooms: 18, coaches: 'Darrell Gonzalez', bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U14 ECNL', players: 17, numRooms: 17, coaches: 'Scott Villagran', bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
     ],
   },
 
