@@ -1,0 +1,223 @@
+:root {
+  --mu-red: #c21f33;
+  --mu-red-dark: #9a1626;
+  --ink: #16181d;
+  --slate: #4a4f5a;
+  --muted: #6b7280;
+  --line: #e6e8ec;
+  --bg: #f4f5f7;
+  --card: #ffffff;
+
+  --green: #1f7a4d;
+  --green-bg: #e6f4ec;
+  --amber: #8a5a00;
+  --amber-bg: #fbf0d9;
+  --grey: #55596a;
+  --grey-bg: #eceef2;
+  --red-bg: #fbe6e9;
+
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(16, 18, 22, 0.06), 0 6px 20px rgba(16, 18, 22, 0.06);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+/* ---------- Masthead ---------- */
+.masthead {
+  background: linear-gradient(135deg, var(--mu-red) 0%, var(--mu-red-dark) 100%);
+  color: #fff;
+}
+.masthead-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 28px 20px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.crest {
+  flex: 0 0 auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.14);
+  border: 2px solid rgba(255, 255, 255, 0.55);
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.masthead-text { line-height: 1.2; }
+.eyebrow {
+  margin: 0 0 4px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  opacity: 0.9;
+}
+.masthead h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+}
+.season { margin: 4px 0 0; font-size: 14px; opacity: 0.92; }
+
+/* ---------- Layout ---------- */
+.container { max-width: 960px; margin: 0 auto; padding: 24px 20px 60px; }
+.intro p { margin: 8px 0 20px; color: var(--slate); font-size: 16px; line-height: 1.55; max-width: 70ch; }
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.search {
+  flex: 1;
+  padding: 11px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-size: 15px;
+  background: #fff;
+  outline: none;
+}
+.search:focus { border-color: var(--mu-red); box-shadow: 0 0 0 3px rgba(194, 31, 51, 0.12); }
+.count { color: var(--muted); font-size: 13px; white-space: nowrap; }
+
+/* ---------- Event card ---------- */
+.event-list { display: flex; flex-direction: column; gap: 18px; }
+
+.event-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+}
+.event-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+.event-no {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--mu-red);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.event-name { margin: 4px 0 6px; font-size: 21px; font-weight: 800; letter-spacing: -0.2px; }
+.event-meta { margin: 0; color: var(--slate); font-size: 15px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.event-dates { font-weight: 600; }
+.dot { color: var(--line); }
+.event-note { margin: 12px 0 0; color: var(--muted); font-size: 14px; font-style: italic; }
+
+.badge {
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 11px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.badge-red   { background: var(--red-bg);   color: var(--mu-red); }
+.badge-green { background: var(--green-bg); color: var(--green); }
+.badge-amber { background: var(--amber-bg); color: var(--amber); }
+.badge-grey  { background: var(--grey-bg);  color: var(--grey); }
+
+.event-empty { margin: 16px 0 0; color: var(--muted); font-size: 14px; }
+
+/* ---------- Team block ---------- */
+.team-list {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+.team-block {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 15px;
+  background: #fcfcfd;
+  display: flex;
+  flex-direction: column;
+}
+.team-block-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 10px;
+}
+.team-name { margin: 0; font-size: 16px; font-weight: 800; color: var(--ink); }
+.team-code { font-size: 12px; color: var(--muted); }
+.team-code strong { color: var(--ink); letter-spacing: 0.5px; }
+
+.team-facts { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+.fact { font-size: 12.5px; color: var(--slate); background: #eef0f3; border-radius: 6px; padding: 3px 8px; }
+.fact-label { color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; font-size: 10.5px; margin-right: 3px; }
+.fact-deadline { background: var(--red-bg); color: var(--mu-red-dark); }
+.fact-deadline .fact-label { color: var(--mu-red); }
+
+.hotel-list { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.hotel-info { display: flex; flex-direction: column; gap: 2px; }
+.hotel-name { font-weight: 700; font-size: 14px; }
+.hotel-address { font-size: 13px; color: var(--mu-red); text-decoration: none; }
+.hotel-address:hover { text-decoration: underline; }
+.hotel-rooms { font-size: 12.5px; color: var(--muted); }
+.hotel-empty { font-size: 13px; color: var(--muted); margin: 4px 0; }
+
+.team-actions { margin-top: auto; padding-top: 14px; }
+.book-btn {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 14px;
+  border-radius: 9px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  background: var(--mu-red);
+  color: #fff;
+  transition: background 0.15s ease;
+}
+.book-btn:hover { background: var(--mu-red-dark); }
+.book-btn-disabled {
+  background: #eceef2;
+  color: var(--muted);
+  cursor: not-allowed;
+}
+
+.empty { color: var(--muted); text-align: center; padding: 30px; }
+
+/* ---------- Footer ---------- */
+.site-footer {
+  border-top: 1px solid var(--line);
+  text-align: center;
+  padding: 24px 20px 40px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.site-footer p { margin: 4px 0; }
+.fine { font-size: 12px; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 560px) {
+  .masthead h1 { font-size: 24px; }
+  .event-head { flex-direction: column; }
+  .team-list { grid-template-columns: 1fr; }
+}
