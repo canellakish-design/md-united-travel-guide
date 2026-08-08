@@ -27,7 +27,7 @@ const NJ_BOOKING = 'https://book.onlocationexp.com/ecnl-boys-girls-new-jersey-20
 export const events = [
   // ================= CONFIRMED — ECNL New Jersey (booking open) =================
   {
-    no: 1, ages: ['U13', 'U14'], confirmed: true, action: true, travel: 'drive',
+    no: 1, sortDate: '2026-08-21', ages: ['U13', 'U14'], confirmed: true, action: true, travel: 'drive',
     league: 'ECNL', name: 'ECNL Girls New Jersey 2026',
     dates: 'Aug 21–23, 2026 (Fri–Sun)', location: 'Somerset, NJ', note: '',
     teams: [
@@ -55,7 +55,7 @@ export const events = [
 
   // ================= ECNL RL New Jersey (booking open; RL not league-confirmed) =================
   {
-    no: 2, ages: ['U13', 'U14'], confirmed: false, action: true, travel: 'drive',
+    no: 2, sortDate: '2026-08-21', ages: ['U13', 'U14'], confirmed: false, action: true, travel: 'drive',
     league: 'ECNL RL', name: 'ECNL RL Girls New Jersey 2026',
     dates: 'Aug 21–23, 2026 (Fri–Sun)', location: 'Somerset, NJ', note: '',
     teams: [
@@ -82,7 +82,7 @@ export const events = [
 
   // ================= CONFIRMED — Pre-ECNL (drive; hotels to follow) =================
   {
-    no: 3, ages: ['U11', 'U12'], confirmed: true, action: true, travel: 'either',
+    no: 3, sortDate: '2026-10-03', ages: ['U11', 'U12'], confirmed: true, action: true, travel: 'either',
     league: 'Pre-ECNL', name: 'Pre-ECNL Carolina Cup',
     dates: 'Oct 3–4, 2026 (Sat–Sun)', location: 'Wilmington, NC', note: '',
     teams: [
@@ -91,7 +91,7 @@ export const events = [
     ],
   },
   {
-    no: 4, ages: ['U10', 'U11', 'U12'], confirmed: true, action: false, travel: 'drive',
+    no: 4, sortDate: '2026-10-31', ages: ['U10', 'U11', 'U12'], confirmed: true, action: false, travel: 'drive',
     league: 'Pre-ECNL', name: 'Pre-ECNL East Coast Cup',
     dates: 'Oct 31 – Nov 1, 2026 (Sat–Sun)', location: 'Richmond, VA', note: '',
     teams: [
@@ -103,7 +103,7 @@ export const events = [
 
   // ================= CONFIRMED — ECNL Florida (FLY — book flights now) =================
   {
-    no: 5, ages: ['U16', 'U17'], confirmed: true, action: true, travel: 'fly',
+    no: 5, sortDate: '2026-12-05', ages: ['U16', 'U17'], confirmed: true, action: true, travel: 'fly',
     league: 'ECNL', name: 'ECNL Girls Florida — Fall',
     dates: 'Dec 5–7, 2026 (Sat–Mon)', location: 'Sanford, FL', note: '',
     teams: [
@@ -112,7 +112,7 @@ export const events = [
     ],
   },
   {
-    no: 6, ages: ['U16', 'U17', 'U18/19'], confirmed: true, action: true, travel: 'fly',
+    no: 6, sortDate: '2027-01-09', ages: ['U16', 'U17', 'U18/19'], confirmed: true, action: true, travel: 'fly',
     league: 'ECNL', name: 'ECNL Girls Florida — Winter',
     dates: 'Jan 9–11, 2027 (Sat–Mon)', location: 'Lakewood Ranch, FL', note: '',
     teams: [
@@ -122,7 +122,7 @@ export const events = [
     ],
   },
   {
-    no: 7, ages: ['U15', 'U18/19'], confirmed: true, action: true, travel: 'fly',
+    no: 7, sortDate: '2027-02-26', ages: ['U15', 'U18/19'], confirmed: true, action: true, travel: 'fly',
     league: 'ECNL', name: 'ECNL Girls Florida — Spring',
     dates: 'Feb 26–28, 2027 (Fri–Sun)', location: 'Lakewood Ranch, FL', note: '',
     teams: [
@@ -133,7 +133,7 @@ export const events = [
 
   // ================= CONFIRMED — ECNL NC Spring (drive; hotels to follow) =================
   {
-    no: 8, ages: ['U15', 'U16', 'U17'], confirmed: true, action: false, travel: 'drive',
+    no: 8, sortDate: '2027-05-29', ages: ['U15', 'U16', 'U17'], confirmed: true, action: false, travel: 'drive',
     league: 'ECNL', name: 'ECNL Girls North Carolina — Spring',
     dates: 'May 29–31, 2027 (Sat–Mon)', location: 'Greensboro, NC', note: '',
     teams: [
@@ -145,25 +145,25 @@ export const events = [
 
   // ================= PENDING — ECNL RL showcases (applied; NOT yet confirmed) =================
   {
-    no: 9, ages: ['U17', 'U18/19'], confirmed: false, action: false, travel: 'fly',
+    no: 9, sortDate: '2026-12-04', ages: ['U17', 'U18/19'], confirmed: false, action: false, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Fall',
     dates: 'Dec 4–6, 2026 (Fri–Sun)', location: 'Naples / Ocala, FL',
     note: 'Requested for U17 / U18-19.', teams: [],
   },
   {
-    no: 10, ages: ['U17', 'U18/19'], confirmed: false, action: false, travel: 'fly',
+    no: 10, sortDate: '2027-01-08', ages: ['U17', 'U18/19'], confirmed: false, action: false, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Winter',
     dates: 'Jan 8–10, 2027 (Fri–Sun)', location: 'Sanford, FL',
     note: 'Requested for U17 / U18-19.', teams: [],
   },
   {
-    no: 11, ages: ['U15', 'U16', 'U17', 'U18/19'], confirmed: false, action: false, travel: 'fly',
+    no: 11, sortDate: '2027-02-26', ages: ['U15', 'U16', 'U17', 'U18/19'], confirmed: false, action: false, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Spring',
     dates: 'Feb 26–28, 2027 (Fri–Sun)', location: 'Lakewood Ranch, FL',
     note: 'Requested for U15–U18/19.', teams: [],
   },
   {
-    no: 12, ages: ['U15', 'U16', 'U17'], confirmed: false, action: false, travel: 'drive',
+    no: 12, sortDate: '2027-05-28', ages: ['U15', 'U16', 'U17'], confirmed: false, action: false, travel: 'drive',
     league: 'ECNL RL', name: 'ECNL RL Girls North Carolina',
     dates: 'May 28–30, 2027 (Fri–Sun)', location: 'Winston-Salem, NC',
     note: 'Requested for U15 / U16 / U17.', teams: [],
@@ -171,33 +171,70 @@ export const events = [
 
   // ================= PENDING — Non-ECNL travel events (applied; NOT yet confirmed) =================
   {
-    no: 13, ages: ['U13', 'U14'], confirmed: false, action: false, travel: 'drive',
+    no: 13, sortDate: '2026-11-14', ages: ['U13', 'U14'], confirmed: true, action: false, travel: 'drive',
     league: 'Showcase', name: 'NCFC Jr. Showcase',
     dates: 'Nov 14–15, 2026', location: 'Raleigh, NC',
     note: 'Non-ECNL travel showcase.', teams: [],
   },
   {
-    no: 14, ages: ['U16', 'U17', 'U18/19'], confirmed: false, action: false, travel: 'drive',
+    no: 14, sortDate: '2026-12-05', ages: ['U16', 'U17', 'U18/19'], confirmed: true, action: false, travel: 'drive',
     league: 'Showcase', name: 'NCFC Showcase',
     dates: 'Dec 5–7, 2026', location: 'Raleigh, NC',
     note: 'Non-ECNL travel showcase.', teams: [],
   },
   {
-    no: 15, ages: ['U15', 'U16', 'U17', 'U18/19'], confirmed: false, action: false, travel: 'drive',
+    no: 15, sortDate: '2026-11-22', ages: ['U15', 'U16', 'U17', 'U18/19'], confirmed: false, action: false, travel: 'drive',
     league: 'Showcase', name: 'PDA Thanksgiving Showcase',
     dates: 'Nov 22–23, 2026', location: 'New Jersey',
     note: 'Non-ECNL travel showcase.', teams: [],
   },
   {
-    no: 16, ages: ['U15', 'U16', 'U17', 'U18/19'], confirmed: false, action: false, travel: 'drive',
+    no: 16, sortDate: '2027-03-20', ages: ['U15', 'U16', 'U17', 'U18/19'], confirmed: false, action: false, travel: 'drive',
     league: 'Tournament', name: 'Jefferson Cup',
     dates: 'March 20–22, 2027', location: 'Richmond, VA',
     note: 'Non-ECNL travel tournament.', teams: [],
   },
   {
-    no: 17, ages: ['U16', 'U17'], confirmed: false, action: false, travel: 'drive',
+    no: 17, sortDate: '2027-05-23', ages: ['U16', 'U17'], confirmed: false, action: false, travel: 'drive',
     league: 'Showcase', name: 'PDA Memorial Day',
     dates: 'May 23–25, 2027', location: 'New Jersey',
     note: 'Non-ECNL travel showcase.', teams: [],
   },
+
+  // ================= CONFIRMED — ECNL Wilmington (U13/U14) =================
+  {
+    no: 25, sortDate: '2026-10-10', ages: ['U13', 'U14'], confirmed: true, action: true, travel: 'either',
+    league: 'ECNL', name: 'ECNL Wilmington (U13/U14)',
+    dates: 'Oct 10–12, 2026 (Sat–Mon)', location: 'Wilmington, NC', note: '',
+    teams: [
+      { team: 'U13 ECNL', players: 18, playerRooms: 18, coaches: 'Darrell Gonzalez', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U14 ECNL', players: 17, playerRooms: 17, coaches: 'Scott Villagran', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
+    ],
+  },
+
+  // ================= LEAGUE — Conference AWAY games in PA/NJ (locals excluded) =================
+  // Families book their OWN hotel near the facility IF their team's kickoff meets the
+  // overnight rule (NJ before 1 PM · elsewhere before 11 AM). No action until game times
+  // are released; then flip action:true and list only the teams that qualify.
+  { no: 18, sortDate: '2026-09-26', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
+    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
+    name: 'League @ PDA Blue', dates: 'Sat, Sep 26, 2026', location: 'New Jersey', note: '', teams: [] },
+  { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
+    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
+    name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026', location: 'New Jersey', note: '', teams: [] },
+  { no: 20, sortDate: '2026-10-24', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
+    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
+    name: 'League @ Penn Fusion', dates: 'Sat, Oct 24, 2026', location: 'Pennsylvania', note: '', teams: [] },
+  { no: 21, sortDate: '2027-03-21', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
+    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
+    name: 'League @ Hex FC', dates: 'Sun, Mar 21, 2027', location: 'Pennsylvania', note: '', teams: [] },
+  { no: 22, sortDate: '2027-04-11', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
+    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
+    name: 'League @ Philadelphia Ukrainians', dates: 'Sun, Apr 11, 2027', location: 'Pennsylvania', note: '', teams: [] },
+  { no: 23, sortDate: '2027-04-25', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
+    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
+    name: 'League @ Match Fit', dates: 'Sat, Apr 25, 2027', location: 'New Jersey', note: '', teams: [] },
+  { no: 24, sortDate: '2027-05-08', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
+    ages: ['U13', 'U14', 'U15', 'U16', 'U17', 'U18/19'],
+    name: 'League @ FC Delco', dates: 'Sat, May 8, 2027', location: 'Pennsylvania', note: '', teams: [] },
 ]

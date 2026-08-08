@@ -45,7 +45,10 @@ function ListView() {
   }, [])
 
   const filtered = useMemo(
-    () => events.filter((e) => !age || (e.ages || []).includes(age)),
+    () =>
+      events
+        .filter((e) => !age || (e.ages || []).includes(age))
+        .sort((a, b) => (a.sortDate || '').localeCompare(b.sortDate || '')),
     [age],
   )
 
