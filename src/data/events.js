@@ -43,8 +43,8 @@ export const events = [
         team: 'U13 ECNL',
         bookDeadline: 'Wed, Jul 29 @ 9:00 AM',
         players: 18,
-        numRooms: 18,
-        coaches: 'Darrell Gonzalez',
+        playerRooms: 18,
+        coaches: 'Darrell Gonzalez', coachRooms: 1,
         teamCode: 'ECN--A8',
         hotelLink: NJ_BOOKING,
         hotels: [
@@ -57,8 +57,8 @@ export const events = [
         team: 'U14 ECNL',
         bookDeadline: 'Wed, Jul 29 @ 9:00 AM',
         players: 17,
-        numRooms: 17,
-        coaches: 'Scott Villagran',
+        playerRooms: 17,
+        coaches: 'Scott Villagran', coachRooms: 1,
         teamCode: 'ECN--M9',
         hotelLink: NJ_BOOKING,
         hotels: [
@@ -87,8 +87,8 @@ export const events = [
         team: 'U13 RL',
         bookDeadline: 'Fri, Jul 31 @ 10:30 AM',
         players: 18,
-        numRooms: 18,
-        coaches: 'KJ Davis',
+        playerRooms: 18,
+        coaches: 'KJ Davis', coachRooms: 1,
         teamCode: 'ECN--F5',
         hotelLink: NJ_BOOKING,
         hotels: [
@@ -100,8 +100,8 @@ export const events = [
         team: 'U14 RL',
         bookDeadline: 'Fri, Jul 31 @ 10:30 AM',
         players: 17,
-        numRooms: 17,
-        coaches: 'Darrell Gonzalez',
+        playerRooms: 17,
+        coaches: 'Darrell Gonzalez', coachRooms: 1,
         teamCode: 'ECN--E8',
         hotelLink: NJ_BOOKING,
         hotels: [
@@ -126,8 +126,8 @@ export const events = [
     location: 'Wilmington, NC',
     note: '',
     teams: [
-      { team: 'U11 Pre-ECNL', bookDeadline: '', numRooms: null, teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U12 Pre-ECNL', bookDeadline: '', numRooms: null, teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U11 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U12 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
     ],
   },
   {
@@ -141,9 +141,9 @@ export const events = [
     location: 'Richmond, VA',
     note: '',
     teams: [
-      { team: 'U10 Pre-ECNL', bookDeadline: '', numRooms: null, teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U11 Pre-ECNL', bookDeadline: '', numRooms: null, teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U12 Pre-ECNL', bookDeadline: '', numRooms: null, teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U10 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U11 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U12 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
     ],
   },
 
@@ -161,8 +161,8 @@ export const events = [
     location: 'Wilmington, NC',
     note: '',
     teams: [
-      { team: 'U13 ECNL', players: 18, numRooms: 18, coaches: 'Darrell Gonzalez', bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U14 ECNL', players: 17, numRooms: 17, coaches: 'Scott Villagran', bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U13 ECNL', players: 18, playerRooms: 18, coaches: 'Darrell Gonzalez', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U14 ECNL', players: 17, playerRooms: 17, coaches: 'Scott Villagran', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
     ],
   },
 
