@@ -28,7 +28,7 @@ export const events = [
   // ================= CONFIRMED — ECNL New Jersey (booking open) =================
   {
     no: 1, sortDate: '2026-08-21', ages: ['U13', 'U14'], confirmed: true, action: true, travel: 'drive',
-    league: 'ECNL', name: 'ECNL Girls New Jersey 2026',
+    league: 'ECNL & ECNL RL', name: 'ECNL & ECNL RL Girls New Jersey 2026',
     dates: 'Aug 21–23, 2026 (Fri–Sun)', location: 'Somerset, NJ', note: '',
     teams: [
       {
@@ -50,15 +50,6 @@ export const events = [
           { name: 'Courtyard Edison Woodbridge', address: '3105 Woodbridge Ave, Edison, NJ', rooms: '6 Double Queen · 9 King w/ Sofa Bed' },
         ],
       },
-    ],
-  },
-
-  // ================= ECNL RL New Jersey (booking open; RL not league-confirmed) =================
-  {
-    no: 2, sortDate: '2026-08-21', ages: ['U13', 'U14'], confirmed: false, action: true, travel: 'drive',
-    league: 'ECNL RL', name: 'ECNL RL Girls New Jersey 2026',
-    dates: 'Aug 21–23, 2026 (Fri–Sun)', location: 'Somerset, NJ', note: '',
-    teams: [
       {
         team: 'U13 RL', bookDeadline: 'Fri, Jul 31 @ 10:30 AM',
         players: 18, playerRooms: 18, coaches: 'KJ Davis', coachRooms: 1,
