@@ -1,38 +1,37 @@
-import { STATUS } from '../data/events.js'
 import TeamBlock from './TeamBlock.jsx'
 
 export default function EventCard({ event }) {
-  const status = STATUS[event.status] || STATUS.pending
   const hasTeams = event.teams && event.teams.length > 0
 
   return (
-    <article className="event-card">
-      <div className="event-head">
-        <div className="event-head-main">
-          <span className="event-no">Event {event.no}</span>
+    <details className="event" open={event.action}>
+      <summary className="event-summary">
+        <div className="event-summary-text">
           <h2 className="event-name">{event.name}</h2>
-          <p className="event-meta">
-            <span className="event-dates">{event.dates}</span>
-            <span className="dot">•</span>
-            <span className="event-loc">{event.location}</span>
-          </p>
+          <p className="event-meta">{event.dates} &nbsp;·&nbsp; {event.location}</p>
+          <div className="indicators">
+            <span className={`indicator ${event.confirmed ? 'indicator-green' : 'indicator-grey'}`}>
+              {event.confirmed ? 'Participation Confirmed' : 'Pending Confirmation'}
+            </span>
+            {event.action && <span className="indicator indicator-red">Action Needed</span>}
+          </div>
         </div>
-        <span className={`badge badge-${status.tone}`}>{status.label}</span>
+        <span className="chevron" aria-hidden="true" />
+      </summary>
+
+      <div className="event-body">
+        {event.note && <p className="event-note">{event.note}</p>}
+
+        {hasTeams ? (
+          <div className="team-list">
+            {event.teams.map((team, i) => (
+              <TeamBlock key={`${team.team}-${i}`} team={team} />
+            ))}
+          </div>
+        ) : (
+          <p className="event-empty">Hotel details will be posted once assignments are confirmed.</p>
+        )}
       </div>
-
-      {event.note && <p className="event-note">{event.note}</p>}
-
-      {hasTeams ? (
-        <div className="team-list">
-          {event.teams.map((team, i) => (
-            <TeamBlock key={`${team.team}-${i}`} team={team} />
-          ))}
-        </div>
-      ) : (
-        <p className="event-empty">
-          Team hotel details will be posted here once assignments and room blocks are confirmed.
-        </p>
-      )}
-    </article>
+    </details>
   )
 }
