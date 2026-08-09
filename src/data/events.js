@@ -277,7 +277,7 @@ export const events = [
 
   // ================= Jefferson Cup — youngers weekend =================
   { no: 26, sortDate: '2027-03-13', ages: ['U11', 'U12', 'U13', 'U14'],
-    teamsList: ['U11 ECNL', 'U11 ECNL RL', 'U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
+    teamsList: ['U11 ECNL', 'U11 Pre-ECNL RL', 'U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
     confirmed: false, action: false, travel: 'drive',
     league: 'Tournament', name: 'Jefferson Cup (Youngers)', dates: 'March 2027 (youngers weekend)', location: 'Richmond, VA',
     note: 'Non-ECNL travel tournament.', teams: [] },
