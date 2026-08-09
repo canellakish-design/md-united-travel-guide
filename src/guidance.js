@@ -1,5 +1,8 @@
 // Shared guidance-banner logic used by the event detail view.
 export function getGuidance(event, hasHotels) {
+  if (event.closed) {
+    return { cls: 'closed', text: 'Booking for this event has closed (deadline passed). Contact your team manager or the club office with any questions.' }
+  }
   if (event.type === 'league') {
     const base =
       'League away game — families book their OWN hotel (not through the club). Book close to the facility, and follow the overnight rule: NJ kickoff before 1:00 PM · other away venues before 11:00 AM → stay the night before.'

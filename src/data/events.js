@@ -40,7 +40,7 @@ const SPRING_LEAGUE_TEAMS = [
 export const events = [
   // ================= CONFIRMED — ECNL New Jersey (booking open) =================
   {
-    no: 1, sortDate: '2026-08-21', ages: ['U13', 'U14'], confirmed: true, action: true, travel: 'drive',
+    no: 1, sortDate: '2026-08-21', ages: ['U13', 'U14'], confirmed: true, action: true, closed: true, travel: 'drive',
     league: 'ECNL & ECNL RL', name: 'ECNL & ECNL RL Girls New Jersey 2026',
     dates: 'Aug 21–23, 2026 (Fri–Sun)', location: 'Somerset, NJ', note: '',
     teams: [

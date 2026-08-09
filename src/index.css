@@ -214,6 +214,7 @@ a { color: inherit; }
 .guidance-caution { background: var(--red-bg); color: var(--mu-red-dark); border: 1px solid #f3ccd3; }
 .guidance-info    { background: var(--green-bg); color: var(--green); border: 1px solid #cfe9da; }
 .guidance-league  { background: #eef1f6; color: #384357; border: 1px solid #dde2ea; }
+.guidance-closed  { background: var(--grey-bg); color: var(--grey); border: 1px solid #dde2ea; }
 
 .chevron {
   flex: 0 0 auto;
