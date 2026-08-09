@@ -179,9 +179,9 @@ export const events = [
   },
   {
     no: 14, sortDate: '2026-12-05', ages: ['U15', 'U16', 'U17', 'U18/19'],
-    teamsList: ['U15 ECNL RL', 'U16 ECNL RL', 'U17 ECNL RL', 'U18/19 ECNL RL'],
+    teamsList: ['U15 ECNL RL', 'U15 Premier', 'U16 ECNL RL', 'U16 Premier', 'U17 ECNL RL', 'U18/19 ECNL RL'],
     confirmed: true, action: false, travel: 'drive',
-    league: 'Showcase', name: 'NCFC Olders (RL)',
+    league: 'Showcase', name: 'NCFC Olders',
     dates: 'Dec 5–7, 2026', location: 'Raleigh, NC',
     note: 'Non-ECNL travel showcase.', teams: [],
   },
