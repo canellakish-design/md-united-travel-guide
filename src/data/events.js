@@ -200,12 +200,12 @@ export const events = [
   },
   {
     no: 16, sortDate: '2027-03-20', ages: ['U15', 'U16', 'U17', 'U18/19'], confirmed: false, action: false, travel: 'drive',
-    league: 'Tournament', name: 'Jefferson Cup',
+    league: 'Tournament', name: 'Jefferson Cup (Olders)',
     dates: 'March 20–22, 2027', location: 'Richmond, VA',
     note: 'Non-ECNL travel tournament.', teams: [],
   },
   {
-    no: 17, sortDate: '2027-05-23', ages: ['U16', 'U17'], confirmed: false, action: false, travel: 'drive',
+    no: 17, sortDate: '2027-05-23', ages: ['U16', 'U17'], teamsList: ['U16 ECNL RL', 'U17 ECNL RL'], confirmed: false, action: false, travel: 'drive',
     league: 'Showcase', name: 'PDA Memorial Day',
     dates: 'May 23–25, 2027', location: 'New Jersey',
     note: 'Non-ECNL travel showcase.', teams: [],
@@ -257,4 +257,20 @@ export const events = [
   { no: 24, sortDate: '2027-05-08', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
     ages: SPRING_LEAGUE_AGES, teamsList: SPRING_LEAGUE_TEAMS,
     name: 'League @ FC Delco', dates: 'Sat, May 8, 2027', location: 'Pennsylvania', note: '', teams: [] },
+
+  // ================= LEAGUE CUP — away match needing a hotel (U15–U18/19) =================
+  { no: 25, sortDate: '2026-12-13', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
+    ages: ['U15', 'U16', 'U17', 'U18/19'],
+    teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
+    name: 'League Cup @ PDA Blue', dates: 'Sun, Dec 13, 2026', location: 'New Jersey', note: '', teams: [] },
+
+  // ================= Jefferson Cup — youngers weekend =================
+  { no: 26, sortDate: '2027-03-13', ages: ['U11', 'U12', 'U13', 'U14'], confirmed: false, action: false, travel: 'drive',
+    league: 'Tournament', name: 'Jefferson Cup (Youngers)', dates: 'March 2027 (youngers weekend)', location: 'Richmond, VA',
+    note: 'Non-ECNL travel tournament.', teams: [] },
+
+  // ================= PA Classics — Premier (Dec) =================
+  { no: 27, sortDate: '2026-12-11', ages: ['U15', 'U16'], teamsList: ['U15 Premier', 'U16 Premier'], confirmed: false, action: false, travel: 'drive',
+    league: 'Showcase', name: 'PA Classics', dates: 'December 2026', location: 'Lancaster, PA',
+    note: 'Non-ECNL travel showcase (Premier).', teams: [] },
 ]
