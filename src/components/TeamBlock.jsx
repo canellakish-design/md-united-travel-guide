@@ -13,7 +13,9 @@ export default function TeamBlock({ team }) {
 
   const facts = [
     team.bookDeadline && { label: 'Book by', value: team.bookDeadline, key: 'deadline' },
-    team.arrivalDate && { label: 'Arrive', value: team.arrivalDate },
+    team.kickoff && { label: 'First game', value: team.kickoff },
+    team.arrivalDate && { label: 'Arrive', value: team.arrivalDate, key: 'arrive' },
+    team.nights && { label: 'Nights', value: team.nights },
     team.travelMode && { label: 'Travel', value: team.travelMode },
     players != null && { label: 'Players', value: `${players}` },
     playerRooms != null && { label: 'Player rooms needed', value: `${playerRooms}` },

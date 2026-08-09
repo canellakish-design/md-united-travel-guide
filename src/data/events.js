@@ -75,10 +75,12 @@ export const events = [
   {
     no: 1, sortDate: '2026-08-21', ages: ['U13', 'U14'], confirmed: true, action: true, closed: true, travel: 'drive',
     league: 'ECNL & ECNL RL', name: 'ECNL & ECNL RL Girls New Jersey 2026',
-    dates: 'Aug 21–23, 2026 (Fri–Sun)', location: 'Somerset, NJ', note: '',
+    dates: 'Aug 21–23, 2026 (Fri–Sun)', location: 'Somerset, NJ',
+    note: 'Arrival is set by each team’s Friday kickoff: the two 11:40 AM teams (U13 ECNL, U13 ECNL RL) travel up Thursday, Aug 20 and need 3 nights (Thu–Sat). The two afternoon teams (U14 ECNL 1:30 PM, U14 ECNL RL 3:20 PM) drive up Friday morning and need only 2 nights (Fri–Sat).',
     teams: [
       {
         team: 'U13 ECNL', bookDeadline: 'Wed, Jul 29 @ 9:00 AM',
+        kickoff: 'Fri, Aug 21 · 11:40 AM', arrivalDate: 'Thursday, Aug 20 (night before)', nights: '3 · Thu·Fri·Sat',
         players: 18, playerRooms: 18, coaches: 'Darrell Gonzalez', coachRooms: 1,
         teamCode: 'ECN--A8', hotelLink: NJ_BOOKING,
         hotels: [
@@ -89,6 +91,7 @@ export const events = [
       },
       {
         team: 'U14 ECNL', bookDeadline: 'Wed, Jul 29 @ 9:00 AM',
+        kickoff: 'Fri, Aug 21 · 1:30 PM', arrivalDate: 'Friday, Aug 21 morning (game day)', nights: '2 · Fri·Sat',
         players: 17, playerRooms: 17, coaches: 'Scott Villagran', coachRooms: 1,
         teamCode: 'ECN--M9', hotelLink: NJ_BOOKING,
         hotels: [
@@ -97,7 +100,8 @@ export const events = [
         ],
       },
       {
-        team: 'U13 RL', bookDeadline: 'Fri, Jul 31 @ 10:30 AM',
+        team: 'U13 ECNL RL', bookDeadline: 'Fri, Jul 31 @ 10:30 AM',
+        kickoff: 'Fri, Aug 21 · 11:40 AM', arrivalDate: 'Thursday, Aug 20 (night before)', nights: '3 · Thu·Fri·Sat',
         players: 18, playerRooms: 18, coaches: 'KJ Davis', coachRooms: 1,
         teamCode: 'ECN--F5', hotelLink: NJ_BOOKING,
         hotels: [
@@ -106,7 +110,8 @@ export const events = [
         ],
       },
       {
-        team: 'U14 RL', bookDeadline: 'Fri, Jul 31 @ 10:30 AM',
+        team: 'U14 ECNL RL', bookDeadline: 'Fri, Jul 31 @ 10:30 AM',
+        kickoff: 'Fri, Aug 21 · 3:20 PM', arrivalDate: 'Friday, Aug 21 morning (game day)', nights: '2 · Fri·Sat',
         players: 17, playerRooms: 17, coaches: 'Darrell Gonzalez', coachRooms: 1,
         teamCode: 'ECN--E8', hotelLink: NJ_BOOKING,
         hotels: [
