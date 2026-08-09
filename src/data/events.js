@@ -282,11 +282,11 @@ export const events = [
     // PA venue: overnight if kickoff before 11:00 AM
     games: [
       { team: 'U12 Pre-ECNL', time: '10:30 AM', overnight: true },
-      { team: 'U12 RL', time: '9:00 AM', overnight: true },
+      { team: 'U12 Pre-ECNL RL', time: '9:00 AM', overnight: true },
       { team: 'U13 ECNL', time: '9:00 AM', overnight: true },
-      { team: 'U13 RL', time: '12:30 PM', overnight: false },
+      { team: 'U13 ECNL RL', time: '12:30 PM', overnight: false },
       { team: 'U14 ECNL', time: '10:45 AM', overnight: true },
-      { team: 'U14 RL', time: '12:00 PM', overnight: false },
+      { team: 'U14 ECNL RL', time: '12:00 PM', overnight: false },
     ],
     teams: [] },
   { no: 21, sortDate: '2027-03-21', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
