@@ -108,8 +108,8 @@ export const events = [
   // ================= CONFIRMED — ECNL Florida (FLY — book flights now) =================
   {
     no: 5, sortDate: '2026-12-05', ages: ['U16', 'U17'], confirmed: true, action: true, travel: 'fly',
-    league: 'ECNL', name: 'ECNL Girls Florida — Fall',
-    dates: 'Dec 5–7, 2026 (Sat–Mon)', location: 'Sanford, FL', note: '',
+    league: 'ECNL', name: 'ECNL Orlando',
+    dates: 'Dec 5–7, 2026 (Sat–Mon)', location: 'Sanford (Orlando area), FL', note: '',
     teams: [
       { team: 'U16 ECNL', players: 19, playerRooms: 19, coaches: 'Harry Canellakis', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U17 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
