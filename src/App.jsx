@@ -36,7 +36,7 @@ function Footer() {
   return (
     <footer className="site-footer">
       <p>{CLUB.name} — {CLUB.program} · {CLUB.season}</p>
-      <p className="fine">Questions about travel or hotels? Contact your team manager or the club office.</p>
+      <p className="fine">Any questions, contact Jen Pagliaro — <a href="mailto:jen.pagliaro@mdunitedfc.org">jen.pagliaro@mdunitedfc.org</a></p>
     </footer>
   )
 }
