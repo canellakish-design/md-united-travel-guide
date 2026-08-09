@@ -18,7 +18,9 @@ export default function EventDetail({ event }) {
             {event.confirmed ? 'Participation Confirmed' : 'Pending Confirmation'}
           </span>
           {event.type === 'league' && <span className="indicator indicator-blue">League Game</span>}
-          {event.action && <span className="indicator indicator-red">Action Needed</span>}
+          {event.action
+            ? <span className="indicator indicator-red">Action Needed</span>
+            : <span className="indicator indicator-green">No Action Needed</span>}
           {event.travel === 'fly' && <span className="indicator indicator-blue">✈ Flights</span>}
           {event.travel === 'either' && <span className="indicator indicator-blue">✈ – 🚗 Fly or Drive</span>}
         </div>
