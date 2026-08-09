@@ -2,6 +2,18 @@ import { getGuidance, attendingLabels } from '../guidance.js'
 import { TEAM_INFO } from '../data/events.js'
 import TeamBlock from './TeamBlock.jsx'
 
+// Resolve the coach + coach-room count for a team on an event, applying any
+// per-event `coverage` override (e.g. Harry covering Sara Butler, no hotel).
+function coachFor(event, label, info) {
+  const ov = event.coverage && event.coverage[label]
+  return {
+    coach: (ov && ov.coach) || info.coach,
+    coachRooms: ov ? ov.coachRooms : info.coach ? 1 : 0,
+  }
+}
+
+const coachRoomText = (n) => (n === 0 ? 'no coach room' : `${n} coach room${n === 1 ? '' : 's'}`)
+
 export default function EventDetail({ event }) {
   const hasTeams = event.teams && event.teams.length > 0
   const hasHotels = hasTeams && event.teams.some((t) => t.hotels && t.hotels.length > 0)
@@ -42,6 +54,7 @@ export default function EventDetail({ event }) {
         <ul className="games">
           {event.games.map((g, i) => {
             const info = TEAM_INFO[g.team] || {}
+            const { coach, coachRooms } = coachFor(event, g.team, info)
             const pending = g.overnight == null
             return (
               <li key={i} className="game-row">
@@ -50,8 +63,8 @@ export default function EventDetail({ event }) {
                 <span className={`game-flag ${pending ? 'tbd' : g.overnight ? 'on' : 'off'}`}>
                   {pending ? 'Time TBD' : g.overnight ? 'Stay night before' : 'Same-day OK'}
                 </span>
-                {info.players != null && <span className="game-meta">{info.players} rooms + 1 coach</span>}
-                {info.coach && <span className="game-meta">Coach: {info.coach}</span>}
+                {info.players != null && <span className="game-meta">{info.players} rooms + {coachRooms === 0 ? 'no coach room' : `${coachRooms} coach`}</span>}
+                {coach && <span className="game-meta">Coach: {coach}</span>}
               </li>
             )
           })}
@@ -60,13 +73,14 @@ export default function EventDetail({ event }) {
         <ul className="team-info-list">
           {attendingLabels(event).map((label) => {
             const info = TEAM_INFO[label] || {}
+            const { coach, coachRooms } = coachFor(event, label, info)
             return (
               <li key={label} className="ti-row">
                 <span className="ti-team">{label}</span>
                 {info.players != null && (
-                  <span className="ti-rooms">{info.players} player rooms · 1 coach room</span>
+                  <span className="ti-rooms">{info.players} player rooms · {coachRoomText(coachRooms)}</span>
                 )}
-                {info.coach && <span className="ti-coach">Coach: {info.coach}</span>}
+                {coach && <span className="ti-coach">Coach: {coach}</span>}
               </li>
             )
           })}

@@ -68,6 +68,11 @@ const SPRING_LEAGUE_TEAMS = [
   'U18/19 ECNL', 'U18/19 ECNL RL',
 ]
 
+// Nov 2026 – Feb 2027: Harry is covering U15 ECNL RL for Sara Butler. He's
+// local, so the covering coach needs no hotel room (coachRooms: 0). Applied
+// via `coverage` on each in-window event.
+const SARA_COVER = { 'U15 ECNL RL': { coach: 'Sara Butler (Harry covering)', coachRooms: 0 } }
+
 export const events = [
   // ================= CONFIRMED — ECNL New Jersey (booking open) =================
   {
@@ -194,7 +199,7 @@ export const events = [
     no: 11, sortDate: '2027-02-26', ages: ['U15', 'U16'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL'], confirmed: false, action: false, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Spring',
     dates: 'Feb 26–28, 2027 (Fri–Sun)', location: 'Lakewood Ranch, FL',
-    note: 'Requested for U15–U18/19.', teams: [],
+    note: 'Requested for U15–U18/19.', coverage: SARA_COVER, teams: [],
   },
   {
     no: 12, sortDate: '2027-05-28', ages: ['U15', 'U16', 'U17'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL', 'U17 ECNL RL'], confirmed: false, action: false, travel: 'drive',
@@ -218,7 +223,7 @@ export const events = [
     confirmed: true, action: false, travel: 'drive',
     league: 'Showcase', name: 'NCFC Olders',
     dates: 'Dec 5–7, 2026', location: 'Raleigh, NC',
-    note: 'Non-ECNL travel showcase.', teams: [],
+    note: 'Non-ECNL travel showcase.', coverage: SARA_COVER, teams: [],
   },
   {
     no: 15, sortDate: '2026-11-22', ages: ['U15', 'U16', 'U17', 'U18/19'],
@@ -226,7 +231,7 @@ export const events = [
     confirmed: false, action: false, travel: 'drive',
     league: 'Showcase', name: 'PDA Thanksgiving Showcase',
     dates: 'Nov 22–23, 2026', location: 'New Jersey',
-    note: 'Non-ECNL travel showcase.', teams: [],
+    note: 'Non-ECNL travel showcase.', coverage: SARA_COVER, teams: [],
   },
   {
     no: 16, sortDate: '2027-03-20', ages: ['U15', 'U16', 'U17', 'U18/19'],
@@ -316,6 +321,7 @@ export const events = [
     ages: ['U15', 'U16', 'U17', 'U18/19'],
     teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
     name: 'League Cup @ PDA Blue', dates: 'Sun, Dec 13, 2026', location: 'PDA Blue, New Jersey',
+    coverage: SARA_COVER,
     note: 'Sunday AWAY game at PDA Blue (NJ), per the league schedule. Note: every team also has a HOME League Cup game Saturday, Dec 12 (vs Match Fit) — so all teams play in MD Saturday, then drive to NJ and stay Saturday night before Sunday’s game. Sunday kickoffs below are from PDA and pending final confirmation; U18/19 times not yet released.',
     // Away in NJ, but all teams have a Sat 12/12 home game first, so everyone stays Sat night.
     games: [
