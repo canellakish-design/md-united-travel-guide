@@ -12,7 +12,10 @@ function coachFor(event, label, info) {
   }
 }
 
-const coachRoomText = (n) => (n === 0 ? 'no coach room' : `${n} coach room${n === 1 ? '' : 's'}`)
+const coachRoomText = (n) =>
+  n === 0 ? 'no coach room'
+    : typeof n === 'number' ? `${n} coach room${n === 1 ? '' : 's'}`
+    : `coach room: ${n}` // e.g. "coach room: TBD"
 
 export default function EventDetail({ event }) {
   const hasTeams = event.teams && event.teams.length > 0
@@ -63,7 +66,7 @@ export default function EventDetail({ event }) {
                 <span className={`game-flag ${pending ? 'tbd' : g.overnight ? 'on' : 'off'}`}>
                   {pending ? 'Time TBD' : g.overnight ? 'Stay night before' : 'Same-day OK'}
                 </span>
-                {info.players != null && <span className="game-meta">{info.players} rooms + {coachRooms === 0 ? 'no coach room' : `${coachRooms} coach`}</span>}
+                {info.players != null && <span className="game-meta">{info.players} rooms + {coachRooms === 0 ? 'no coach room' : typeof coachRooms === 'number' ? `${coachRooms} coach` : `coach: ${coachRooms}`}</span>}
                 {coach && <span className="game-meta">Coach: {coach}</span>}
               </li>
             )

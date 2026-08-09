@@ -72,6 +72,8 @@ const SPRING_LEAGUE_TEAMS = [
 // local, so the covering coach needs no hotel room (coachRooms: 0). Applied
 // via `coverage` on each in-window event.
 const SARA_COVER = { 'U15 ECNL RL': { coach: 'Sara Butler (Harry covering)', coachRooms: 0 } }
+// Feb RL Florida — Harry likely covering but not confirmed, so coach + room are TBD.
+const SARA_COVER_TBD = { 'U15 ECNL RL': { coach: 'Sara Butler (Harry covering — TBD)', coachRooms: 'TBD' } }
 
 export const events = [
   // ================= CONFIRMED — ECNL New Jersey (booking open) =================
@@ -199,7 +201,7 @@ export const events = [
     no: 11, sortDate: '2027-02-26', ages: ['U15', 'U16'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL'], confirmed: false, action: false, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Spring',
     dates: 'Feb 26–28, 2027 (Fri–Sun)', location: 'Lakewood Ranch, FL',
-    note: 'Requested for U15–U18/19.', coverage: SARA_COVER, teams: [],
+    note: 'Requested for U15–U18/19.', coverage: SARA_COVER_TBD, teams: [],
   },
   {
     no: 12, sortDate: '2027-05-28', ages: ['U15', 'U16', 'U17'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL', 'U17 ECNL RL'], confirmed: false, action: false, travel: 'drive',
