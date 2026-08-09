@@ -56,8 +56,8 @@ export const TEAM_INFO = {
 const NJ_BOOKING = 'https://book.onlocationexp.com/ecnl-boys-girls-new-jersey-2026/team-members-booking/'
 
 // Conference away-game rosters differ by season:
-//   Fall  = U12–U14 ECNL & ECNL RL
-//   Spring = U11 ECNL, plus U12–U18/19 ECNL & ECNL RL (U11 is spring-only)
+//   Fall  = U12 Pre-ECNL & Pre-ECNL RL, U13–U14 ECNL & ECNL RL
+//   Spring = U11 Pre-ECNL, plus U12–U18/19 ECNL & ECNL RL (U11 is spring-only)
 const FALL_LEAGUE_AGES = ['U12', 'U13', 'U14']
 const FALL_LEAGUE_TEAMS = ['U12 Pre-ECNL', 'U12 Pre-ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL']
 const SPRING_LEAGUE_AGES = ['U11', 'U12', 'U13', 'U14', 'U15', 'U16', 'U17', 'U18/19']
@@ -271,9 +271,20 @@ export const events = [
       { team: 'U14 ECNL RL', time: '4:00 PM', overnight: false },
     ],
     teams: [] },
-  { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
+  { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
-    name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026', location: 'New Jersey', note: '', teams: [] },
+    name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026', location: 'PDA White, New Jersey',
+    note: 'Day 2 of the PDA weekend. All U12–U14 teams play PDA Blue on Saturday (Sep 26) and return here Sunday, so the whole group is already up in NJ — everyone stays Saturday night (Sep 26) for Sunday’s game, regardless of Sunday kickoff. Book the Saturday night with the team block. Sunday game times to follow.',
+    // Everyone is already up for Saturday's PDA Blue game, so all teams stay Sat night.
+    games: [
+      { team: 'U12 Pre-ECNL', time: 'Sun — TBD', overnight: true },
+      { team: 'U12 Pre-ECNL RL', time: 'Sun — TBD', overnight: true },
+      { team: 'U13 ECNL', time: 'Sun — TBD', overnight: true },
+      { team: 'U13 ECNL RL', time: 'Sun — TBD', overnight: true },
+      { team: 'U14 ECNL', time: 'Sun — TBD', overnight: true },
+      { team: 'U14 ECNL RL', time: 'Sun — TBD', overnight: true },
+    ],
+    teams: [] },
   { no: 20, sortDate: '2026-10-24', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
     name: 'League @ Penn Fusion', dates: 'Sat, Oct 24, 2026', location: 'Downingtown, PA', note: '',
