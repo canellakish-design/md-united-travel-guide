@@ -73,10 +73,10 @@ const SPRING_LEAGUE_TEAMS = [
 export const events = [
   // ================= CONFIRMED — ECNL New Jersey (booking open) =================
   {
-    no: 1, sortDate: '2026-08-21', ages: ['U13', 'U14'], confirmed: true, action: true, closed: true, travel: 'drive',
+    no: 1, sortDate: '2026-08-21', ages: ['U13', 'U14'], confirmed: true, action: true, travel: 'drive',
     league: 'ECNL & ECNL RL', name: 'ECNL & ECNL RL Girls New Jersey 2026',
     dates: 'Aug 21–23, 2026 (Fri–Sun)', location: 'Somerset, NJ',
-    note: 'Arrival is set by each team’s Friday kickoff: the two 11:40 AM teams (U13 ECNL, U13 ECNL RL) travel up Thursday, Aug 20 and need 3 nights (Thu–Sat). The two afternoon teams (U14 ECNL 1:30 PM, U14 ECNL RL 3:20 PM) drive up Friday morning and need only 2 nights (Fri–Sat).',
+    note: 'Arrival is set by each team’s Friday kickoff: the two 11:40 AM teams (U13 ECNL, U13 ECNL RL) travel up Thursday, Aug 20 and need 3 nights (Thu–Sat). The two afternoon teams (U14 ECNL 1:30 PM, U14 ECNL RL 3:20 PM) drive up Friday morning and need only 2 nights (Fri–Sat). If your U14 team (ECNL or ECNL RL) was booked for 3 nights, you may cancel the first night (Thursday, Aug 20) if you’d like — only the late-kickoff teams have that option. The two U13 teams should keep all 3 nights.',
     teams: [
       {
         team: 'U13 ECNL', bookDeadline: 'Wed, Jul 29 @ 9:00 AM',
