@@ -28,9 +28,14 @@ a { color: inherit; }
 .masthead-inner {
   max-width: 780px;
   margin: 0 auto;
-  padding: 30px 20px 24px;
+  padding: 24px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
-.crest { display: none; }
+.crest-link { flex: 0 0 auto; display: block; line-height: 0; }
+.crest { display: block; width: 62px; height: auto; }
+.masthead-text { min-width: 0; }
 .eyebrow {
   margin: 0 0 6px;
   font-size: 12px;

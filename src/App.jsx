@@ -19,9 +19,14 @@ function Masthead() {
   return (
     <header className="masthead">
       <div className="masthead-inner">
-        <p className="eyebrow">{CLUB.name} · {CLUB.program}</p>
-        <h1>{CLUB.title}</h1>
-        <p className="season">{CLUB.season} Season</p>
+        <a href="#/" className="crest-link">
+          <img className="crest" src="/crest.png" alt="Maryland United FC crest" />
+        </a>
+        <div className="masthead-text">
+          <p className="eyebrow">{CLUB.name} · {CLUB.program}</p>
+          <h1>{CLUB.title}</h1>
+          <p className="season">{CLUB.season} Season</p>
+        </div>
       </div>
     </header>
   )
