@@ -1,15 +1,24 @@
+import { TEAM_INFO } from '../data/events.js'
+
 export default function TeamBlock({ team }) {
   const hasHotels = team.hotels && team.hotels.length > 0
   const hasLink = team.hotelLink && team.hotelLink.length > 0
+
+  // Fall back to the central team table for roster/coach when not set on the team.
+  const info = TEAM_INFO[team.team] || {}
+  const players = team.players ?? info.players
+  const playerRooms = team.playerRooms ?? players
+  const coaches = team.coaches ?? info.coach
+  const coachRooms = team.coachRooms ?? (coaches ? 1 : null)
 
   const facts = [
     team.bookDeadline && { label: 'Book by', value: team.bookDeadline, key: 'deadline' },
     team.arrivalDate && { label: 'Arrive', value: team.arrivalDate },
     team.travelMode && { label: 'Travel', value: team.travelMode },
-    team.players != null && { label: 'Players', value: `${team.players}` },
-    team.playerRooms != null && { label: 'Player rooms needed', value: `${team.playerRooms}` },
-    team.coaches && { label: 'Coaches', value: team.coaches },
-    team.coachRooms != null && { label: 'Coach rooms needed', value: `${team.coachRooms}` },
+    players != null && { label: 'Players', value: `${players}` },
+    playerRooms != null && { label: 'Player rooms needed', value: `${playerRooms}` },
+    coaches && { label: 'Coach', value: coaches },
+    coachRooms != null && { label: 'Coach rooms needed', value: `${coachRooms}` },
   ].filter(Boolean)
 
   return (

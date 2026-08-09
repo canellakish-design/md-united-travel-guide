@@ -1,4 +1,5 @@
 import { getGuidance, attendingLabels } from '../guidance.js'
+import { TEAM_INFO } from '../data/events.js'
 import TeamBlock from './TeamBlock.jsx'
 
 export default function EventDetail({ event }) {
@@ -39,20 +40,36 @@ export default function EventDetail({ event }) {
         </div>
       ) : event.games ? (
         <ul className="games">
-          {event.games.map((g, i) => (
-            <li key={i} className="game-row">
-              <span className="game-team">{g.team}</span>
-              <span className="game-time">{g.time}</span>
-              <span className={`game-flag ${g.overnight ? 'on' : 'off'}`}>
-                {g.overnight ? 'Stay night before' : 'Same-day OK'}
-              </span>
-            </li>
-          ))}
+          {event.games.map((g, i) => {
+            const info = TEAM_INFO[g.team] || {}
+            return (
+              <li key={i} className="game-row">
+                <span className="game-team">{g.team}</span>
+                <span className="game-time">{g.time}</span>
+                <span className={`game-flag ${g.overnight ? 'on' : 'off'}`}>
+                  {g.overnight ? 'Stay night before' : 'Same-day OK'}
+                </span>
+                {info.players != null && <span className="game-meta">{info.players} rooms + 1 coach</span>}
+                {info.coach && <span className="game-meta">Coach: {info.coach}</span>}
+              </li>
+            )
+          })}
         </ul>
       ) : (
-        <p className="detail-ages">
-          <span className="detail-ages-label">Teams:</span> {attendingLabels(event).join(' · ')}
-        </p>
+        <ul className="team-info-list">
+          {attendingLabels(event).map((label) => {
+            const info = TEAM_INFO[label] || {}
+            return (
+              <li key={label} className="ti-row">
+                <span className="ti-team">{label}</span>
+                {info.players != null && (
+                  <span className="ti-rooms">{info.players} player rooms · 1 coach room</span>
+                )}
+                {info.coach && <span className="ti-coach">Coach: {info.coach}</span>}
+              </li>
+            )
+          })}
+        </ul>
       )}
     </div>
   )

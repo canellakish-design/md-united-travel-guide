@@ -22,6 +22,39 @@ export const CLUB = {
   title: 'Parent Travel Guide',
 }
 
+// ---------------------------------------------------------------------
+// CENTRAL TEAM TABLE — roster size (from Playmetrics) + head coach.
+// Rooms needed = players (one room per player/family) + 1 coach room.
+// Every event reads from here, so update rosters/coaches in ONE place.
+// ---------------------------------------------------------------------
+export const TEAM_INFO = {
+  'U10 Red':          { players: 11, coach: 'Andrew Gillis' },
+  'U10 White':        { players: 11, coach: 'Clarissa Kirsch Downs' },
+  'U11 ECNL':         { players: 13, coach: 'Steve Campbell' },
+  'U11 Pre-ECNL':     { players: 13, coach: 'Steve Campbell' },
+  'U11 Pre-ECNL RL':  { players: 14, coach: 'Andrew Gillis' },
+  'U12 ECNL':         { players: 12, coach: 'Steve Campbell' },
+  'U12 Pre-ECNL':     { players: 12, coach: 'Steve Campbell' },
+  'U12 ECNL RL':      { players: 13, coach: 'KJ Davis' },
+  'U12 RL':           { players: 13, coach: 'KJ Davis' },
+  'U13 ECNL':         { players: 18, coach: 'Darrell Gonzalez' },
+  'U13 ECNL RL':      { players: 18, coach: 'KJ Davis' },
+  'U13 RL':           { players: 18, coach: 'KJ Davis' },
+  'U14 ECNL':         { players: 17, coach: 'Scott Villagran' },
+  'U14 ECNL RL':      { players: 17, coach: 'Darrell Gonzalez' },
+  'U14 RL':           { players: 17, coach: 'Darrell Gonzalez' },
+  'U15 ECNL':         { players: 16, coach: 'Scott Villagran' },
+  'U15 ECNL RL':      { players: 16, coach: 'Sara Butler' },
+  'U15 Premier':      { players: 16, coach: 'Clarissa Kirsch Downs' },
+  'U16 ECNL':         { players: 19, coach: 'Harry Canellakis' },
+  'U16 ECNL RL':      { players: 19, coach: 'Win Puffer' },
+  'U16 Premier':      { players: 17, coach: 'Clarissa Kirsch Downs' },
+  'U17 ECNL':         { players: 17, coach: 'Matt Dwyer' },
+  'U17 ECNL RL':      { players: 16, coach: 'Darrell Gonzalez' },
+  'U18/19 ECNL':      { players: 17, coach: 'Matt Dwyer' },
+  'U18/19 ECNL RL':   { players: 17, coach: 'Win Puffer' },
+}
+
 const NJ_BOOKING = 'https://book.onlocationexp.com/ecnl-boys-girls-new-jersey-2026/team-members-booking/'
 
 // Conference away-game rosters differ by season:
