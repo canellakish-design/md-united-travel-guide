@@ -95,10 +95,12 @@ export const events = [
     ],
   },
   {
-    no: 4, sortDate: '2026-10-31', ages: ['U11', 'U12'], confirmed: true, action: false, travel: 'drive',
+    no: 4, sortDate: '2026-10-31', ages: ['U10', 'U11', 'U12'], confirmed: true, action: false, travel: 'drive',
     league: 'Pre-ECNL', name: 'Pre-ECNL East Coast Cup',
     dates: 'Oct 31 – Nov 1, 2026 (Sat–Sun)', location: 'Richmond, VA', note: '',
     teams: [
+      { team: 'U10 Red', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U10 White', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U11 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U12 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
     ],
@@ -148,12 +150,6 @@ export const events = [
 
   // ================= PENDING — ECNL RL showcases (applied; NOT yet confirmed) =================
   {
-    no: 9, sortDate: '2026-12-04', ages: ['U17', 'U18/19'], teamsList: ['U17 ECNL RL', 'U18/19 ECNL RL'], confirmed: false, action: false, travel: 'fly',
-    league: 'ECNL RL', name: 'ECNL RL Girls Florida — Fall',
-    dates: 'Dec 4–6, 2026 (Fri–Sun)', location: 'Naples / Ocala, FL',
-    note: 'Requested for U17 / U18-19.', teams: [],
-  },
-  {
     no: 10, sortDate: '2027-01-08', ages: ['U17', 'U18/19'], teamsList: ['U17 ECNL RL', 'U18/19 ECNL RL'], confirmed: false, action: false, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Winter',
     dates: 'Jan 8–10, 2027 (Fri–Sun)', location: 'Sanford, FL',
@@ -174,8 +170,8 @@ export const events = [
 
   // ================= PENDING — Non-ECNL travel events (applied; NOT yet confirmed) =================
   {
-    no: 13, sortDate: '2026-11-14', ages: ['U12', 'U13', 'U14'],
-    teamsList: ['U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
+    no: 13, sortDate: '2026-11-14', ages: ['U10', 'U12', 'U13', 'U14'],
+    teamsList: ['U10 Red', 'U10 White', 'U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
     confirmed: true, action: false, travel: 'drive',
     league: 'Showcase', name: 'NCFC Youngers',
     dates: 'Nov 14–15, 2026', location: 'Raleigh, NC',
@@ -276,8 +272,8 @@ export const events = [
     name: 'League Cup @ PDA Blue', dates: 'Sun, Dec 13, 2026', location: 'New Jersey', note: '', teams: [] },
 
   // ================= Jefferson Cup — youngers weekend =================
-  { no: 26, sortDate: '2027-03-13', ages: ['U11', 'U12', 'U13', 'U14'],
-    teamsList: ['U11 ECNL', 'U11 Pre-ECNL RL', 'U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
+  { no: 26, sortDate: '2027-03-13', ages: ['U10', 'U11', 'U12', 'U13', 'U14'],
+    teamsList: ['U10 Red', 'U10 White', 'U11 ECNL', 'U11 Pre-ECNL RL', 'U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
     confirmed: false, action: false, travel: 'drive',
     league: 'Tournament', name: 'Jefferson Cup (Youngers)', dates: 'March 2027 (youngers weekend)', location: 'Richmond, VA',
     note: 'Non-ECNL travel tournament.', teams: [] },
