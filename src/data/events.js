@@ -308,15 +308,15 @@ export const events = [
     ages: ['U15', 'U16', 'U17', 'U18/19'],
     teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
     name: 'League Cup @ PDA Blue', dates: 'Sun, Dec 13, 2026', location: 'PDA Blue, New Jersey',
-    note: 'Kickoff times below are from PDA and pending final confirmation. NJ venue: teams with a kickoff before 1:00 PM stay the night before (Sat, Dec 12). U18/19 times not yet released.',
-    // NJ venue: overnight if kickoff before 1:00 PM
+    note: 'Sunday AWAY game at PDA Blue (NJ), per the league schedule. Note: every team also has a HOME League Cup game Saturday, Dec 12 (vs Match Fit) — so all teams play in MD Saturday, then drive to NJ and stay Saturday night before Sunday’s game. Sunday kickoffs below are from PDA and pending final confirmation; U18/19 times not yet released.',
+    // Away in NJ, but all teams have a Sat 12/12 home game first, so everyone stays Sat night.
     games: [
       { team: 'U15 ECNL', time: '10:00 AM', overnight: true },
       { team: 'U15 ECNL RL', time: '10:00 AM', overnight: true },
       { team: 'U16 ECNL', time: '12:00 PM', overnight: true },
       { team: 'U16 ECNL RL', time: '12:00 PM', overnight: true },
-      { team: 'U17 ECNL', time: '2:00 PM', overnight: false },
-      { team: 'U17 ECNL RL', time: '2:00 PM', overnight: false },
+      { team: 'U17 ECNL', time: '2:00 PM', overnight: true },
+      { team: 'U17 ECNL RL', time: '2:00 PM', overnight: true },
       { team: 'U18/19 ECNL', time: 'TBD', overnight: null },
       { team: 'U18/19 ECNL RL', time: 'TBD', overnight: null },
     ],
