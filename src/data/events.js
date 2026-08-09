@@ -35,7 +35,7 @@ export const TEAM_INFO = {
   'U11 Pre-ECNL RL':  { players: 14, coach: 'Andrew Gillis' },
   'U12 ECNL':         { players: 12, coach: 'Steve Campbell' },
   'U12 Pre-ECNL':     { players: 12, coach: 'Steve Campbell' },
-  'U12 ECNL RL':      { players: 13, coach: 'KJ Davis' },
+  'U12 Pre-ECNL RL':      { players: 13, coach: 'KJ Davis' },
   'U12 RL':           { players: 13, coach: 'KJ Davis' },
   'U13 ECNL':         { players: 18, coach: 'Darrell Gonzalez' },
   'U13 ECNL RL':      { players: 18, coach: 'KJ Davis' },
@@ -61,11 +61,11 @@ const NJ_BOOKING = 'https://book.onlocationexp.com/ecnl-boys-girls-new-jersey-20
 //   Fall  = U12–U14 ECNL & ECNL RL
 //   Spring = U11 ECNL, plus U12–U18/19 ECNL & ECNL RL (U11 is spring-only)
 const FALL_LEAGUE_AGES = ['U12', 'U13', 'U14']
-const FALL_LEAGUE_TEAMS = ['U12 Pre-ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL']
+const FALL_LEAGUE_TEAMS = ['U12 Pre-ECNL', 'U12 Pre-ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL']
 const SPRING_LEAGUE_AGES = ['U11', 'U12', 'U13', 'U14', 'U15', 'U16', 'U17', 'U18/19']
 const SPRING_LEAGUE_TEAMS = [
   'U11 ECNL',
-  'U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL',
+  'U12 ECNL', 'U12 Pre-ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL',
   'U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL',
   'U18/19 ECNL', 'U18/19 ECNL RL',
 ]
@@ -208,7 +208,7 @@ export const events = [
   // ================= PENDING — Non-ECNL travel events (applied; NOT yet confirmed) =================
   {
     no: 13, sortDate: '2026-11-14', ages: ['U10', 'U11', 'U12', 'U13', 'U14'],
-    teamsList: ['U10 White', 'U11 Pre-ECNL RL', 'U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
+    teamsList: ['U10 White', 'U11 Pre-ECNL RL', 'U12 ECNL', 'U12 Pre-ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
     confirmed: true, action: false, travel: 'drive',
     league: 'Showcase', name: 'NCFC Youngers',
     dates: 'Nov 14–15, 2026', location: 'Raleigh, NC',
@@ -266,7 +266,7 @@ export const events = [
     // NJ venue: overnight if kickoff before 1:00 PM
     games: [
       { team: 'U12 Pre-ECNL', time: '10:00 AM', overnight: true },
-      { team: 'U12 ECNL RL', time: '12:00 PM', overnight: true },
+      { team: 'U12 Pre-ECNL RL', time: '12:00 PM', overnight: true },
       { team: 'U13 ECNL', time: '10:00 AM', overnight: true },
       { team: 'U14 ECNL', time: '12:00 PM', overnight: true },
       { team: 'U13 ECNL RL', time: '2:00 PM', overnight: false },
@@ -323,7 +323,7 @@ export const events = [
 
   // ================= Jefferson Cup — youngers weekend =================
   { no: 26, sortDate: '2027-03-13', ages: ['U10', 'U11', 'U12', 'U13', 'U14'],
-    teamsList: ['U10 Red', 'U11 ECNL', 'U11 Pre-ECNL RL', 'U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
+    teamsList: ['U10 Red', 'U11 ECNL', 'U11 Pre-ECNL RL', 'U12 ECNL', 'U12 Pre-ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
     confirmed: false, action: false, travel: 'drive',
     league: 'Tournament', name: 'Jefferson Cup (Youngers)', dates: 'March 2027 (youngers weekend)', location: 'Richmond, VA',
     note: 'Non-ECNL travel tournament.', teams: [] },
