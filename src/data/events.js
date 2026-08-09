@@ -161,7 +161,7 @@ export const events = [
     note: 'Requested for U17 / U18-19.', teams: [],
   },
   {
-    no: 11, sortDate: '2027-02-26', ages: ['U15', 'U16', 'U17', 'U18/19'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL', 'U17 ECNL RL', 'U18/19 ECNL RL'], confirmed: false, action: false, travel: 'fly',
+    no: 11, sortDate: '2027-02-26', ages: ['U15', 'U16'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL'], confirmed: false, action: false, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Spring',
     dates: 'Feb 26–28, 2027 (Fri–Sun)', location: 'Lakewood Ranch, FL',
     note: 'Requested for U15–U18/19.', teams: [],
