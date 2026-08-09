@@ -175,14 +175,18 @@ export const events = [
 
   // ================= PENDING — Non-ECNL travel events (applied; NOT yet confirmed) =================
   {
-    no: 13, sortDate: '2026-11-14', ages: ['U13', 'U14'], confirmed: true, action: false, travel: 'drive',
-    league: 'Showcase', name: 'NCFC Jr. Showcase',
+    no: 13, sortDate: '2026-11-14', ages: ['U12', 'U13', 'U14'],
+    teamsList: ['U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
+    confirmed: true, action: false, travel: 'drive',
+    league: 'Showcase', name: 'NCFC Youngers',
     dates: 'Nov 14–15, 2026', location: 'Raleigh, NC',
     note: 'Non-ECNL travel showcase.', teams: [],
   },
   {
-    no: 14, sortDate: '2026-12-05', ages: ['U16', 'U17', 'U18/19'], confirmed: true, action: false, travel: 'drive',
-    league: 'Showcase', name: 'NCFC Showcase',
+    no: 14, sortDate: '2026-12-05', ages: ['U15', 'U16', 'U17', 'U18/19'],
+    teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
+    confirmed: true, action: false, travel: 'drive',
+    league: 'Showcase', name: 'NCFC Olders',
     dates: 'Dec 5–7, 2026', location: 'Raleigh, NC',
     note: 'Non-ECNL travel showcase.', teams: [],
   },
