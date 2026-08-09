@@ -129,6 +129,7 @@ export const events = [
     dates: 'Oct 3–4, 2026 (Sat–Sun)', location: 'Wilmington, NC', note: '',
     teams: [
       { team: 'U11 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U11 Pre-ECNL RL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U12 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
     ],
   },
@@ -140,6 +141,7 @@ export const events = [
       { team: 'U10 Red', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U10 White', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U11 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U11 Pre-ECNL RL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U12 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
     ],
   },
@@ -209,7 +211,7 @@ export const events = [
   // ================= PENDING — Non-ECNL travel events (applied; NOT yet confirmed) =================
   {
     no: 13, sortDate: '2026-11-14', ages: ['U10', 'U12', 'U13', 'U14'],
-    teamsList: ['U10 Red', 'U10 White', 'U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
+    teamsList: ['U10 White', 'U12 ECNL', 'U12 ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
     confirmed: true, action: false, travel: 'drive',
     league: 'Showcase', name: 'NCFC Youngers',
     dates: 'Nov 14–15, 2026', location: 'Raleigh, NC',
