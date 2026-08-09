@@ -3,7 +3,19 @@ import { CLUB, events } from './data/events.js'
 import EventListItem from './components/EventListItem.jsx'
 import EventDetail from './components/EventDetail.jsx'
 
-const AGE_ORDER = ['U10', 'U11', 'U12', 'U13', 'U14', 'U15', 'U16', 'U17', 'U18/19']
+// All team labels used by an event (hotel blocks, team lists, and league game rows).
+function eventTeams(e) {
+  return new Set([
+    ...(e.teamsList || []),
+    ...(e.teams || []).map((t) => t.team),
+    ...(e.games || []).map((g) => g.team),
+  ])
+}
+
+function teamSortKey(label) {
+  const age = parseInt((label.match(/U(\d+)/) || [])[1] || '99', 10)
+  return [age, label]
+}
 
 function useHashRoute() {
   const [hash, setHash] = useState(() => window.location.hash)
@@ -42,19 +54,24 @@ function Footer() {
 }
 
 function ListView() {
-  const [age, setAge] = useState('')
+  const [team, setTeam] = useState('')
 
-  const ageOptions = useMemo(() => {
-    const set = new Set(events.flatMap((e) => e.ages || []))
-    return AGE_ORDER.filter((a) => set.has(a))
+  const teamOptions = useMemo(() => {
+    const set = new Set()
+    events.forEach((e) => eventTeams(e).forEach((t) => set.add(t)))
+    return [...set].sort((a, b) => {
+      const [aa, al] = teamSortKey(a)
+      const [ba, bl] = teamSortKey(b)
+      return aa - ba || al.localeCompare(bl)
+    })
   }, [])
 
   const filtered = useMemo(
     () =>
       events
-        .filter((e) => !age || (e.ages || []).includes(age))
+        .filter((e) => !team || eventTeams(e).has(team))
         .sort((a, b) => (a.sortDate || '').localeCompare(b.sortDate || '')),
-    [age],
+    [team],
   )
 
   return (
@@ -62,16 +79,16 @@ function ListView() {
       <section className="intro">
         <p>
           Every travel weekend, showcase, and tournament is listed below. Filter by your
-          player’s age group, then tap an event to see that team’s hotels, deadlines, room
-          blocks, and booking links.
+          team, then tap an event to see that team’s hotels, deadlines, room blocks, and
+          booking links.
         </p>
       </section>
 
       <div className="toolbar">
-        <select className="age-select" value={age} onChange={(e) => setAge(e.target.value)} aria-label="Filter by age group">
-          <option value="">All age groups</option>
-          {ageOptions.map((a) => (
-            <option key={a} value={a}>{a}</option>
+        <select className="age-select" value={team} onChange={(e) => setTeam(e.target.value)} aria-label="Filter by team">
+          <option value="">All teams</option>
+          {teamOptions.map((t) => (
+            <option key={t} value={t}>{t}</option>
           ))}
         </select>
         <span className="count">{filtered.length} event{filtered.length === 1 ? '' : 's'}</span>
@@ -81,7 +98,7 @@ function ListView() {
         {filtered.map((event, i) => (
           <EventListItem key={event.no} event={event} number={i + 1} />
         ))}
-        {filtered.length === 0 && <p className="empty">No events for that age group.</p>}
+        {filtered.length === 0 && <p className="empty">No events for that team.</p>}
       </div>
     </main>
   )
