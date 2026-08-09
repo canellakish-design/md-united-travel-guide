@@ -149,25 +149,25 @@ export const events = [
 
   // ================= PENDING — ECNL RL showcases (applied; NOT yet confirmed) =================
   {
-    no: 9, sortDate: '2026-12-04', ages: ['U17', 'U18/19'], confirmed: false, action: false, travel: 'fly',
+    no: 9, sortDate: '2026-12-04', ages: ['U17', 'U18/19'], teamsList: ['U17 ECNL RL', 'U18/19 ECNL RL'], confirmed: false, action: false, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Fall',
     dates: 'Dec 4–6, 2026 (Fri–Sun)', location: 'Naples / Ocala, FL',
     note: 'Requested for U17 / U18-19.', teams: [],
   },
   {
-    no: 10, sortDate: '2027-01-08', ages: ['U17', 'U18/19'], confirmed: false, action: false, travel: 'fly',
+    no: 10, sortDate: '2027-01-08', ages: ['U17', 'U18/19'], teamsList: ['U17 ECNL RL', 'U18/19 ECNL RL'], confirmed: false, action: false, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Winter',
     dates: 'Jan 8–10, 2027 (Fri–Sun)', location: 'Sanford, FL',
     note: 'Requested for U17 / U18-19.', teams: [],
   },
   {
-    no: 11, sortDate: '2027-02-26', ages: ['U15', 'U16', 'U17', 'U18/19'], confirmed: false, action: false, travel: 'fly',
+    no: 11, sortDate: '2027-02-26', ages: ['U15', 'U16', 'U17', 'U18/19'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL', 'U17 ECNL RL', 'U18/19 ECNL RL'], confirmed: false, action: false, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Spring',
     dates: 'Feb 26–28, 2027 (Fri–Sun)', location: 'Lakewood Ranch, FL',
     note: 'Requested for U15–U18/19.', teams: [],
   },
   {
-    no: 12, sortDate: '2027-05-28', ages: ['U15', 'U16', 'U17'], confirmed: false, action: false, travel: 'drive',
+    no: 12, sortDate: '2027-05-28', ages: ['U15', 'U16', 'U17'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL', 'U17 ECNL RL'], confirmed: false, action: false, travel: 'drive',
     league: 'ECNL RL', name: 'ECNL RL Girls North Carolina',
     dates: 'May 28–30, 2027 (Fri–Sun)', location: 'Winston-Salem, NC',
     note: 'Requested for U15 / U16 / U17.', teams: [],
@@ -191,7 +191,9 @@ export const events = [
     note: 'Non-ECNL travel showcase.', teams: [],
   },
   {
-    no: 15, sortDate: '2026-11-22', ages: ['U15', 'U16', 'U17', 'U18/19'], confirmed: false, action: false, travel: 'drive',
+    no: 15, sortDate: '2026-11-22', ages: ['U15', 'U16', 'U17', 'U18/19'],
+    teamsList: ['U15 ECNL', 'U16 ECNL', 'U17 ECNL', 'U18/19 ECNL'],
+    confirmed: false, action: false, travel: 'drive',
     league: 'Showcase', name: 'PDA Thanksgiving Showcase',
     dates: 'Nov 22–23, 2026', location: 'New Jersey',
     note: 'Non-ECNL travel showcase.', teams: [],
