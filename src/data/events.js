@@ -304,10 +304,23 @@ export const events = [
     name: 'League @ FC Delco', dates: 'Sat, May 8, 2027', location: 'Pennsylvania', note: '', teams: [] },
 
   // ================= LEAGUE CUP — away match needing a hotel (U15–U18/19) =================
-  { no: 28, sortDate: '2026-12-13', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
+  { no: 28, sortDate: '2026-12-13', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
     ages: ['U15', 'U16', 'U17', 'U18/19'],
     teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
-    name: 'League Cup @ PDA Blue', dates: 'Sun, Dec 13, 2026', location: 'New Jersey', note: '', teams: [] },
+    name: 'League Cup @ PDA Blue', dates: 'Sun, Dec 13, 2026', location: 'PDA Blue, New Jersey',
+    note: 'Kickoff times below are from PDA and pending final confirmation. NJ venue: teams with a kickoff before 1:00 PM stay the night before (Sat, Dec 12). U18/19 times not yet released.',
+    // NJ venue: overnight if kickoff before 1:00 PM
+    games: [
+      { team: 'U15 ECNL', time: '10:00 AM', overnight: true },
+      { team: 'U15 ECNL RL', time: '10:00 AM', overnight: true },
+      { team: 'U16 ECNL', time: '12:00 PM', overnight: true },
+      { team: 'U16 ECNL RL', time: '12:00 PM', overnight: true },
+      { team: 'U17 ECNL', time: '2:00 PM', overnight: false },
+      { team: 'U17 ECNL RL', time: '2:00 PM', overnight: false },
+      { team: 'U18/19 ECNL', time: 'TBD', overnight: null },
+      { team: 'U18/19 ECNL RL', time: 'TBD', overnight: null },
+    ],
+    teams: [] },
 
   // ================= Jefferson Cup — youngers weekend =================
   { no: 26, sortDate: '2027-03-13', ages: ['U10', 'U11', 'U12', 'U13', 'U14'],

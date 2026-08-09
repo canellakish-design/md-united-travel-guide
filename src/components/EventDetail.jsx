@@ -42,12 +42,13 @@ export default function EventDetail({ event }) {
         <ul className="games">
           {event.games.map((g, i) => {
             const info = TEAM_INFO[g.team] || {}
+            const pending = g.overnight == null
             return (
               <li key={i} className="game-row">
                 <span className="game-team">{g.team}</span>
                 <span className="game-time">{g.time}</span>
-                <span className={`game-flag ${g.overnight ? 'on' : 'off'}`}>
-                  {g.overnight ? 'Stay night before' : 'Same-day OK'}
+                <span className={`game-flag ${pending ? 'tbd' : g.overnight ? 'on' : 'off'}`}>
+                  {pending ? 'Time TBD' : g.overnight ? 'Stay night before' : 'Same-day OK'}
                 </span>
                 {info.players != null && <span className="game-meta">{info.players} rooms + 1 coach</span>}
                 {info.coach && <span className="game-meta">Coach: {info.coach}</span>}
