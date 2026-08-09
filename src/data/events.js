@@ -270,7 +270,7 @@ export const events = [
     name: 'League @ FC Delco', dates: 'Sat, May 8, 2027', location: 'Pennsylvania', note: '', teams: [] },
 
   // ================= LEAGUE CUP — away match needing a hotel (U15–U18/19) =================
-  { no: 25, sortDate: '2026-12-13', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
+  { no: 28, sortDate: '2026-12-13', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
     ages: ['U15', 'U16', 'U17', 'U18/19'],
     teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
     name: 'League Cup @ PDA Blue', dates: 'Sun, Dec 13, 2026', location: 'New Jersey', note: '', teams: [] },
