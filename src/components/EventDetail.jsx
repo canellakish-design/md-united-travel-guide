@@ -29,6 +29,13 @@ export default function EventDetail({ event }) {
       <div className="detail-head">
         <h2 className="detail-name">{event.name}</h2>
         <p className="detail-meta">{event.dates} &nbsp;·&nbsp; {event.location}</p>
+        <p className="detail-venue">
+          📍 {event.venue ? (
+            <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.venue)}`} target="_blank" rel="noopener noreferrer">{event.venue}</a>
+          ) : (
+            <span className="venue-tbd">Field/venue — TBD</span>
+          )}
+        </p>
         <div className="indicators">
           <span className={`indicator ${event.confirmed ? 'indicator-green' : 'indicator-grey'}`}>
             {event.confirmed ? 'Participation Confirmed' : 'Pending Confirmation'}

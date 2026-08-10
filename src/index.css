@@ -109,6 +109,7 @@ a { color: inherit; }
 .list-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
 .list-name { font-weight: 800; font-size: 16px; letter-spacing: -0.2px; }
 .list-meta { color: var(--slate); font-size: 13.5px; }
+.list-venue { display: block; color: var(--muted); font-size: 12.5px; margin-top: 1px; }
 .list-teams { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
 .team-chip {
   font-size: 11.5px;
@@ -150,6 +151,9 @@ a { color: inherit; }
 .detail-head { margin-bottom: 6px; }
 .detail-name { margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.3px; }
 .detail-meta { margin: 5px 0 0; color: var(--slate); font-size: 15px; }
+.detail-venue { margin: 4px 0 0; font-size: 14px; }
+.detail-venue a { color: var(--mu-red); text-decoration: none; border-bottom: 1px solid rgba(201,32,51,0.35); }
+.detail-venue .venue-tbd { color: var(--muted); }
 .detail-head .indicators { margin-top: 12px; }
 .detail-ages { margin: 16px 0 0; font-size: 15px; color: var(--slate); }
 .detail-ages-label { color: var(--muted); font-weight: 700; }

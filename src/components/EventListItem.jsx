@@ -9,6 +9,7 @@ export default function EventListItem({ event, number }) {
       <span className="list-main">
         <span className="list-name">{event.name}</span>
         <span className="list-meta">{event.dates} &nbsp;·&nbsp; {event.location}</span>
+        <span className="list-venue">📍 {event.venue || 'Field/venue — TBD'}</span>
         <span className="list-teams">
           {teams.map((t) => (
             <span key={t} className="team-chip">{t}</span>

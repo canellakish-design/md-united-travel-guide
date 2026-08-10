@@ -54,6 +54,8 @@ export const TEAM_INFO = {
 }
 
 const NJ_BOOKING = 'https://book.onlocationexp.com/ecnl-boys-girls-new-jersey-2026/team-members-booking/'
+// Field/venue for the PDA events in Somerset, NJ (from the ECNL NJ team itineraries).
+const PDA_COMPLEX = 'PDA Soccer Complex, 1 Upper Pond Road, Somerset, NJ 08873'
 
 // Conference away-game rosters differ by season:
 //   Fall  = U12 Pre-ECNL & Pre-ECNL RL, U13–U14 ECNL & ECNL RL
@@ -80,7 +82,7 @@ export const events = [
   {
     no: 1, sortDate: '2026-08-21', ages: ['U13', 'U14'], confirmed: true, action: true, travel: 'drive',
     league: 'ECNL & ECNL RL', name: 'ECNL & ECNL RL Girls New Jersey 2026',
-    dates: 'Aug 21–23, 2026 (Fri–Sun)', location: 'Somerset, NJ',
+    dates: 'Aug 21–23, 2026 (Fri–Sun)', location: 'Somerset, NJ', venue: PDA_COMPLEX,
     note: 'Arrival is set by each team’s Friday kickoff: the two 11:40 AM teams (U13 ECNL, U13 ECNL RL) travel up Thursday, Aug 20 and need 3 nights (Thu–Sat). The two afternoon teams (U14 ECNL 1:30 PM, U14 ECNL RL 3:20 PM) drive up Friday morning and need only 2 nights (Fri–Sat). If your U14 team (ECNL or ECNL RL) was booked for 3 nights, you may cancel the first night (Thursday, Aug 20) if you’d like — only the late-kickoff teams have that option. The two U13 teams should keep all 3 nights.',
     teams: [
       {
@@ -267,7 +269,7 @@ export const events = [
   // are released; then flip action:true and list only the teams that qualify.
   { no: 18, sortDate: '2026-09-26', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
-    name: 'League @ PDA Blue', dates: 'Sat, Sep 26, 2026', location: 'PDA Blue Main Complex, Somerset, NJ', note: '',
+    name: 'League @ PDA Blue', dates: 'Sat, Sep 26, 2026', location: 'PDA Blue Main Complex, Somerset, NJ', venue: PDA_COMPLEX, note: '',
     // NJ venue: overnight if kickoff before 1:00 PM
     games: [
       { team: 'U12 Pre-ECNL', time: '10:00 AM', overnight: true },
@@ -281,7 +283,7 @@ export const events = [
   { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
     name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026', location: 'PDA White, New Jersey',
-    note: 'Day 2 of the PDA weekend. All U12–U14 teams play PDA Blue on Saturday (Sep 26) and return here Sunday, so the whole group is already up in NJ — everyone stays Saturday night (Sep 26) for Sunday’s game, regardless of Sunday kickoff. Book the Saturday night with the team block. Sunday game times to follow.',
+    note: 'Everyone will already be up in NJ from Saturday’s matches against PDA Blue (Sep 26), so all teams stay over for Sunday’s games here.',
     // Everyone is already up for Saturday's PDA Blue game, so all teams stay Sat night.
     games: [
       { team: 'U12 Pre-ECNL', time: 'Sun — TBD', overnight: true },
@@ -322,7 +324,7 @@ export const events = [
   { no: 28, sortDate: '2026-12-13', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
     ages: ['U15', 'U16', 'U17', 'U18/19'],
     teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
-    name: 'League Cup @ PDA Blue', dates: 'Sun, Dec 13, 2026', location: 'PDA Blue, New Jersey',
+    name: 'League Cup @ PDA Blue', dates: 'Sun, Dec 13, 2026', location: 'PDA Blue, New Jersey', venue: PDA_COMPLEX,
     coverage: SARA_COVER,
     note: 'Sunday AWAY game at PDA Blue (NJ), per the league schedule. Note: every team also has a HOME League Cup game Saturday, Dec 12 (vs Match Fit) — so all teams play in MD Saturday, then drive to NJ and stay Saturday night before Sunday’s game. Sunday kickoffs below are from PDA and pending final confirmation; U18/19 times not yet released.',
     // Away in NJ, but all teams have a Sat 12/12 home game first, so everyone stays Sat night.
