@@ -57,6 +57,10 @@ const NJ_BOOKING = 'https://book.onlocationexp.com/ecnl-boys-girls-new-jersey-20
 // Field/venue for the PDA events in Somerset, NJ (from the ECNL NJ team itineraries).
 const PDA_COMPLEX = 'PDA Soccer Complex, 1 Upper Pond Road, Somerset, NJ 08873'
 
+// Pre-ECNL Carolina Cup (Wilmington, Oct 3–4) EventConnect room-block booking links (Jen, Aug 10).
+const WILMINGTON_U11_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFakjlA1Lkc0sUnTH13iWurCxmUGjpZ77E2WigXxn8abJk5lQ39U8KA2sRjGB76Z5qVijYtpKG88Re7TnkJkEdyXDB0PDQ2rMtEPJ6Gtd-2BneIvukGK6xA9HVZOlAWd1fWUHpUIX8jbFXYhzaxdqEqcji-2BqUNs55G73-2BWE7Mxlwaz0D8hhWKw-2BuDQCcep-2FhBy3EmFkkWxgoikVNx5WG4Npfk-2Fx7C1YPIzogaWVhoJO3dQHYJ02zPdPhJS-2BmQtVGMGtko-3DXBuh_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKTCsO0mGpLlQe4Rsf89l3ru8kJ2aW2NBUPlqeqKyUU5YlAf1DSzRo5H2D3lDaT5HWh6Wx5qnK4lEZLITD1njdrLl8tMmFBEK7VRP3MiNpvpzVFlbdqYQGM4PT8YrLh5D1Ee0imIR-2FsHisgq7A5z6VzhqmHvRflBIVOqbbNyAAcFEm4KRZUk1jPvSMOjDPNmOGsLv1kUCws-2FV5Tx3c4-2F-2FBu-2FaRZRYc9En3eiyPjTKSFf6d-2BrHLXPiwY-2F7BpKEcQk2qCeLMBKehuTCkXQ0n1w1Qo-2B5F5lPJxnr2Y86KUBDv8fqyiomtNaB-2BbKq9DXm6MtivPkKgQ72JTYmAJpqO82rtP-2BNdtzQ8xR6b98X8EqjFlAA'
+const WILMINGTON_U12_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFakjlA1Lkc0sUnTH13iWurCxmUGjpZ77E2WigXxn8abJgYuAmiN5Vg2a0-2Fg0wed9XYrCsBUDTef5nXTDOUX4Tpw18drltjTzSE2O02BIw3uDjnqbjxic89yAA3oRSOjuRV0Vr7iDrQqWndZCI2ti-2BnbIdWwCov-2FtR8Hz9Ml5ZdVdozQpANWI1-2FGoY-2FqQAliZYGOyg-2B1k7yM3VcJ1FqLLfL0P9vEKG9VgaMgeU8Rw-2BowkTdYXl7xZPR7-2BQjoxwwdRII-3DdGSO_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKTCsO0mGpLlQe4Rsf89l3ru8kJ2aW2NBUPlqeqKyUU5YlAf1DSzRo5H2D3lDaT5HWmpw5FpSoatHe3OdinmarI-2Buo-2FkAUrWHs4Qj5NjUIbbNJOwxicI4IfHputLUxOZIN9mS-2FDehbmcPzo1kgpdpmLoIH8gla268Hrd5ZOvezE9f00TnAnWQjaPUpPIx8bkD2qhDuBmZ6-2Fy0YB1MBvEq0xWlf4azKYogVhaNhbWyHig0cdGKHtY9eDF8tot-2FEv9qdGHBmC81pIWsbUUm9PMLjIhhrDgeiE46JP41TUwIcKnU7o-2BqluDsa7h-2B54P-2BQBJ8mG6p8A7-2FafyoIVSSy1Qruo8B0-2FbewZqutQRNUdOQSxDX'
+
 // Conference away-game rosters differ by season:
 //   Fall  = U12 Pre-ECNL & Pre-ECNL RL, U13–U14 ECNL & ECNL RL
 //   Spring = U11 Pre-ECNL, plus U12–U18/19 ECNL & ECNL RL (U11 is spring-only)
@@ -133,10 +137,27 @@ export const events = [
   {
     no: 3, sortDate: '2026-10-03', ages: ['U11', 'U12'], confirmed: true, action: true, travel: 'either',
     league: 'Pre-ECNL', name: 'Pre-ECNL Carolina Cup',
-    dates: 'Oct 3–4, 2026 (Sat–Sun)', location: 'Wilmington, NC', note: '',
+    dates: 'Oct 3–4, 2026 (Sat–Sun)', location: 'Wilmington, NC',
+    note: 'Hotel blocks are open at the Hampton Inn Wilmington for U11 and U12 — 2 Queen Beds w/ breakfast, $140/night, 2 nights (Fri 10/2 & Sat 10/3). Book by Sun, Aug 16 @ 7:00 PM. Coach Steve Campbell’s room is in the U12 block.',
     teams: [
-      { team: 'U11 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U12 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
+      {
+        team: 'U11 Pre-ECNL', bookDeadline: 'Sun, Aug 16 @ 7:00 PM',
+        arrivalDate: 'Fri, Oct 2 (night before)', nights: '2 · Fri·Sat',
+        players: 13, playerRooms: 13, coaches: 'Steve Campbell', coachRooms: 1,
+        teamCode: '', hotelLink: WILMINGTON_U11_BOOKING,
+        hotels: [
+          { name: 'Hampton Inn Wilmington – University Area/Smith Creek Station', address: '124 Old Eastwood Rd, Wilmington, NC 28403', rooms: '13-room block · 2 Queen Beds w/ breakfast · $140/night' },
+        ],
+      },
+      {
+        team: 'U12 Pre-ECNL', bookDeadline: 'Sun, Aug 16 @ 7:00 PM',
+        arrivalDate: 'Fri, Oct 2 (night before)', nights: '2 · Fri·Sat',
+        players: 12, playerRooms: 12, coaches: 'Steve Campbell', coachRooms: 1,
+        teamCode: '', hotelLink: WILMINGTON_U12_BOOKING,
+        hotels: [
+          { name: 'Hampton Inn Wilmington – University Area/Smith Creek Station', address: '124 Old Eastwood Rd, Wilmington, NC 28403', rooms: '13-room block (12 players + coach) · 2 Queen Beds w/ breakfast · $140/night' },
+        ],
+      },
     ],
   },
   {
