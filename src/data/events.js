@@ -243,12 +243,12 @@ export const events = [
     note: 'Non-ECNL travel showcase (NCFC visitRaleigh.com Girls Junior Showcase).', teams: [],
   },
   {
-    no: 14, sortDate: '2026-11-20', ages: ['U15', 'U16', 'U17', 'U18/19'],
-    teamsList: ['U15 ECNL RL', 'U15 Premier', 'U16 ECNL RL', 'U16 Premier', 'U17 ECNL RL', 'U18/19 ECNL RL'],
+    no: 14, sortDate: '2026-11-20', ages: ['U15', 'U16'],
+    teamsList: ['U15 Premier', 'U16 Premier'],
     confirmed: true, action: false, travel: 'drive',
     league: 'Showcase', name: 'NCFC Girls College Showcase',
     dates: 'Nov 20–22, 2026', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
-    note: 'Non-ECNL travel showcase (NCFC visitRaleigh.com Girls College Showcase).', coverage: SARA_COVER, teams: [],
+    note: 'Non-ECNL travel showcase (NCFC visitRaleigh.com Girls College Showcase). Premier teams only — the ECNL RL teams play PDA Thanksgiving (Nov 22–23) that same weekend, not this event.', teams: [],
   },
   {
     no: 15, sortDate: '2026-11-22', ages: ['U15', 'U16', 'U17', 'U18/19'],
