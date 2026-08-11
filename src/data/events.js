@@ -143,7 +143,7 @@ export const events = [
       {
         team: 'U11 Pre-ECNL', bookDeadline: 'Sun, Aug 16 @ 7:00 PM',
         arrivalDate: 'Fri, Oct 2 (night before)', nights: '2 · Fri·Sat',
-        players: 13, playerRooms: 13, coaches: 'Steve Campbell', coachRooms: 1,
+        players: 13, playerRooms: 13, coaches: 'Steve Campbell', coachRooms: 0,
         teamCode: '', hotelLink: WILMINGTON_U11_BOOKING,
         hotels: [
           { name: 'Hampton Inn Wilmington – University Area/Smith Creek Station', address: '124 Old Eastwood Rd, Wilmington, NC 28403', rooms: '13-room block · 2 Queen Beds w/ breakfast · $140/night' },
