@@ -253,7 +253,7 @@ export const events = [
   {
     no: 15, sortDate: '2026-11-22', ages: ['U15', 'U16', 'U17', 'U18/19'],
     teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
-    confirmed: false, action: false, travel: 'drive',
+    confirmed: true, action: false, travel: 'drive',
     league: 'Showcase', name: 'PDA Thanksgiving Showcase',
     dates: 'Nov 22–23, 2026', location: 'New Jersey',
     note: 'Non-ECNL travel showcase.', coverage: SARA_COVER, teams: [],
