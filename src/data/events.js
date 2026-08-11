@@ -235,20 +235,20 @@ export const events = [
 
   // ================= PENDING — Non-ECNL travel events (applied; NOT yet confirmed) =================
   {
-    no: 13, sortDate: '2026-11-14', ages: ['U10', 'U11', 'U12', 'U13', 'U14'],
+    no: 13, sortDate: '2026-11-07', ages: ['U10', 'U11', 'U12', 'U13', 'U14'],
     teamsList: ['U10 White', 'U11 Pre-ECNL RL', 'U12 Pre-ECNL', 'U12 Pre-ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
     confirmed: true, action: false, travel: 'drive',
-    league: 'Showcase', name: 'NCFC Youngers',
-    dates: 'Nov 14–15, 2026', location: 'Raleigh, NC',
-    note: 'Non-ECNL travel showcase.', teams: [],
+    league: 'Showcase', name: 'NCFC Girls Junior Showcase',
+    dates: 'Nov 7–8, 2026', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
+    note: 'Non-ECNL travel showcase (NCFC visitRaleigh.com Girls Junior Showcase).', teams: [],
   },
   {
-    no: 14, sortDate: '2026-12-05', ages: ['U15', 'U16', 'U17', 'U18/19'],
+    no: 14, sortDate: '2026-11-20', ages: ['U15', 'U16', 'U17', 'U18/19'],
     teamsList: ['U15 ECNL RL', 'U15 Premier', 'U16 ECNL RL', 'U16 Premier', 'U17 ECNL RL', 'U18/19 ECNL RL'],
     confirmed: true, action: false, travel: 'drive',
-    league: 'Showcase', name: 'NCFC Olders',
-    dates: 'Dec 5–7, 2026', location: 'Raleigh, NC',
-    note: 'Non-ECNL travel showcase.', coverage: SARA_COVER, teams: [],
+    league: 'Showcase', name: 'NCFC Girls College Showcase',
+    dates: 'Nov 20–22, 2026', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
+    note: 'Non-ECNL travel showcase (NCFC visitRaleigh.com Girls College Showcase).', coverage: SARA_COVER, teams: [],
   },
   {
     no: 15, sortDate: '2026-11-22', ages: ['U15', 'U16', 'U17', 'U18/19'],
