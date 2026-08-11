@@ -11,10 +11,10 @@ export function getGuidance(event, hasHotels) {
       : { cls: 'league', text: `${base} Game times are pending, so no action is needed yet — we’ll flag the exact teams that need to book once times are released.` }
   }
   if (event.action && event.travel === 'fly') {
-    return { cls: 'fly', text: '✈ Flights required. Families may begin booking flights now — team hotel details will follow.' }
+    return { cls: 'fly', text: '✈ Flights required — you may begin booking now. Book your arriving flight to be at the hotel before 8:30 PM the night before (in time for the team meeting), and aim for a return flight around 5:00 PM on the last day. Team hotel details will follow.' }
   }
   if (event.action && event.travel === 'either') {
-    return { cls: 'fly', text: '✈ – 🚗 Long-distance trip — families may fly or drive. If flying, you may begin booking flights now. Team hotel details will follow.' }
+    return { cls: 'fly', text: '✈ – 🚗 Long-distance trip — families may fly or drive. If flying, you may begin booking now: arrive at the hotel before 8:30 PM the night before (in time for the team meeting), and book your return for around 5:00 PM on the last day. Team hotel details will follow.' }
   }
   if (!event.confirmed && !event.action) {
     return { cls: 'caution', text: 'This event is on our travel plan but participation is NOT yet confirmed. Please do not book flights, hotels, or make any travel arrangements until participation is confirmed.' }
