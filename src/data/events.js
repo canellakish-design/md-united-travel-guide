@@ -163,11 +163,14 @@ export const events = [
   {
     no: 4, sortDate: '2026-10-31', ages: ['U10', 'U11', 'U12'], confirmed: true, action: false, travel: 'drive',
     league: 'Pre-ECNL', name: 'Pre-ECNL East Coast Cup',
-    dates: 'Oct 31 – Nov 1, 2026 (Sat–Sun)', location: 'Richmond, VA', note: '',
+    dates: 'Oct 31 – Nov 1, 2026 (Sat–Sun)', location: 'Richmond, VA',
+    note: 'U11 & U12 Pre-ECNL RL (second teams) added for East Coast Cup.',
     teams: [
       { team: 'U10 Red', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U11 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U11 Pre-ECNL RL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U12 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U12 Pre-ECNL RL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
     ],
   },
 
