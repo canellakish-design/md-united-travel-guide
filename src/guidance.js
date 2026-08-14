@@ -19,6 +19,9 @@ export function getGuidance(event, hasHotels) {
   if (!event.confirmed && !event.action) {
     return { cls: 'caution', text: 'This event is on our travel plan but participation is NOT yet confirmed. Please do not book flights, hotels, or make any travel arrangements until participation is confirmed.' }
   }
+  if (event.confirmed && event.noHotels && !event.action) {
+    return { cls: 'info', text: 'Participation confirmed — day-trip event, families drive. There are NO team hotels for this event.' }
+  }
   if (event.confirmed && !hasHotels && !event.action) {
     return { cls: 'info', text: 'Participation confirmed — no action needed yet. Team hotel details will be posted here soon.' }
   }
