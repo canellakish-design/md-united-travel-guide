@@ -277,15 +277,16 @@ export const events = [
   },
 
   // ================= CONFIRMED — ECNL Wilmington (U13/U14) =================
-  {
-    no: 25, sortDate: '2026-10-10', ages: ['U13', 'U14'], confirmed: true, action: true, travel: 'either',
-    league: 'ECNL', name: 'ECNL Wilmington (U13/U14)',
-    dates: 'Oct 10–12, 2026 (Sat–Mon)', location: 'Wilmington, NC', note: '',
-    teams: [
-      { team: 'U13 ECNL', players: 18, playerRooms: 18, coaches: 'Darrell Gonzalez', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U14 ECNL', players: 17, playerRooms: 17, coaches: 'Scott Villagran', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
-    ],
-  },
+  // ── Temporarily off the guide (per Harry, Aug 2026): ECNL Wilmington U13/U14. Uncomment to restore. ──
+  // {
+  //   no: 25, sortDate: '2026-10-10', ages: ['U13', 'U14'], confirmed: true, action: true, travel: 'either',
+  //   league: 'ECNL', name: 'ECNL Wilmington (U13/U14)',
+  //   dates: 'Oct 10–12, 2026 (Sat–Mon)', location: 'Wilmington, NC', note: '',
+  //   teams: [
+  //     { team: 'U13 ECNL', players: 18, playerRooms: 18, coaches: 'Darrell Gonzalez', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
+  //     { team: 'U14 ECNL', players: 17, playerRooms: 17, coaches: 'Scott Villagran', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
+  //   ],
+  // },
 
   // ================= LEAGUE — Conference AWAY games in PA/NJ (locals excluded) =================
   // Families book their OWN hotel near the facility IF their team's kickoff meets the
