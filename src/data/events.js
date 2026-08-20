@@ -251,7 +251,7 @@ export const events = [
   // ================= PENDING — Non-ECNL travel events (applied; NOT yet confirmed) =================
   {
     no: 13, sortDate: '2026-11-07', ages: ['U10', 'U11', 'U12', 'U13', 'U14'],
-    teamsList: ['U10 White', 'U11 Pre-ECNL RL', 'U12 Pre-ECNL', 'U12 Pre-ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
+    teamsList: ['U10 White', 'U11 Pre-ECNL RL', 'U12 Pre-ECNL', 'U12 Pre-ECNL RL', 'U13 ECNL RL', 'U14 ECNL RL'],
     confirmed: true, action: false, travel: 'drive',
     league: 'Showcase', name: 'NCFC Girls Junior Showcase',
     dates: 'Nov 7–8, 2026', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
