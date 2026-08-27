@@ -236,17 +236,8 @@ export const events = [
     note: 'Requested for U15 / U16 / U17.', teams: [],
   },
 
-  // ================= CONFIRMED — WAGS (day trip; replaces ECNL Wilmington weekend) =================
-  {
-    no: 29, sortDate: '2026-10-10', ages: ['U12', 'U13', 'U14'],
-    teamsList: ['U12 Pre-ECNL RL', 'U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
-    confirmed: true, action: false, travel: 'drive', noHotels: true,
-    league: 'Tournament', name: 'WAGS Tournament (Rael Vodicka Memorial)',
-    dates: 'Oct 10–12, 2026 (Sat–Mon)', location: 'Northern Virginia',
-    venue: 'Loudoun County & Northern Fairfax County fields, VA (field assignments TBD)',
-    note: 'All-girls tournament, Columbus Day weekend. Day trip — NO team hotels: our age groups play in Loudoun County (U13/U14 upper flights) and Northern Fairfax County (U12 + middle flights), about 60–90 minutes away. The Fredericksburg fields are U16–U19 only, so none of our teams play there. Expect early departures for morning kickoffs.',
-    teams: [],
-  },
+  // NOTE: WAGS Tournament (Oct 10–12, Northern VA — U12 RL + 13/14 ECNL & RL) is deliberately
+  // NOT on the guide: day-trip event, no team hotels (Loudoun / N. Fairfax fields; Fredericksburg is U16–19 only).
 
   // ================= PENDING — Non-ECNL travel events (applied; NOT yet confirmed) =================
   {
