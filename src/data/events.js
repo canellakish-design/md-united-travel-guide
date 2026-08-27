@@ -297,15 +297,17 @@ export const events = [
   // are released; then flip action:true and list only the teams that qualify.
   { no: 18, sortDate: '2026-09-26', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
-    name: 'League @ PDA Blue', dates: 'Sat, Sep 26, 2026', location: 'PDA Blue Main Complex, Somerset, NJ', venue: PDA_COMPLEX, note: '',
-    // NJ venue: overnight if kickoff before 1:00 PM
+    name: 'League @ PDA Blue', dates: 'Sat, Sep 26, 2026', location: 'PDA Blue Main Complex, Somerset, NJ', venue: PDA_COMPLEX,
+    note: 'Schedule update (Aug 26, from PDA): ECNL’s new 9v9 field-size rule moved both U12 games to Field 7 (grass), and the U12 Pre-ECNL RL kickoff moved to 4:00 PM — that team NO longer needs the Friday-night stay.',
+    // NJ venue: overnight if kickoff before 1:00 PM. Times/fields per Sandra O'Neill (PDA), Aug 26,
+    // cross-checked against the PlayMetrics team calendars.
     games: [
-      { team: 'U12 Pre-ECNL', time: '10:00 AM', overnight: true },
-      { team: 'U12 Pre-ECNL RL', time: '12:00 PM', overnight: true },
-      { team: 'U13 ECNL', time: '10:00 AM', overnight: true },
-      { team: 'U14 ECNL', time: '12:00 PM', overnight: true },
-      { team: 'U13 ECNL RL', time: '2:00 PM', overnight: false },
-      { team: 'U14 ECNL RL', time: '4:00 PM', overnight: false },
+      { team: 'U12 Pre-ECNL', time: '12:00 PM · Field 7 (grass)', overnight: true },
+      { team: 'U12 Pre-ECNL RL', time: '4:00 PM · Field 7 (grass)', overnight: false },
+      { team: 'U13 ECNL', time: '10:00 AM · Field 1', overnight: true },
+      { team: 'U14 ECNL', time: '12:00 PM · Field 5', overnight: true },
+      { team: 'U13 ECNL RL', time: '4:00 PM · Field 5', overnight: false },
+      { team: 'U14 ECNL RL', time: '2:00 PM · Field 5', overnight: false },
     ],
     teams: [] },
   { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
