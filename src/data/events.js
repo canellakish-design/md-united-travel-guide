@@ -308,18 +308,19 @@ export const events = [
       { team: 'U14 ECNL RL', time: '4:00 PM', overnight: false },
     ],
     teams: [] },
-  { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
+  { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
     name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026', location: 'PDA White, New Jersey',
-    note: 'Everyone will already be up in NJ from Saturday’s matches against PDA Blue (Sep 26), so all teams stay over for Sunday’s games here.',
-    // Everyone is already up for Saturday's PDA Blue game, so all teams stay Sat night.
+    note: 'Sunday game times are not out yet — please hold off on booking hotels for this one. Teams also play at PDA Blue on Saturday (Sep 26), so we expect most families will stay over Saturday night; we’ll confirm and flag who needs to book as soon as times are released.',
+    // Hold parents off booking until Sunday times are released (per Harry). Flip action:true
+    // and set overnight true/false per team once PDA publishes the Sunday schedule.
     games: [
-      { team: 'U12 Pre-ECNL', time: 'Sun — TBD', overnight: true },
-      { team: 'U12 Pre-ECNL RL', time: 'Sun — TBD', overnight: true },
-      { team: 'U13 ECNL', time: 'Sun — TBD', overnight: true },
-      { team: 'U13 ECNL RL', time: 'Sun — TBD', overnight: true },
-      { team: 'U14 ECNL', time: 'Sun — TBD', overnight: true },
-      { team: 'U14 ECNL RL', time: 'Sun — TBD', overnight: true },
+      { team: 'U12 Pre-ECNL', time: 'Sun — TBD', overnight: null },
+      { team: 'U12 Pre-ECNL RL', time: 'Sun — TBD', overnight: null },
+      { team: 'U13 ECNL', time: 'Sun — TBD', overnight: null },
+      { team: 'U13 ECNL RL', time: 'Sun — TBD', overnight: null },
+      { team: 'U14 ECNL', time: 'Sun — TBD', overnight: null },
+      { team: 'U14 ECNL RL', time: 'Sun — TBD', overnight: null },
     ],
     teams: [] },
   { no: 20, sortDate: '2026-10-24', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
