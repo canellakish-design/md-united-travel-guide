@@ -61,6 +61,14 @@ const PDA_COMPLEX = 'PDA Soccer Complex, 1 Upper Pond Road, Somerset, NJ 08873'
 const WILMINGTON_U11_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFakjlA1Lkc0sUnTH13iWurCxmUGjpZ77E2WigXxn8abJk5lQ39U8KA2sRjGB76Z5qVijYtpKG88Re7TnkJkEdyXDB0PDQ2rMtEPJ6Gtd-2BneIvukGK6xA9HVZOlAWd1fWUHpUIX8jbFXYhzaxdqEqcji-2BqUNs55G73-2BWE7Mxlwaz0D8hhWKw-2BuDQCcep-2FhBy3EmFkkWxgoikVNx5WG4Npfk-2Fx7C1YPIzogaWVhoJO3dQHYJ02zPdPhJS-2BmQtVGMGtko-3DXBuh_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKTCsO0mGpLlQe4Rsf89l3ru8kJ2aW2NBUPlqeqKyUU5YlAf1DSzRo5H2D3lDaT5HWh6Wx5qnK4lEZLITD1njdrLl8tMmFBEK7VRP3MiNpvpzVFlbdqYQGM4PT8YrLh5D1Ee0imIR-2FsHisgq7A5z6VzhqmHvRflBIVOqbbNyAAcFEm4KRZUk1jPvSMOjDPNmOGsLv1kUCws-2FV5Tx3c4-2F-2FBu-2FaRZRYc9En3eiyPjTKSFf6d-2BrHLXPiwY-2F7BpKEcQk2qCeLMBKehuTCkXQ0n1w1Qo-2B5F5lPJxnr2Y86KUBDv8fqyiomtNaB-2BbKq9DXm6MtivPkKgQ72JTYmAJpqO82rtP-2BNdtzQ8xR6b98X8EqjFlAA'
 const WILMINGTON_U12_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFakjlA1Lkc0sUnTH13iWurCxmUGjpZ77E2WigXxn8abJgYuAmiN5Vg2a0-2Fg0wed9XYrCsBUDTef5nXTDOUX4Tpw18drltjTzSE2O02BIw3uDjnqbjxic89yAA3oRSOjuRV0Vr7iDrQqWndZCI2ti-2BnbIdWwCov-2FtR8Hz9Ml5ZdVdozQpANWI1-2FGoY-2FqQAliZYGOyg-2B1k7yM3VcJ1FqLLfL0P9vEKG9VgaMgeU8Rw-2BowkTdYXl7xZPR7-2BQjoxwwdRII-3DdGSO_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKTCsO0mGpLlQe4Rsf89l3ru8kJ2aW2NBUPlqeqKyUU5YlAf1DSzRo5H2D3lDaT5HWmpw5FpSoatHe3OdinmarI-2Buo-2FkAUrWHs4Qj5NjUIbbNJOwxicI4IfHputLUxOZIN9mS-2FDehbmcPzo1kgpdpmLoIH8gla268Hrd5ZOvezE9f00TnAnWQjaPUpPIx8bkD2qhDuBmZ6-2Fy0YB1MBvEq0xWlf4azKYogVhaNhbWyHig0cdGKHtY9eDF8tot-2FEv9qdGHBmC81pIWsbUUm9PMLjIhhrDgeiE46JP41TUwIcKnU7o-2BqluDsa7h-2B54P-2BQBJ8mG6p8A7-2FafyoIVSSy1Qruo8B0-2FbewZqutQRNUdOQSxDX'
 
+// Pre-ECNL East Coast Cup (Richmond, Oct 31–Nov 1) EventConnect room-block booking links
+// (blocks created by Jen, Aug 31; booking open until Sun, Sep 6 @ 7:00 PM).
+const ECC_U10_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFavKojd8IFN6IHmQoTChTGTZ4UmRrgOO5-2B6Illhi54UqrxTYh31hOy4B-2FQHo3nmTd8mcI0ex1CExU5OvZB593hJOS6OiyMXx7rzw8OH70yTDyo6HuhBmnC5iB1oNc1AAOqMykVDvHRFpiL5ldnF-2B7GwZjn31u7uJxpKPGkwpIi1KyQmPEPSOwVHwmG9ipnTsAiUN9BiV6FT5WaQSR7Z2qGOBtsXJgGlyeGNCRZslMsjtOtABPTOJluW8xtvlniAcb0-3DsMzx_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKfLSROQg5VH8jzWqkSWGm-2BU9R27ldh3u2hpjNCQvTRmBIhi8g7lu16ejLVRUUy3INTuzup6QikLSl2FIzB5hKmpzzWBdq3HAzcxvUOYDT29tg9wLCrBcYuZvbvlE1OCLRbOnDYkIeSqrTNW5vKP0BdkVARgEeqUaSkhqmPXYssMrj62TzW141G05VYMwHR0DJr7BmEuGDLkbFvDxFlahzjTNVYXsmVvR3GDn1-2B8POVjX7Nh6J8F0Ah85azvbYxOpQBYL9QLS2TUpJ27lgsKW5G0g-2F462E5wU6ibz74JA4HFF8TFYgCEZJUwBr8OvUBQgz20L5HT3pt6liLIm2bCaSO4IafMrCRsu-2BQvbwnJx6hP8'
+const ECC_U11_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFavKojd8IFN6IHmQoTChTGTZ4UmRrgOO5-2B6Illhi54UqjTW7D0AHgYOC50Q9dyo6GIKLO5kdoebLk96lGT1sBq05wrTEOApcHdwkZFHlrexWMpYhWgZnT2AiXuU7Yt6NUUAVktHeyPchpYKybB8RjP3LWTt-2FTc19hMfqXMFZMr5GJjGnlDK4vCOqgntMjKFctz11JEcUNAACctrJ8OS-2FD3-2Bt0M6-2Boh5RETOWdXa8g6F4BGMCb6V5W4wx-2FtoW-2BypPEQ-3DDVom_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKfLSROQg5VH8jzWqkSWGm-2BU9R27ldh3u2hpjNCQvTRmBIhi8g7lu16ejLVRUUy3INdIDTkOE3RROrOKEiIIZKMR4JbZhlqtxTLMBBYlwrRqt-2BJcPct6FI0dU68IFuSt-2FK8EcrVQI9mGZlnyC7-2B9lVrvHY9WBWJ1OcXyWizMuGnCMyvGcsw0nYs403lJ9-2BHmoF4c3966ToUhuRlwUXVz1Vjsnwv-2F-2FwoQnD9OMBzwe81BgPm3hYUFUglE-2BrsWzKpkFlfrOXMpP8CSXSZxttpQ953JrqXNanN3YBxqMYZWqJSWOExU4au4VkPnIT1J6bBmSUwgR1DOxpIf2Gjw8q-2FLR0XPd2VjBMX8zLCwDgXjhB7YU'
+const ECC_U11RL_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFavKojd8IFN6IHmQoTChTGTZ4UmRrgOO5-2B6Illhi54UqjZaTgvXR546AkiUOQ3q38rUeSz-2FroSiwZ5olQLwcaMZtbtaORW-2BDElLMgappa4K0vKXmEWpKaiCv-2FZ0Sp1rm9Sbek3FSEquBFJ-2Fg6cnsEteTjQlywyALv9txq7VdqOk27NLXCfKLtU8LzxI7KJduWyynyEzM47U-2FHB19cTaZNPp41hFtaE2jWF79ZGL-2BRm2h4cwDqZ8UEaVUl2FcJ1V2O8-3DwQPr_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKfLSROQg5VH8jzWqkSWGm-2BU9R27ldh3u2hpjNCQvTRmBIhi8g7lu16ejLVRUUy3INVXB5J0LCjd2O12bZZ0yt74TfrLRkMh87dEkna3Rniv8flf8u79sd7OFzLi5hJJ8O0pxODlE6nwMN4PPdqJXfOi4k6prlwC6hI2kyq6vN9T1tG-2B4Dc6X-2Bmy3iG2ytZhEitSqMoInIjqaTXw6l0-2FvD3Dme7uTbB6w9KK5ZkZNb40fDVbVBIb31iLlrgQ-2BTHmiqwkJzJ-2BCeeK6uoBcog-2BjBAZqFlwOKsVhkH4EKUYmY3Ek4tika-2F-2FfBjyGFxlClFCYc59oqqetYRZKoVozX2rMHFs-3D'
+const ECC_U12_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFavKojd8IFN6IHmQoTChTGTZ4UmRrgOO5-2B6Illhi54Uqtb-2Fa7M4TieFZVvcPfONBVWC56O6UisLr3lDJVKeY6WIQmw7utaeFgfbUZWO5ujlyS-2FRCl0Ezg9dBlO56qFqsqoNKt5lKCfvwkdSQ2-2FZ8auKfGXhG9qA2EnYPcdpoXfoN3nJaHb2gUZA-2Br0UjJH-2FxxqUv7ngsTIv-2FGt198LhEQrza-2Bmi1-2FLsCOBoZWWtQPy-2BG9-2Fvp3yeuSvyHhN15o61AQE-3DeWTD_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKfLSROQg5VH8jzWqkSWGm-2BU9R27ldh3u2hpjNCQvTRmBIhi8g7lu16ejLVRUUy3INU7fJPQojIL3cCO60oGBuFWkv33kVTkcwZnde1sP-2BWSBD6vH4DQtb6C7wbxpSfR0QZFxxHS1zcprM9QYW2nnftcBg66kzQ3-2FWIoEDcRwnVWpGrl0gJfBeJyuY2d-2FlDXeQ3mC1ttYphaP7J56WBmrolxrQnpUxbJ-2FEZx0-2FEqBMqaYClWnrMz-2FLYEcg5uK0YcFX4Ou8DhFnhsyYZIWZd1782IZqEKIwsHC2GAFVPB3fH7v4iihYYuwXdjEjm06zhPqavgXHhc-2Fz-2BIXG16vQ3QlJCA-3D'
+const ECC_U12RL_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFavKojd8IFN6IHmQoTChTGTZ4UmRrgOO5-2B6Illhi54UqmpzHuDVozMM4r-2FTLVK71TITEMK-2Fy6atqekNrz1-2BqRpcSInmYsq8XppRDvWsw-2FU0mgjahaPQt-2B1b9wIdvQ4nZ3AV7Ap8rxRlSKULIkwAMLcr8y7yeHseg1B4kMpWSmDr9xGsOyT0TCrSld5imPyfDs-2FjxoqD0-2FAoVDzEE6gGGmm5OAh2UP9RKP-2Fm-2F7p0X51X-2FyIdFrLC7oaL3LTEO9e9x9o-3DIKhg_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKfLSROQg5VH8jzWqkSWGm-2BU9R27ldh3u2hpjNCQvTRmBIhi8g7lu16ejLVRUUy3INZ5McI2A-2FJIzi4fdYgObPFEqbR-2Bp-2Bfy-2BowT4slWnhuLfAFnLvtDmKha23AqDghYT3p1JqHhWsxLwWOg896dF8Tg0xWXijxrRNvObOw9IkmHllxh7AwTNRPqSMzdUEbv2UGhS5syaTa-2Fb-2Bo473UlLQ5nKb6A32lP-2FBqG9AHWBIw16TUmHwfbIoyTDwl-2FIk08Y-2FBXraqieJmL9pQZ1Fzot-2F9nisxXXkvfXY-2F0myfhlwwLHr6UFvXg4z9H9VYcHFbCd1cOp7-2FMRGGMVwtc9lvnCYmY-3D'
+
 // Conference away-game rosters differ by season:
 //   Fall  = U12 Pre-ECNL & Pre-ECNL RL, U13–U14 ECNL & ECNL RL
 //   Spring = U11 Pre-ECNL, plus U12–U18/19 ECNL & ECNL RL (U11 is spring-only)
@@ -161,16 +169,41 @@ export const events = [
     ],
   },
   {
-    no: 4, sortDate: '2026-10-31', ages: ['U10', 'U11', 'U12'], confirmed: true, action: false, travel: 'drive',
+    no: 4, sortDate: '2026-10-31', ages: ['U10', 'U11', 'U12'], confirmed: true, action: true, travel: 'drive',
     league: 'Pre-ECNL', name: 'Pre-ECNL East Coast Cup',
     dates: 'Oct 31 – Nov 1, 2026 (Sat–Sun)', location: 'Richmond, VA',
-    note: 'U11 & U12 Pre-ECNL RL (second teams) added for East Coast Cup.',
+    note: 'Hotel blocks are open (EventConnect, set up by Jen Aug 31) — book by Sun, Sep 6 @ 7:00 PM. Note the blocks differ by team: U10 Red, U11 Pre-ECNL RL, and U12 Pre-ECNL check in Friday, Oct 30 (2 nights); U11 Pre-ECNL and U12 Pre-ECNL RL blocks are Saturday night only. Questions — ask your team manager.',
     teams: [
-      { team: 'U10 Red', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U11 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U11 Pre-ECNL RL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U12 Pre-ECNL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U12 Pre-ECNL RL', bookDeadline: '', playerRooms: null, teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U10 Red', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
+        arrivalDate: 'Fri, Oct 30', nights: '2 · Fri·Sat',
+        teamCode: '', hotelLink: ECC_U10_BOOKING,
+        hotels: [
+          { name: 'Hampton Inn Richmond West Innsbrook', address: '10800 W Broad St, Glen Allen, VA', rooms: '13-room block · 2 Queen Beds · $179/night avg (shares hotel with U11 Pre-ECNL RL)' },
+        ] },
+      { team: 'U11 Pre-ECNL', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
+        arrivalDate: 'Sat, Oct 31', nights: '1 · Sat',
+        teamCode: '', hotelLink: ECC_U11_BOOKING,
+        hotels: [
+          { name: 'Richmond Marriott Short Pump', address: '4240 Dominion Boulevard, Glen Allen, VA', rooms: '13-room block · 2 Queen Beds · $169/night avg (shares hotel with U12 Pre-ECNL)' },
+        ] },
+      { team: 'U11 Pre-ECNL RL', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
+        arrivalDate: 'Fri, Oct 30', nights: '2 · Fri·Sat',
+        teamCode: '', hotelLink: ECC_U11RL_BOOKING,
+        hotels: [
+          { name: 'Hampton Inn Richmond West Innsbrook', address: '10800 W Broad St, Glen Allen, VA', rooms: '14-room block · 2 Queen Beds · $179/night avg (shares hotel with U10 Red)' },
+        ] },
+      { team: 'U12 Pre-ECNL', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
+        arrivalDate: 'Fri, Oct 30', nights: '2 · Fri·Sat',
+        teamCode: '', hotelLink: ECC_U12_BOOKING,
+        hotels: [
+          { name: 'Richmond Marriott Short Pump', address: '4240 Dominion Boulevard, Glen Allen, VA', rooms: '13-room block · 2 Queen Beds · $169/night avg (shares hotel with U11 Pre-ECNL)' },
+        ] },
+      { team: 'U12 Pre-ECNL RL', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
+        arrivalDate: 'Sat, Oct 31', nights: '1 · Sat',
+        teamCode: '', hotelLink: ECC_U12RL_BOOKING,
+        hotels: [
+          { name: 'Hyatt House Richmond / Short Pump', address: '11800 W Broad Street, Richmond, VA', rooms: '14-room block · 2 Queen Beds · $179/night avg' },
+        ] },
     ],
   },
 
