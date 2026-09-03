@@ -172,7 +172,7 @@ export const events = [
     no: 4, sortDate: '2026-10-31', ages: ['U10', 'U11', 'U12'], confirmed: true, action: true, travel: 'drive',
     league: 'Pre-ECNL', name: 'Pre-ECNL East Coast Cup',
     dates: 'Oct 31 – Nov 1, 2026 (Sat–Sun)', location: 'Richmond, VA',
-    note: 'Hotel blocks are open (EventConnect, set up by Jen Aug 31) — book by Sun, Sep 6 @ 7:00 PM. Note the blocks differ by team: U10 Red, U11 Pre-ECNL RL, and U12 Pre-ECNL check in Friday, Oct 30 (2 nights); U11 Pre-ECNL and U12 Pre-ECNL RL blocks are Saturday night only. Questions — ask your team manager.',
+    note: 'Hotel blocks are open (EventConnect) — book by Sun, Sep 6 @ 7:00 PM. All five teams check in Friday, Oct 30 (2 nights, Fri & Sat). Please contact EventConnect at (888) 723-2064 if you need help making your reservation.',
     teams: [
       { team: 'U10 Red', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
         arrivalDate: 'Fri, Oct 30', nights: '2 · Fri·Sat',
@@ -181,7 +181,7 @@ export const events = [
           { name: 'Hampton Inn Richmond West Innsbrook', address: '10800 W Broad St, Glen Allen, VA', rooms: '13-room block · 2 Queen Beds · $179/night avg (shares hotel with U11 Pre-ECNL RL)' },
         ] },
       { team: 'U11 Pre-ECNL', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
-        arrivalDate: 'Sat, Oct 31', nights: '1 · Sat',
+        arrivalDate: 'Fri, Oct 30', nights: '2 · Fri·Sat',
         teamCode: '', hotelLink: ECC_U11_BOOKING,
         hotels: [
           { name: 'Richmond Marriott Short Pump', address: '4240 Dominion Boulevard, Glen Allen, VA', rooms: '13-room block · 2 Queen Beds · $169/night avg (shares hotel with U12 Pre-ECNL)' },
@@ -199,7 +199,7 @@ export const events = [
           { name: 'Richmond Marriott Short Pump', address: '4240 Dominion Boulevard, Glen Allen, VA', rooms: '13-room block · 2 Queen Beds · $169/night avg (shares hotel with U11 Pre-ECNL)' },
         ] },
       { team: 'U12 Pre-ECNL RL', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
-        arrivalDate: 'Sat, Oct 31', nights: '1 · Sat',
+        arrivalDate: 'Fri, Oct 30', nights: '2 · Fri·Sat',
         teamCode: '', hotelLink: ECC_U12RL_BOOKING,
         hotels: [
           { name: 'Hyatt House Richmond / Short Pump', address: '11800 W Broad Street, Richmond, VA', rooms: '14-room block · 2 Queen Beds · $179/night avg' },
