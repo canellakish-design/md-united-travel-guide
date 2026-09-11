@@ -54,6 +54,9 @@ export const TEAM_INFO = {
 }
 
 const NJ_BOOKING = 'https://book.onlocationexp.com/ecnl-boys-girls-new-jersey-2026/team-members-booking/'
+// PDA Girls Invitational (Nov 21–22) — On Location / Anthony Travel team-member booking page.
+// Parents book with their TEAM CODE (double dash). Help line: (866) 386-0059.
+const PDA_INVITE_BOOKING = 'https://book.onlocationexp.com/pda-girls-invitational-2026/team-members-booking/'
 // Field/venue for the PDA events in Somerset, NJ (from the ECNL NJ team itineraries).
 const PDA_COMPLEX = 'PDA Soccer Complex, 1 Upper Pond Road, Somerset, NJ 08873'
 
@@ -287,15 +290,62 @@ export const events = [
     confirmed: true, action: false, travel: 'drive',
     league: 'Showcase', name: 'NCFC Girls College Showcase',
     dates: 'Nov 20–22, 2026', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
-    note: 'Non-ECNL travel showcase (NCFC visitRaleigh.com Girls College Showcase). Premier teams only — the ECNL RL teams play PDA Thanksgiving (Nov 22–23) that same weekend, not this event.', teams: [],
+    note: 'Non-ECNL travel showcase (NCFC visitRaleigh.com Girls College Showcase). Premier teams only — the ECNL RL teams play the PDA Girls Invitational (Nov 21–22) that same weekend, not this event.', teams: [],
   },
   {
-    no: 15, sortDate: '2026-11-22', ages: ['U15', 'U16', 'U17', 'U18/19'],
+    no: 15, sortDate: '2026-11-21', ages: ['U15', 'U16', 'U17', 'U18/19'],
     teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
-    confirmed: true, action: false, travel: 'drive',
-    league: 'Showcase', name: 'PDA Thanksgiving Showcase',
-    dates: 'Nov 22–23, 2026', location: 'New Jersey',
-    note: 'Non-ECNL travel showcase.', coverage: SARA_COVER, teams: [],
+    confirmed: true, action: true, travel: 'drive',
+    league: 'Showcase', name: 'PDA Girls Invitational (Thanksgiving Showcase)',
+    dates: 'Nov 21–22, 2026 (Sat–Sun)', location: 'New Jersey', venue: PDA_COMPLEX,
+    note: 'Hotel blocks are open through On Location / Anthony Travel — BOOK BY FRIDAY, SEPT 25 @ 8:00 AM. All blocks are Friday & Saturday nights (check in Fri, Nov 20 · check out Sun, Nov 22). There is no public booking link: parents book with their TEAM CODE below (codes use a DOUBLE dash, e.g. PDA--T7) via the On Location invite from your team manager. Please contact On Location Anthony Travel at (866) 386-0059 if you need help making your reservation.',
+    coverage: SARA_COVER,
+    teams: [
+      { team: 'U15 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--T7', hotelLink: PDA_INVITE_BOOKING,
+        hotels: [
+          { name: 'Hyatt House Branchburg/Bridgewater', address: '3141 U.S. 22, Branchburg, NJ', rooms: '15 rooms · 1-BR Suite, King + sofa bed · $144/night · Code PDA--T7' },
+          { name: 'Residence Inn Bridgewater Branchburg', address: '3241 Route 22, Branchburg, NJ', rooms: '3 overflow rooms · King + sofa bed · $150/night · Code PDA--U8' },
+        ] },
+      { team: 'U15 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM', coaches: 'Sara Butler (Harry covering)', coachRooms: 0,
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--N9', hotelLink: PDA_INVITE_BOOKING,
+        hotels: [
+          { name: 'Sonesta Select Whippany Hanover', address: '157 New Jersey 10, Whippany, NJ', rooms: '17 rooms · 2 Queen Beds · $169/night · Code PDA--N9' },
+        ] },
+      { team: 'U16 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--09', hotelLink: PDA_INVITE_BOOKING,
+        hotels: [
+          { name: 'Delta Hotels by Marriott Basking Ridge', address: '80 Allen Rd, Basking Ridge, NJ', rooms: '14 rooms · 2 Queen Beds · $169/night · Code PDA--09 (pet-free hotel)' },
+          { name: 'Residence Inn Bridgewater Branchburg', address: '3241 Route 22, Branchburg, NJ', rooms: '6 overflow rooms · King + sofa bed · $150/night · Code PDA--D9' },
+        ] },
+      { team: 'U16 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--N6', hotelLink: PDA_INVITE_BOOKING,
+        hotels: [
+          { name: 'DoubleTree by Hilton Princeton', address: '4355 U.S. 1, Princeton, NJ', rooms: '20 rooms · 7 King + sofa bed ($179/night) & 13 × 2 Queen ($199/night) · Code PDA--N6' },
+        ] },
+      { team: 'U17 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--J5', hotelLink: PDA_INVITE_BOOKING,
+        hotels: [
+          { name: 'Courtyard by Marriott Ewing Princeton', address: '360 Scotch Road, Ewing Township, NJ', rooms: '15 rooms · 2 Queen Beds · $144/night · Code PDA--J5' },
+        ] },
+      { team: 'U17 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--Z2', hotelLink: PDA_INVITE_BOOKING,
+        hotels: [
+          { name: 'Holiday Inn Express and Suites North Brunswick', address: '2095 US Hwy 1, North Brunswick, NJ', rooms: '14 rooms · 2 Queen Beds · $139/night · Code PDA--Z2' },
+          { name: 'The Heldrich Hotel', address: '10 Livingston Avenue, New Brunswick, NJ', rooms: '3 overflow rooms · 2 Double Beds · $135/night · Code PDA--K8' },
+        ] },
+      { team: 'U18/19 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--Q7', hotelLink: PDA_INVITE_BOOKING,
+        hotels: [
+          { name: 'Crowne Plaza Edison', address: '2055 Lincoln Hwy, Edison, NJ', rooms: '11 rooms · 2 Queen Beds · $149/night · Code PDA--Q7' },
+          { name: 'Home2 Suites by Hilton Edison', address: '858 New Durham Road, Edison, NJ', rooms: '8 overflow rooms · King + sofa bed · $159/night · Code PDA--D2' },
+        ] },
+      { team: 'U18/19 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--04', hotelLink: PDA_INVITE_BOOKING,
+        hotels: [
+          { name: 'Sonesta Select Whippany Hanover', address: '157 New Jersey 10, Whippany, NJ', rooms: '18 rooms · 2 Queen Beds · $169/night · Code PDA--04' },
+        ] },
+    ],
   },
   {
     no: 16, sortDate: '2027-03-20', ages: ['U15', 'U16', 'U17', 'U18/19'],
