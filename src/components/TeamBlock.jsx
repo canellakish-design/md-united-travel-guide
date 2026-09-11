@@ -54,6 +54,12 @@ export default function TeamBlock({ team }) {
                 {h.name}
               </a>
               {h.rooms && <span className="hotel-rooms"> — {h.rooms}</span>}
+              {h.bookLink && (
+                <>
+                  {' '}
+                  <a className="hotel-book" href={h.bookLink} target="_blank" rel="noopener noreferrer">Book this block →</a>
+                </>
+              )}
             </li>
           ))}
         </ul>

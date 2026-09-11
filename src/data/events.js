@@ -54,9 +54,23 @@ export const TEAM_INFO = {
 }
 
 const NJ_BOOKING = 'https://book.onlocationexp.com/ecnl-boys-girls-new-jersey-2026/team-members-booking/'
-// PDA Girls Invitational (Nov 21–22) — On Location / Anthony Travel team-member booking page.
-// Parents book with their TEAM CODE (double dash). Help line: (866) 386-0059.
-const PDA_INVITE_BOOKING = 'https://book.onlocationexp.com/pda-girls-invitational-2026/team-members-booking/'
+// PDA Girls Invitational (Nov 21–22) — On Location / Anthony Travel per-block booking invites
+// (from the "Book Your Room" emails, Sep 11). Each link is scoped to one team's block via its
+// TEAM CODE — codes use a DOUBLE dash, and note PDA--O9 / PDA--O4 use the LETTER O, not zero.
+// Help line: (866) 386-0059.
+const PDA_BK = 'https://book.onlocationexp.com/pda-girls-invitational-2026/?booking=0&team-members-booking=1'
+const PDA_BK_T7 = PDA_BK + '&team_invite_token=eyJib29raW5nX2lkIjoiR0RMUkpQMTAzNzUiLCJ0ZWFtX2NvZGUiOiJQREEtLVQ3IiwidGltZXN0YW1wIjoxNzg5MTYyODE4LCJyYW5kb20iOiJuRnFFeWJldnpOM05ueEhEIn18YWJiYTRlOTkzOWUyN2ViYWM1N2Q5YWMxZmJhM2U1NzM3ZjZlNTk1MTQ5ZjBlOGNjMzRkNjg5YTA5YWY5YmU0OQ=&team_code=PDA--T7&gdlr-check-in=2026-11-20&gdlr-check-out=2026-11-22&email_identifier=NjU4'
+const PDA_BK_U8 = PDA_BK + '&team_invite_token=eyJib29raW5nX2lkIjoiR0RMUkpQMTAzOTkiLCJ0ZWFtX2NvZGUiOiJQREEtLVU4IiwidGltZXN0YW1wIjoxNzg5MTYzMTAxLCJyYW5kb20iOiI0blBSY0VsdGIyWGVKT1RaIn18OWUxMWY2ZmU3ZGM3YTNkMGFiZmRmYjA5NDIwNGRlMmNkMDQyOWY2NjgxMzljNmNhZmRjNTU0YThmN2M3OTBmMQ=&team_code=PDA--U8&gdlr-check-in=2026-11-20&gdlr-check-out=2026-11-22&email_identifier=NjU5'
+const PDA_BK_N9 = PDA_BK + '&team_invite_token=eyJib29raW5nX2lkIjoiR0RMUkpQMTAzOTciLCJ0ZWFtX2NvZGUiOiJQREEtLU45IiwidGltZXN0YW1wIjoxNzg5MTYzMjUwLCJyYW5kb20iOiJRZW9OWXlpdXMxMzh6Z1VKIn18M2IzOGY1MzAyNTlhMjdlMmNmZjRmMThjYzBlZDE4ZDBlNWJkMGU2MjAxN2U3NDM3NTVlZmM0ZWZhNTE4YzMyYw=&team_code=PDA--N9&gdlr-check-in=2026-11-20&gdlr-check-out=2026-11-22&email_identifier=NjYx'
+const PDA_BK_O9 = PDA_BK + '&team_invite_token=eyJib29raW5nX2lkIjoiR0RMUkpQMTAzNzMiLCJ0ZWFtX2NvZGUiOiJQREEtLU85IiwidGltZXN0YW1wIjoxNzg5MTYzNDQwLCJyYW5kb20iOiIwdFY3V29RSnh3YjVQQTFhIn18Yjc5OGNmNWM4ODU1ODM2NjMzNTg1MjFlMmNjNmYxZjA2NGQ4ZjIzZTcxYjU0ZDhkMGM3NDU1Njc3ZWRmOThkMA=&team_code=PDA--O9&gdlr-check-in=2026-11-20&gdlr-check-out=2026-11-22&email_identifier=NjYz'
+const PDA_BK_D9 = PDA_BK + '&team_invite_token=eyJib29raW5nX2lkIjoiR0RMUkpQMTAzOTUiLCJ0ZWFtX2NvZGUiOiJQREEtLUQ5IiwidGltZXN0YW1wIjoxNzg5MTYzNTk4LCJyYW5kb20iOiIxU2xnbGdMZGRwZlRrT1pyIn18ZTUxYmVmMmE0ZDExMjcxZjVhOWNkNDk3MWIxMTVjZDhhZDNkNmE5YTE3OWU4M2EyM2ZlNTI3ZTMyODkwZDFlMA=&team_code=PDA--D9&gdlr-check-in=2026-11-20&gdlr-check-out=2026-11-22&email_identifier=NjY1'
+const PDA_BK_N6 = PDA_BK + '&team_invite_token=eyJib29raW5nX2lkIjoiR0RMUkpQMTAzNzciLCJ0ZWFtX2NvZGUiOiJQREEtLU42IiwidGltZXN0YW1wIjoxNzg5MTYzNzY4LCJyYW5kb20iOiJLbmRUR3NCeFJqOU5jS1lIIn18MjZlNDBjNTQ2NzgxODVhMjg0YzZmNDczOTM0NGZkNDg3YzI0Y2NjMzVkODM0NjRhYTFiZTA0NmQwZjM4YzBmYg=&team_code=PDA--N6&gdlr-check-in=2026-11-20&gdlr-check-out=2026-11-22&email_identifier=NjY3'
+const PDA_BK_J5 = PDA_BK + '&team_invite_token=eyJib29raW5nX2lkIjoiR0RMUkpQMTAzNzkiLCJ0ZWFtX2NvZGUiOiJQREEtLUo1IiwidGltZXN0YW1wIjoxNzg5MTYzOTMzLCJyYW5kb20iOiI1dHhnRTFVaEZqQTB2RHRiIn18YzZjN2Y0MTAzMTliMjE4NjdlMjA3MGEzNGE1YTM1MzIyODY2ODdmZmQ1ODgyMjQ3ZTI3ZTRiYmVkZDA0YjFmMw=&team_code=PDA--J5&gdlr-check-in=2026-11-20&gdlr-check-out=2026-11-22&email_identifier=NjY5'
+const PDA_BK_K8 = PDA_BK + '&team_invite_token=eyJib29raW5nX2lkIjoiR0RMUkpQMTAzOTMiLCJ0ZWFtX2NvZGUiOiJQREEtLUs4IiwidGltZXN0YW1wIjoxNzg5MTY0MTE1LCJyYW5kb20iOiI5ZXRFeEd2NFNtNE1oM01qIn18YTZhNzc4ZTE4Y2FjMzAzOGU0MDBiNjZiM2Y0MGYwMWUwYmIwY2YwZWFlOGEzNGRmODhmOTRkMzYxMjViMWIzZg=&team_code=PDA--K8&gdlr-check-in=2026-11-20&gdlr-check-out=2026-11-22&email_identifier=Njcx'
+const PDA_BK_Z2 = PDA_BK + '&team_invite_token=eyJib29raW5nX2lkIjoiR0RMUkpQMTAzODkiLCJ0ZWFtX2NvZGUiOiJQREEtLVoyIiwidGltZXN0YW1wIjoxNzg5MTY0MjY2LCJyYW5kb20iOiJiSElWNlJRZmVJYmV4eURQIn18YWM5Y2RhODE0ZDIxYzJlNjIxN2RiMzVlN2NmYTA2NDc0MzljY2I3Njc3NjFmYTM1OTllNjA1MTJhZjBhYThlMQ=&team_code=PDA--Z2&gdlr-check-in=2026-11-20&gdlr-check-out=2026-11-22&email_identifier=Njcz'
+const PDA_BK_D2 = PDA_BK + '&team_invite_token=eyJib29raW5nX2lkIjoiR0RMUkpQMTAzODMiLCJ0ZWFtX2NvZGUiOiJQREEtLUQyIiwidGltZXN0YW1wIjoxNzg5MTY0NDQ3LCJyYW5kb20iOiJhUGVkZ3huQmVVWmZ6dkNwIn18MjJjYTIxZjkyODExMTBmOWYxOWFhNmVjYjc4ZmFkNDAyMWFiZmFkYWVjNDNmNWFiMmYxNzE3ZmRlMGJkYjQ2Mg=&team_code=PDA--D2&gdlr-check-in=2026-11-20&gdlr-check-out=2026-11-22&email_identifier=Njc1'
+const PDA_BK_Q7 = PDA_BK + '&team_invite_token=eyJib29raW5nX2lkIjoiR0RMUkpQMTAzODUiLCJ0ZWFtX2NvZGUiOiJQREEtLVE3IiwidGltZXN0YW1wIjoxNzg5MTY0NjAxLCJyYW5kb20iOiI1cnJwQ2JWSGhpZ0xKT1NQIn18Mjg2NjYyZWE4ZmYyNTVkOWExMTYwMjdjNWNhMTdiMTIzMDIyNjQ5NmNlYWNkOGU0MGQ1MGQxODNkYmNiOGI1Yg=&team_code=PDA--Q7&gdlr-check-in=2026-11-20&gdlr-check-out=2026-11-22&email_identifier=Njc3'
+const PDA_BK_O4 = PDA_BK + '&team_invite_token=eyJib29raW5nX2lkIjoiR0RMUkpQMTAzODciLCJ0ZWFtX2NvZGUiOiJQREEtLU80IiwidGltZXN0YW1wIjoxNzg5MTY0NzMxLCJyYW5kb20iOiJ5UGlHaW84c3VjelZQaExqIn18MDRkZDBlNWJkY2NlOTMyNjMxYzc0NmI0NmMyNDk3NTBmNjlhM2Q4YjVhYWRjZDgzMTkwYWM2NDA2NGUwNGVhYw=&team_code=PDA--O4&gdlr-check-in=2026-11-20&gdlr-check-out=2026-11-22&email_identifier=Njc5'
 // Field/venue for the PDA events in Somerset, NJ (from the ECNL NJ team itineraries).
 const PDA_COMPLEX = 'PDA Soccer Complex, 1 Upper Pond Road, Somerset, NJ 08873'
 
@@ -298,52 +312,52 @@ export const events = [
     confirmed: true, action: true, travel: 'drive',
     league: 'Showcase', name: 'PDA Girls Invitational (Thanksgiving Showcase)',
     dates: 'Nov 21–22, 2026 (Sat–Sun)', location: 'New Jersey', venue: PDA_COMPLEX,
-    note: 'Hotel blocks are open through On Location / Anthony Travel — BOOK BY FRIDAY, SEPT 25 @ 8:00 AM. All blocks are Friday & Saturday nights (check in Fri, Nov 20 · check out Sun, Nov 22). There is no public booking link: parents book with their TEAM CODE below (codes use a DOUBLE dash, e.g. PDA--T7) via the On Location invite from your team manager. Please contact On Location Anthony Travel at (866) 386-0059 if you need help making your reservation.',
+    note: 'Hotel blocks are open through On Location / Anthony Travel — BOOK BY FRIDAY, SEPT 25 @ 8:00 AM. All blocks are Friday & Saturday nights (check in Fri, Nov 20 · check out Sun, Nov 22). Use your team’s Book link and TEAM CODE below — codes use a DOUBLE dash, and note PDA--O9 / PDA--O4 are the LETTER O, not zero. Please contact On Location Anthony Travel at (866) 386-0059 if you need help making your reservation.',
     coverage: SARA_COVER,
     teams: [
       { team: 'U15 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--T7', hotelLink: PDA_INVITE_BOOKING,
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--T7', hotelLink: PDA_BK_T7,
         hotels: [
-          { name: 'Hyatt House Branchburg/Bridgewater', address: '3141 U.S. 22, Branchburg, NJ', rooms: '15 rooms · 1-BR Suite, King + sofa bed · $144/night · Code PDA--T7' },
-          { name: 'Residence Inn Bridgewater Branchburg', address: '3241 Route 22, Branchburg, NJ', rooms: '3 overflow rooms · King + sofa bed · $150/night · Code PDA--U8' },
+          { name: 'Hyatt House Branchburg/Bridgewater', address: '3141 U.S. 22, Branchburg, NJ', rooms: '15 rooms · 1-BR Suite, King + sofa bed · $144/night · Code PDA--T7', bookLink: PDA_BK_T7 },
+          { name: 'Residence Inn Bridgewater Branchburg', address: '3241 Route 22, Branchburg, NJ', rooms: '3 overflow rooms · King + sofa bed · $150/night · Code PDA--U8', bookLink: PDA_BK_U8 },
         ] },
       { team: 'U15 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM', coaches: 'Sara Butler (Harry covering)', coachRooms: 0,
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--N9', hotelLink: PDA_INVITE_BOOKING,
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--N9', hotelLink: PDA_BK_N9,
         hotels: [
-          { name: 'Sonesta Select Whippany Hanover', address: '157 New Jersey 10, Whippany, NJ', rooms: '17 rooms · 2 Queen Beds · $169/night · Code PDA--N9' },
+          { name: 'Sonesta Select Whippany Hanover', address: '157 New Jersey 10, Whippany, NJ', rooms: '17 rooms · 2 Queen Beds · $169/night · Code PDA--N9', bookLink: PDA_BK_N9 },
         ] },
       { team: 'U16 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--09', hotelLink: PDA_INVITE_BOOKING,
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--O9 (letter O)', hotelLink: PDA_BK_O9,
         hotels: [
-          { name: 'Delta Hotels by Marriott Basking Ridge', address: '80 Allen Rd, Basking Ridge, NJ', rooms: '14 rooms · 2 Queen Beds · $169/night · Code PDA--09 (pet-free hotel)' },
-          { name: 'Residence Inn Bridgewater Branchburg', address: '3241 Route 22, Branchburg, NJ', rooms: '6 overflow rooms · King + sofa bed · $150/night · Code PDA--D9' },
+          { name: 'Delta Hotels by Marriott Basking Ridge', address: '80 Allen Rd, Basking Ridge, NJ', rooms: '14 rooms · 2 Queen Beds · $169/night · Code PDA--O9 (letter O, not zero) · pet-free hotel', bookLink: PDA_BK_O9 },
+          { name: 'Residence Inn Bridgewater Branchburg', address: '3241 Route 22, Branchburg, NJ', rooms: '6 overflow rooms · King + sofa bed · $150/night · Code PDA--D9', bookLink: PDA_BK_D9 },
         ] },
       { team: 'U16 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--N6', hotelLink: PDA_INVITE_BOOKING,
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--N6', hotelLink: PDA_BK_N6,
         hotels: [
-          { name: 'DoubleTree by Hilton Princeton', address: '4355 U.S. 1, Princeton, NJ', rooms: '20 rooms · 7 King + sofa bed ($179/night) & 13 × 2 Queen ($199/night) · Code PDA--N6' },
+          { name: 'DoubleTree by Hilton Princeton', address: '4355 U.S. 1, Princeton, NJ', rooms: '20 rooms · 7 King + sofa bed ($179/night) & 13 × 2 Queen ($199/night) · Code PDA--N6', bookLink: PDA_BK_N6 },
         ] },
       { team: 'U17 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--J5', hotelLink: PDA_INVITE_BOOKING,
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--J5', hotelLink: PDA_BK_J5,
         hotels: [
-          { name: 'Courtyard by Marriott Ewing Princeton', address: '360 Scotch Road, Ewing Township, NJ', rooms: '15 rooms · 2 Queen Beds · $144/night · Code PDA--J5' },
+          { name: 'Courtyard by Marriott Ewing Princeton', address: '360 Scotch Road, Ewing Township, NJ', rooms: '15 rooms · 2 Queen Beds · $144/night · Code PDA--J5', bookLink: PDA_BK_J5 },
         ] },
       { team: 'U17 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--Z2', hotelLink: PDA_INVITE_BOOKING,
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--Z2', hotelLink: PDA_BK_Z2,
         hotels: [
-          { name: 'Holiday Inn Express and Suites North Brunswick', address: '2095 US Hwy 1, North Brunswick, NJ', rooms: '14 rooms · 2 Queen Beds · $139/night · Code PDA--Z2' },
-          { name: 'The Heldrich Hotel', address: '10 Livingston Avenue, New Brunswick, NJ', rooms: '3 overflow rooms · 2 Double Beds · $135/night · Code PDA--K8' },
+          { name: 'Holiday Inn Express and Suites North Brunswick', address: '2095 US Hwy 1, North Brunswick, NJ', rooms: '14 rooms · 2 Queen Beds · $139/night · Code PDA--Z2', bookLink: PDA_BK_Z2 },
+          { name: 'The Heldrich Hotel', address: '10 Livingston Avenue, New Brunswick, NJ', rooms: '3 overflow rooms · 2 Double Beds · $135/night · Code PDA--K8', bookLink: PDA_BK_K8 },
         ] },
       { team: 'U18/19 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--Q7', hotelLink: PDA_INVITE_BOOKING,
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--Q7', hotelLink: PDA_BK_Q7,
         hotels: [
-          { name: 'Crowne Plaza Edison', address: '2055 Lincoln Hwy, Edison, NJ', rooms: '11 rooms · 2 Queen Beds · $149/night · Code PDA--Q7' },
-          { name: 'Home2 Suites by Hilton Edison', address: '858 New Durham Road, Edison, NJ', rooms: '8 overflow rooms · King + sofa bed · $159/night · Code PDA--D2' },
+          { name: 'Crowne Plaza Edison', address: '2055 Lincoln Hwy, Edison, NJ', rooms: '11 rooms · 2 Queen Beds · $149/night · Code PDA--Q7', bookLink: PDA_BK_Q7 },
+          { name: 'Home2 Suites by Hilton Edison', address: '858 New Durham Road, Edison, NJ', rooms: '8 overflow rooms · King + sofa bed · $159/night · Code PDA--D2', bookLink: PDA_BK_D2 },
         ] },
       { team: 'U18/19 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--04', hotelLink: PDA_INVITE_BOOKING,
+        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--O4 (letter O)', hotelLink: PDA_BK_O4,
         hotels: [
-          { name: 'Sonesta Select Whippany Hanover', address: '157 New Jersey 10, Whippany, NJ', rooms: '18 rooms · 2 Queen Beds · $169/night · Code PDA--04' },
+          { name: 'Sonesta Select Whippany Hanover', address: '157 New Jersey 10, Whippany, NJ', rooms: '18 rooms · 2 Queen Beds · $169/night · Code PDA--O4 (letter O, not zero)', bookLink: PDA_BK_O4 },
         ] },
     ],
   },
