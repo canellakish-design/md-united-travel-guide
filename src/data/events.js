@@ -158,12 +158,12 @@ export const events = [
     ],
   },
 
-  // ================= CONFIRMED — Pre-ECNL (drive; hotels to follow) =================
+  // ================= CONFIRMED — Pre-ECNL (booking CLOSED — deadlines passed) =================
   {
-    no: 3, sortDate: '2026-10-03', ages: ['U11', 'U12'], confirmed: true, action: true, travel: 'either',
+    no: 3, sortDate: '2026-10-03', ages: ['U11', 'U12'], confirmed: true, action: false, closed: true, travel: 'either',
     league: 'Pre-ECNL', name: 'Pre-ECNL Carolina Cup',
     dates: 'Oct 3–4, 2026 (Sat–Sun)', location: 'Wilmington, NC',
-    note: 'Hotel blocks are open at the Hampton Inn Wilmington for U11 and U12 — 2 Queen Beds w/ breakfast, $140/night, 2 nights (Fri 10/2 & Sat 10/3). Book by Sun, Aug 16 @ 7:00 PM. Coach Steve Campbell’s room is in the U12 block.',
+    note: 'Hotel booking closed Sun, Aug 16. Both teams are at the Hampton Inn Wilmington — 2 Queen Beds w/ breakfast, $140/night, 2 nights (Fri 10/2 & Sat 10/3). Coach Steve Campbell’s room is in the U12 block. If you still need a room, contact your team manager.',
     teams: [
       {
         team: 'U11 Pre-ECNL', bookDeadline: 'Sun, Aug 16 @ 7:00 PM',
@@ -186,10 +186,10 @@ export const events = [
     ],
   },
   {
-    no: 4, sortDate: '2026-10-31', ages: ['U10', 'U11', 'U12'], confirmed: true, action: true, travel: 'drive',
+    no: 4, sortDate: '2026-10-31', ages: ['U10', 'U11', 'U12'], confirmed: true, action: false, closed: true, travel: 'drive',
     league: 'Pre-ECNL', name: 'Pre-ECNL East Coast Cup',
     dates: 'Oct 31 – Nov 1, 2026 (Sat–Sun)', location: 'Richmond, VA',
-    note: 'Hotel blocks are open (EventConnect) — book by Sun, Sep 6 @ 7:00 PM. All five teams check in Friday, Oct 30 (2 nights, Fri & Sat). Please contact EventConnect at (888) 723-2064 if you need help making your reservation.',
+    note: 'Hotel booking closed Sun, Sep 6 @ 7:00 PM. All five teams check in Friday, Oct 30 (2 nights, Fri & Sat). If you still need a room, contact your team manager, or EventConnect at (888) 723-2064.',
     teams: [
       { team: 'U10 Red', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
         arrivalDate: 'Fri, Oct 30', nights: '2 · Fri·Sat',
@@ -410,7 +410,7 @@ export const events = [
   { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
     name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026', location: 'PDA White, New Jersey',
-    note: 'Sunday game times are not out yet — please hold off on booking hotels for this one. Teams also play at PDA Blue on Saturday (Sep 26), so we expect most families will stay over Saturday night; we’ll confirm and flag who needs to book as soon as times are released.',
+    note: 'Sunday game times are still being finalized with PDA White — please hold off on booking hotels for this one. Teams also play at PDA Blue on Saturday (Sep 26), so we expect most families will stay over Saturday night; we’ll confirm and flag who needs to book as soon as the times are locked.',
     // Hold parents off booking until Sunday times are released (per Harry). Flip action:true
     // and set overnight true/false per team once PDA publishes the Sunday schedule.
     games: [
@@ -454,17 +454,18 @@ export const events = [
     teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
     name: 'League Cup @ PDA Blue', dates: 'Sun, Dec 13, 2026', location: 'PDA Blue, New Jersey', venue: PDA_COMPLEX,
     coverage: SARA_COVER,
-    note: 'Sunday AWAY game at PDA Blue (NJ), per the league schedule. Note: every team also has a HOME League Cup game Saturday, Dec 12 (vs Match Fit) — so all teams play in MD Saturday, then drive to NJ and stay Saturday night before Sunday’s game. Sunday kickoffs below are from PDA and pending final confirmation; U18/19 times not yet released.',
+    note: 'Sunday AWAY game at PDA Blue (NJ), per the league schedule. Note: every team also has a HOME League Cup game Saturday, Dec 12 (vs Match Fit) — so all teams play in MD Saturday, then drive to NJ and stay Saturday night before Sunday’s game. Kickoffs below are confirmed in PlayMetrics/Athlete One (ECNL teams on Field 5, RL teams on Field 3). U15 ECNL RL is shown with the same slot as U15 ECNL — confirm once its schedule posts.',
     // Away in NJ, but all teams have a Sat 12/12 home game first, so everyone stays Sat night.
+    // Times from the PlayMetrics team calendars (League Cup schedules activated in A1, Aug 27).
     games: [
-      { team: 'U15 ECNL', time: '10:00 AM', overnight: true },
-      { team: 'U15 ECNL RL', time: '10:00 AM', overnight: true },
-      { team: 'U16 ECNL', time: '12:00 PM', overnight: true },
-      { team: 'U16 ECNL RL', time: '12:00 PM', overnight: true },
-      { team: 'U17 ECNL', time: '2:00 PM', overnight: true },
-      { team: 'U17 ECNL RL', time: '2:00 PM', overnight: true },
-      { team: 'U18/19 ECNL', time: 'TBD', overnight: null },
-      { team: 'U18/19 ECNL RL', time: 'TBD', overnight: null },
+      { team: 'U16 ECNL', time: '10:00 AM · Field 5', overnight: true },
+      { team: 'U16 ECNL RL', time: '10:00 AM · Field 3', overnight: true },
+      { team: 'U15 ECNL', time: '12:00 PM · Field 5', overnight: true },
+      { team: 'U15 ECNL RL', time: '12:00 PM · Field 3', overnight: true },
+      { team: 'U17 ECNL', time: '2:00 PM · Field 5', overnight: true },
+      { team: 'U17 ECNL RL', time: '2:00 PM · Field 3', overnight: true },
+      { team: 'U18/19 ECNL', time: '4:00 PM · Field 5', overnight: true },
+      { team: 'U18/19 ECNL RL', time: '4:00 PM · Field 3', overnight: true },
     ],
     teams: [] },
 
