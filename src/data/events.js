@@ -266,12 +266,12 @@ export const events = [
     ],
   },
 
-  // ================= PENDING — ECNL RL showcases (applied; NOT yet confirmed) =================
+  // ================= ECNL RL showcases =================
   {
-    no: 10, sortDate: '2027-01-08', ages: ['U17', 'U18/19'], teamsList: ['U17 ECNL RL', 'U18/19 ECNL RL'], confirmed: false, action: false, travel: 'fly',
+    no: 10, sortDate: '2027-01-08', ages: ['U17', 'U18/19'], teamsList: ['U17 ECNL RL', 'U18/19 ECNL RL'], confirmed: true, action: false, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Winter',
     dates: 'Jan 8–10, 2027 (Fri–Sun)', location: 'Sanford, FL',
-    note: 'Requested for U17 / U18-19.', teams: [],
+    note: 'Both the U17 and U18/19 ECNL RL are placed in this event. Hotel and flight details will follow.', teams: [],
   },
   // ── OFF the guide (per Win, Sep 12): ECNL RL Florida — Spring (Feb 26–28) is Leaders Cup
   //    qualifiers only at U15–U17; we are NOT attending. Restore if that changes. ──
