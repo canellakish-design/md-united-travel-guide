@@ -311,10 +311,10 @@ export const events = [
   {
     no: 15, sortDate: '2026-11-21', ages: ['U15', 'U16', 'U17', 'U18/19'],
     teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
-    confirmed: true, action: true, travel: 'drive',
+    confirmed: false, action: true, travel: 'drive',
     league: 'Showcase', name: 'PDA Girls Invitational (Thanksgiving Showcase)',
     dates: 'Nov 21–22, 2026 (Sat–Sun)', location: 'New Jersey', venue: PDA_COMPLEX,
-    note: 'Hotel blocks are open through On Location / Anthony Travel — BOOK BY FRIDAY, SEPT 25 @ 8:00 AM. All blocks are Friday & Saturday nights (check in Fri, Nov 20 · check out Sun, Nov 22). Use your team’s Book link and TEAM CODE below — codes use a DOUBLE dash, and note PDA--O9 / PDA--O4 are the LETTER O, not zero. Please contact On Location Anthony Travel at (866) 386-0059 if you need help making your reservation.',
+    note: 'Our application is submitted and we expect acceptance shortly — please go ahead and BOOK YOUR ROOMS NOW, because the blocks are already held in our name and the deadline is firm: FRIDAY, SEPT 25 @ 8:00 AM. All blocks are Friday & Saturday nights (check in Fri, Nov 20 · check out Sun, Nov 22). Use your team’s Book link and TEAM CODE below — codes use a DOUBLE dash, and note PDA--O9 / PDA--O4 are the LETTER O, not zero. Please contact On Location Anthony Travel at (866) 386-0059 if you need help making your reservation.',
     coverage: SARA_COVER,
     teams: [
       { team: 'U15 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
