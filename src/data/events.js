@@ -273,17 +273,19 @@ export const events = [
     dates: 'Jan 8–10, 2027 (Fri–Sun)', location: 'Sanford, FL',
     note: 'Requested for U17 / U18-19.', teams: [],
   },
+  // ── OFF the guide (per Win, Sep 12): ECNL RL Florida — Spring (Feb 26–28) is Leaders Cup
+  //    qualifiers only at U15–U17; we are NOT attending. Restore if that changes. ──
+  // {
+  //   no: 11, sortDate: '2027-02-26', ages: ['U15', 'U16'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL'], confirmed: false, action: false, travel: 'fly',
+  //   league: 'ECNL RL', name: 'ECNL RL Girls Florida — Spring',
+  //   dates: 'Feb 26–28, 2027 (Fri–Sun)', location: 'Lakewood Ranch, FL',
+  //   note: 'Requested for U15–U18/19.', coverage: SARA_COVER_TBD, teams: [],
+  // },
   {
-    no: 11, sortDate: '2027-02-26', ages: ['U15', 'U16'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL'], confirmed: false, action: false, travel: 'fly',
-    league: 'ECNL RL', name: 'ECNL RL Girls Florida — Spring',
-    dates: 'Feb 26–28, 2027 (Fri–Sun)', location: 'Lakewood Ranch, FL',
-    note: 'Requested for U15–U18/19.', coverage: SARA_COVER_TBD, teams: [],
-  },
-  {
-    no: 12, sortDate: '2027-05-28', ages: ['U15', 'U16', 'U17'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL', 'U17 ECNL RL'], confirmed: false, action: false, travel: 'drive',
+    no: 12, sortDate: '2027-05-28', ages: ['U15', 'U16'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL'], confirmed: true, action: false, travel: 'drive',
     league: 'ECNL RL', name: 'ECNL RL Girls North Carolina',
     dates: 'May 28–30, 2027 (Fri–Sun)', location: 'Winston-Salem, NC',
-    note: 'Requested for U15 / U16 / U17.', teams: [],
+    note: 'U15 and U16 ECNL RL are in. (U17 RL is not placed in this event.)', teams: [],
   },
 
   // NOTE: WAGS Tournament (Oct 10–12, Northern VA — U12 RL + 13/14 ECNL & RL) is deliberately
@@ -370,10 +372,10 @@ export const events = [
     note: 'Non-ECNL travel tournament.', teams: [],
   },
   {
-    no: 17, sortDate: '2027-05-23', ages: ['U16', 'U17'], teamsList: ['U16 ECNL RL', 'U17 ECNL RL'], confirmed: false, action: false, travel: 'drive',
+    no: 17, sortDate: '2027-05-28', ages: ['U17'], teamsList: ['U17 ECNL RL'], confirmed: false, action: false, travel: 'drive',
     league: 'Showcase', name: 'PDA Memorial Day',
-    dates: 'May 23–25, 2027', location: 'New Jersey',
-    note: 'Non-ECNL travel showcase.', teams: [],
+    dates: 'Memorial Day weekend, May 2027 — dates being finalized', location: 'New Jersey',
+    note: 'Only the U17 ECNL RL are going. Memorial Day falls late this year, so this lands the same weekend as ECNL RL North Carolina — final dates are being adjusted. The 13s and 14s may be added as well (TBD).', teams: [],
   },
 
   // ================= CONFIRMED — ECNL Wilmington (U13/U14) =================
