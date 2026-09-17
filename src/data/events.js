@@ -86,6 +86,14 @@ const ECC_U11RL_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCS
 const ECC_U12_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFavKojd8IFN6IHmQoTChTGTZ4UmRrgOO5-2B6Illhi54Uqtb-2Fa7M4TieFZVvcPfONBVWC56O6UisLr3lDJVKeY6WIQmw7utaeFgfbUZWO5ujlyS-2FRCl0Ezg9dBlO56qFqsqoNKt5lKCfvwkdSQ2-2FZ8auKfGXhG9qA2EnYPcdpoXfoN3nJaHb2gUZA-2Br0UjJH-2FxxqUv7ngsTIv-2FGt198LhEQrza-2Bmi1-2FLsCOBoZWWtQPy-2BG9-2Fvp3yeuSvyHhN15o61AQE-3DeWTD_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKfLSROQg5VH8jzWqkSWGm-2BU9R27ldh3u2hpjNCQvTRmBIhi8g7lu16ejLVRUUy3INU7fJPQojIL3cCO60oGBuFWkv33kVTkcwZnde1sP-2BWSBD6vH4DQtb6C7wbxpSfR0QZFxxHS1zcprM9QYW2nnftcBg66kzQ3-2FWIoEDcRwnVWpGrl0gJfBeJyuY2d-2FlDXeQ3mC1ttYphaP7J56WBmrolxrQnpUxbJ-2FEZx0-2FEqBMqaYClWnrMz-2FLYEcg5uK0YcFX4Ou8DhFnhsyYZIWZd1782IZqEKIwsHC2GAFVPB3fH7v4iihYYuwXdjEjm06zhPqavgXHhc-2Fz-2BIXG16vQ3QlJCA-3D'
 const ECC_U12RL_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFavKojd8IFN6IHmQoTChTGTZ4UmRrgOO5-2B6Illhi54UqmpzHuDVozMM4r-2FTLVK71TITEMK-2Fy6atqekNrz1-2BqRpcSInmYsq8XppRDvWsw-2FU0mgjahaPQt-2B1b9wIdvQ4nZ3AV7Ap8rxRlSKULIkwAMLcr8y7yeHseg1B4kMpWSmDr9xGsOyT0TCrSld5imPyfDs-2FjxoqD0-2FAoVDzEE6gGGmm5OAh2UP9RKP-2Fm-2F7p0X51X-2FyIdFrLC7oaL3LTEO9e9x9o-3DIKhg_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKfLSROQg5VH8jzWqkSWGm-2BU9R27ldh3u2hpjNCQvTRmBIhi8g7lu16ejLVRUUy3INZ5McI2A-2FJIzi4fdYgObPFEqbR-2Bp-2Bfy-2BowT4slWnhuLfAFnLvtDmKha23AqDghYT3p1JqHhWsxLwWOg896dF8Tg0xWXijxrRNvObOw9IkmHllxh7AwTNRPqSMzdUEbv2UGhS5syaTa-2Fb-2Bo473UlLQ5nKb6A32lP-2FBqG9AHWBIw16TUmHwfbIoyTDwl-2FIk08Y-2FBXraqieJmL9pQZ1Fzot-2F9nisxXXkvfXY-2F0myfhlwwLHr6UFvXg4z9H9VYcHFbCd1cOp7-2FMRGGMVwtc9lvnCYmY-3D'
 
+// NCFC Girls Junior Showcase (Raleigh, Nov 7–8) — Team Travel Source group-block links
+// (blocks created by Jen, Sep 16; rooms release back to general inventory Wed, Sep 23).
+const NCFC_U13RL_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTorSOl4l-2F3OFgm3Y-2B5O8mMKmCclK_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr9vFd1Nu-2F-2Fdx-2Bva-2Bb-2BEM4etJCm6gXu1ZcAt70AsgZoTARgCT9MJnuvOJg1mmtbdGSxpsEZEujjmWavhof1f69bAUQR9pPBVdGxZ4bAlkQEpaLA8GoZCgfF0IPBp8tKllUrj3IZq2Pz0F9Jv5zM4ZGVga4Ev-2B6Qr-2Bq7nFwWv9A3muQ-3D-3D'
+const NCFC_U14RL_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTorl0eU34jHx3rvffjHmsIv8udQJ_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr97Nq8Vakr8stFpll0ayDuRWx-2BtbnV-2FYUzil4SthhgTUkprs-2FPSUS7D0-2FKrORx0ucUaW1-2FBXus3vIZbwhZCkdaQKs1yurB-2FWHd41ecxe014qa4wWoukH7Wza-2FSsQnZCd4KNyaG0hj0s4-2B5apMkbNf5dQCqkF32lYV2PoiLn9a3CPQ-3D-3D'
+// Block is registered with TTS as "MD United U12G (2014/2015) South Calvert" — confirm which
+// U12 roster that maps to before attaching it to a team row.
+const NCFC_U12_SOUTHCALVERT_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTooGaJLoj4mBHUwIFF7pd-2BEY7XP-_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8zftzC71Vzsh4KzFg73Nb-2B2kiXwGFHqqtYnFt2sBqL75Wb5NuQ69AlbWr83iRwB9QhJAZJEqzl9N4YBWJ8RRcaGvR1kRHnnKFhKDcPGI5Mv76Qr2CMD8pNtLzxjMpkEVEWu9i4IQET3MjzlChDrLBcPYLE0eBCvvhXYN1XpYpl9Q-3D-3D'
+
 // Conference away-game rosters differ by season:
 //   Fall  = U12 Pre-ECNL & Pre-ECNL RL, U13–U14 ECNL & ECNL RL
 //   Spring = U11 Pre-ECNL, plus U12–U18/19 ECNL & ECNL RL (U11 is spring-only)
@@ -294,11 +302,26 @@ export const events = [
   // ================= PENDING — Non-ECNL travel events (applied; NOT yet confirmed) =================
   {
     no: 13, sortDate: '2026-11-07', ages: ['U10', 'U11', 'U12', 'U13', 'U14'],
-    teamsList: ['U10 White', 'U11 Pre-ECNL RL', 'U12 Pre-ECNL', 'U12 Pre-ECNL RL', 'U13 ECNL RL', 'U14 ECNL RL'],
-    confirmed: true, action: false, travel: 'drive',
+    confirmed: true, action: true, travel: 'drive',
     league: 'Showcase', name: 'NCFC Girls Junior Showcase',
-    dates: 'Nov 7–8, 2026', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
-    note: 'Non-ECNL travel showcase (NCFC visitRaleigh.com Girls Junior Showcase).', teams: [],
+    dates: 'Nov 7–8, 2026 (Sat–Sun)', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
+    note: 'Hotel blocks are open through Team Travel Source — ROOMS RELEASE WEDNESDAY, SEPT 23, so book before then or unclaimed rooms go back to general inventory. Blocks are in place for the U13 and U14 ECNL RL below. A fourth U12 block is held at the La Quinta Inn by Wyndham Raleigh Durham Airport (32 room nights) under the name “MD United U12G (2014/2015) South Calvert” — U12 families, check with your team manager before booking that one. More blocks to follow. Questions: Team Travel Source, (502) 354-9103.',
+    teams: [
+      { team: 'U10 White', bookDeadline: 'Wed, Sep 23 (rooms release)', teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U11 Pre-ECNL RL', bookDeadline: 'Wed, Sep 23 (rooms release)', teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U12 Pre-ECNL', bookDeadline: 'Wed, Sep 23 (rooms release)', teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U12 Pre-ECNL RL', bookDeadline: 'Wed, Sep 23 (rooms release)', teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U13 ECNL RL', bookDeadline: 'Wed, Sep 23 (rooms release)',
+        teamCode: 'Group G-00777460', hotelLink: NCFC_U13RL_BOOKING,
+        hotels: [
+          { name: 'Holiday Inn Express & Suites Research Triangle Park', address: 'Research Triangle Park, Durham, NC', rooms: '36 room nights held · Group G-00777460', bookLink: NCFC_U13RL_BOOKING },
+        ] },
+      { team: 'U14 ECNL RL', bookDeadline: 'Wed, Sep 23 (rooms release)',
+        teamCode: 'Group G-00773628', hotelLink: NCFC_U14RL_BOOKING,
+        hotels: [
+          { name: 'Holiday Inn Express & Suites Raleigh Durham Airport', address: 'Raleigh Durham Airport, Morrisville, NC', rooms: '36 room nights held · Group G-00773628', bookLink: NCFC_U14RL_BOOKING },
+        ] },
+    ],
   },
   {
     no: 14, sortDate: '2026-11-20', ages: ['U15', 'U16'],
