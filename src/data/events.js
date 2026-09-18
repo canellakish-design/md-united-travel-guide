@@ -436,19 +436,19 @@ export const events = [
       { team: 'U14 ECNL RL', time: '2:00 PM · Field 5', overnight: false },
     ],
     teams: [] },
-  { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
-    ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
-    name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026', location: 'PDA White, New Jersey',
-    note: 'Sunday game times are still being finalized with PDA White — please hold off on booking hotels for this one. Teams also play at PDA Blue on Saturday (Sep 26), so we expect most families will stay over Saturday night; we’ll confirm and flag who needs to book as soon as the times are locked.',
-    // Hold parents off booking until Sunday times are released (per Harry). Flip action:true
-    // and set overnight true/false per team once PDA publishes the Sunday schedule.
+  { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
+    ages: ['U13', 'U14'], teamsList: ['U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
+    name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026', location: 'Toms River, NJ',
+    venue: 'Toms River High School North, 1245 Old Freehold Rd, Toms River, NJ 08753 — Field 1',
+    note: 'Sunday times are confirmed. NOTE THE VENUE: this one is NOT at the PDA complex — all four games are at Toms River High School North, Field 1, about an hour southeast of Somerset. Every team plays PDA Blue in Somerset on Saturday (Sep 26), so all four should stay Saturday night and allow driving time Sunday morning — for the 9:00 AM U14 ECNL kickoff that means leaving around 7:15 AM. Only the U13 and U14 teams play this fixture; the U12s are not in it.',
+    // Sunday 9/27 kickoffs confirmed Sep 17 (ECNL league services). All four games on one
+    // field at Toms River HS North — NOT the PDA Somerset complex. Everyone stays Sat night
+    // regardless of kickoff, because all four play at PDA Blue on Saturday.
     games: [
-      { team: 'U12 Pre-ECNL', time: 'Sun — TBD', overnight: null },
-      { team: 'U12 Pre-ECNL RL', time: 'Sun — TBD', overnight: null },
-      { team: 'U13 ECNL', time: 'Sun — TBD', overnight: null },
-      { team: 'U13 ECNL RL', time: 'Sun — TBD', overnight: null },
-      { team: 'U14 ECNL', time: 'Sun — TBD', overnight: null },
-      { team: 'U14 ECNL RL', time: 'Sun — TBD', overnight: null },
+      { team: 'U14 ECNL', time: '9:00 AM · Field 1', overnight: true },
+      { team: 'U13 ECNL', time: '10:30 AM · Field 1', overnight: true },
+      { team: 'U14 ECNL RL', time: '12:00 PM · Field 1', overnight: true },
+      { team: 'U13 ECNL RL', time: '1:30 PM · Field 1', overnight: true },
     ],
     teams: [] },
   { no: 20, sortDate: '2026-10-24', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
