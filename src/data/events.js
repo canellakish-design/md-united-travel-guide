@@ -440,7 +440,7 @@ export const events = [
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
     name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026', location: 'Toms River, NJ',
     venue: 'Toms River High School North, 1245 Old Freehold Rd, Toms River, NJ 08753 — Field 1',
-    note: 'Sunday times are confirmed, and NOTE THE VENUES: none of this is at the PDA complex — everything is in Toms River, about an hour southeast of Somerset, ACROSS TWO SITES. The U13s and U14s play Toms River High School North, Field 1 (1245 Old Freehold Rd). The two U12s play Walnut Street Elementary School, Field 1 (60 Walnut St) — about 5 minutes away, so check your own team’s row below before setting off. All six teams play PDA Blue in Somerset on Saturday (Sep 26), so everyone stays Saturday night and needs driving time Sunday morning — for a 9:00 AM kickoff that means leaving around 7:15 AM.',
+    note: 'Sunday times are confirmed. Note this is not at the PDA complex — it’s in Toms River, about an hour southeast of Somerset. Your team’s field and kickoff are listed below. All six teams play PDA Blue in Somerset on Saturday (Sep 26), so everyone stays Saturday night and needs driving time Sunday morning — for a 9:00 AM kickoff that means leaving around 7:15 AM.',
     // Sunday 9/27 kickoffs confirmed Sep 17-18 (ECNL league services). TWO venues, both in
     // Toms River, NOT the PDA Somerset complex: U13/U14 at Toms River HS North Field 1,
     // U12s at Walnut Street Elementary Field 1. U12 Flight I = Pre-ECNL (Campbell/Garrick),
