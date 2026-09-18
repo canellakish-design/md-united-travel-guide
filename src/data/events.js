@@ -437,18 +437,21 @@ export const events = [
     ],
     teams: [] },
   { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
-    ages: ['U13', 'U14'], teamsList: ['U13 ECNL', 'U13 ECNL RL', 'U14 ECNL', 'U14 ECNL RL'],
+    ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
     name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026', location: 'Toms River, NJ',
     venue: 'Toms River High School North, 1245 Old Freehold Rd, Toms River, NJ 08753 — Field 1',
-    note: 'Sunday times are confirmed. NOTE THE VENUE: this one is NOT at the PDA complex — all four games are at Toms River High School North, Field 1, about an hour southeast of Somerset. Every team plays PDA Blue in Somerset on Saturday (Sep 26), so all four should stay Saturday night and allow driving time Sunday morning — for the 9:00 AM U14 ECNL kickoff that means leaving around 7:15 AM. Only the U13 and U14 teams play this fixture; the U12s are not in it.',
-    // Sunday 9/27 kickoffs confirmed Sep 17 (ECNL league services). All four games on one
-    // field at Toms River HS North — NOT the PDA Somerset complex. Everyone stays Sat night
-    // regardless of kickoff, because all four play at PDA Blue on Saturday.
+    note: 'Sunday times are confirmed, and NOTE THE VENUES: none of this is at the PDA complex — everything is in Toms River, about an hour southeast of Somerset, ACROSS TWO SITES. The U13s and U14s play Toms River High School North, Field 1 (1245 Old Freehold Rd). The two U12s play Walnut Street Elementary School, Field 1 (60 Walnut St) — about 5 minutes away, so check your own team’s row below before setting off. All six teams play PDA Blue in Somerset on Saturday (Sep 26), so everyone stays Saturday night and needs driving time Sunday morning — for a 9:00 AM kickoff that means leaving around 7:15 AM.',
+    // Sunday 9/27 kickoffs confirmed Sep 17-18 (ECNL league services). TWO venues, both in
+    // Toms River, NOT the PDA Somerset complex: U13/U14 at Toms River HS North Field 1,
+    // U12s at Walnut Street Elementary Field 1. U12 Flight I = Pre-ECNL (Campbell/Garrick),
+    // Flight II = Pre-ECNL RL (KJ). Everyone stays Sat night — all six play PDA Blue Saturday.
     games: [
-      { team: 'U14 ECNL', time: '9:00 AM · Field 1', overnight: true },
-      { team: 'U13 ECNL', time: '10:30 AM · Field 1', overnight: true },
-      { team: 'U14 ECNL RL', time: '12:00 PM · Field 1', overnight: true },
-      { team: 'U13 ECNL RL', time: '1:30 PM · Field 1', overnight: true },
+      { team: 'U12 Pre-ECNL', time: '9:00 AM · Walnut St Elementary, Field 1', overnight: true },
+      { team: 'U12 Pre-ECNL RL', time: '10:30 AM · Walnut St Elementary, Field 1', overnight: true },
+      { team: 'U14 ECNL', time: '9:00 AM · Toms River HS North, Field 1', overnight: true },
+      { team: 'U13 ECNL', time: '10:30 AM · Toms River HS North, Field 1', overnight: true },
+      { team: 'U14 ECNL RL', time: '12:00 PM · Toms River HS North, Field 1', overnight: true },
+      { team: 'U13 ECNL RL', time: '1:30 PM · Toms River HS North, Field 1', overnight: true },
     ],
     teams: [] },
   { no: 20, sortDate: '2026-10-24', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
