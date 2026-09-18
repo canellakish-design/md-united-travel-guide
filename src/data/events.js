@@ -170,7 +170,7 @@ export const events = [
     no: 3, sortDate: '2026-10-03', ages: ['U11', 'U12'], confirmed: true, action: false, closed: true, travel: 'either',
     league: 'Pre-ECNL', name: 'Pre-ECNL Carolina Cup',
     dates: 'Oct 3–4, 2026 (Sat–Sun)', location: 'Wilmington, NC',
-    note: 'Hotel booking closed Sun, Aug 16. Both teams are at the Hampton Inn Wilmington — 2 Queen Beds w/ breakfast, $140/night, 2 nights (Fri 10/2 & Sat 10/3). Coach Steve Campbell’s room is in the U12 block. If you still need a room, contact your team manager.',
+    note: 'Hotel booking closed Sun, Aug 16. Both teams are at the Hampton Inn Wilmington — 2 Queen Beds w/ breakfast, $140/night, 2 nights (Fri 10/2 & Sat 10/3). Coach Steve Campbell’s room is in the U12 block. Rooms still needed: contact your team manager.',
     teams: [
       {
         team: 'U11 Pre-ECNL', bookDeadline: 'Sun, Aug 16 @ 7:00 PM',
@@ -196,7 +196,7 @@ export const events = [
     no: 4, sortDate: '2026-10-31', ages: ['U10', 'U11', 'U12'], confirmed: true, action: false, closed: true, travel: 'drive',
     league: 'Pre-ECNL', name: 'Pre-ECNL East Coast Cup',
     dates: 'Oct 31 – Nov 1, 2026 (Sat–Sun)', location: 'Richmond, VA',
-    note: 'Hotel booking closed Sun, Sep 6 @ 7:00 PM. All five teams check in Friday, Oct 30 (2 nights, Fri & Sat). If you still need a room, contact your team manager, or EventConnect at (888) 723-2064.',
+    note: 'Hotel booking closed Sun, Sep 6 @ 7:00 PM. All five teams check in Friday, Oct 30 (2 nights, Fri & Sat). Rooms still needed: contact your team manager or EventConnect, (888) 723-2064.',
     teams: [
       { team: 'U10 Red', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
         arrivalDate: 'Fri, Oct 30', nights: '2 · Fri·Sat',
@@ -278,7 +278,7 @@ export const events = [
     no: 10, sortDate: '2027-01-08', ages: ['U17', 'U18/19'], teamsList: ['U17 ECNL RL', 'U18/19 ECNL RL'], confirmed: true, action: false, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Winter',
     dates: 'Jan 8–10, 2027 (Fri–Sun)', location: 'Sanford, FL',
-    note: 'Both the U17 and U18/19 ECNL RL are placed in this event. Hotel and flight details will follow.', teams: [],
+    note: 'U17 and U18/19 ECNL RL placed. Hotel and flight details to follow.', teams: [],
   },
   // ── OFF the guide (per Win, Sep 12): ECNL RL Florida — Spring (Feb 26–28) is Leaders Cup
   //    qualifiers only at U15–U17; we are NOT attending. Restore if that changes. ──
@@ -292,7 +292,7 @@ export const events = [
     no: 12, sortDate: '2027-05-28', ages: ['U15', 'U16'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL'], confirmed: true, action: false, travel: 'drive',
     league: 'ECNL RL', name: 'ECNL RL Girls North Carolina',
     dates: 'May 28–30, 2027 (Fri–Sun)', location: 'Winston-Salem, NC',
-    note: 'U15 and U16 ECNL RL are in. (U17 RL is not placed in this event.)', teams: [],
+    note: 'U15 and U16 ECNL RL placed. U17 ECNL RL not placed in this event.', teams: [],
   },
 
   // NOTE: WAGS Tournament (Oct 10–12, Northern VA — U12 RL + 13/14 ECNL & RL) is deliberately
@@ -304,7 +304,7 @@ export const events = [
     confirmed: true, action: true, travel: 'drive',
     league: 'Showcase', name: 'NCFC Girls Junior Showcase',
     dates: 'Nov 7–8, 2026 (Sat–Sun)', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
-    note: 'Hotel blocks are open through Team Travel Source — ROOMS RELEASE WEDNESDAY, SEPT 23, so book before then or unclaimed rooms go back to general inventory. Blocks are in place for U12 South Calvert and the U13 and U14 ECNL RL below; more to follow for the remaining teams. Questions: Team Travel Source, (502) 354-9103.',
+    note: 'Hotel blocks are open through Team Travel Source. Rooms release Wednesday, Sept 23; unclaimed rooms return to general inventory. Blocks in place for U12 South Calvert, U13 ECNL RL and U14 ECNL RL below; remaining teams to follow. Team Travel Source: (502) 354-9103.',
     teams: [
       { team: 'U10 White', bookDeadline: 'Wed, Sep 23 (rooms release)', teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U11 Pre-ECNL RL', bookDeadline: 'Wed, Sep 23 (rooms release)', teamCode: '', hotelLink: '', hotels: [] },
@@ -333,7 +333,7 @@ export const events = [
     confirmed: true, action: false, travel: 'drive',
     league: 'Showcase', name: 'NCFC Girls College Showcase',
     dates: 'Nov 20–22, 2026', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
-    note: 'Non-ECNL travel showcase (NCFC visitRaleigh.com Girls College Showcase). Premier teams only — the ECNL RL teams play the PDA Girls Invitational (Nov 21–22) that same weekend, not this event.', teams: [],
+    note: 'Premier teams only. The ECNL RL teams play the PDA Girls Invitational (Nov 21–22) that weekend.', teams: [],
   },
   {
     no: 15, sortDate: '2026-11-21', ages: ['U15', 'U16', 'U17', 'U18/19'],
@@ -341,7 +341,7 @@ export const events = [
     confirmed: false, action: true, travel: 'drive',
     league: 'Showcase', name: 'PDA Girls Invitational (Thanksgiving Showcase)',
     dates: 'Nov 21–22, 2026 (Sat–Sun)', location: 'New Jersey', venue: PDA_COMPLEX,
-    note: 'Our application is submitted and we expect acceptance shortly — please go ahead and BOOK YOUR ROOMS NOW, because the blocks are already held in our name and the deadline is firm: FRIDAY, SEPT 25 @ 8:00 AM. All blocks are Friday & Saturday nights (check in Fri, Nov 20 · check out Sun, Nov 22). Use your team’s Book link and TEAM CODE below — codes use a DOUBLE dash, and note PDA--O9 / PDA--O4 are the LETTER O, not zero. Please contact On Location Anthony Travel at (866) 386-0059 if you need help making your reservation.',
+    note: 'Participation applied for; acceptance pending. Hotel blocks are held and open for booking through On Location / Anthony Travel. Book by Friday, Sept 25 @ 8:00 AM. All blocks are Friday & Saturday nights (check in Fri, Nov 20 · check out Sun, Nov 22). Team codes below use a double dash; PDA--O9 and PDA--O4 use the letter O, not zero. On Location Anthony Travel: (866) 386-0059.',
     coverage: SARA_COVER,
     teams: [
       { team: 'U15 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
@@ -402,7 +402,7 @@ export const events = [
     no: 17, sortDate: '2027-05-28', ages: ['U17'], teamsList: ['U17 ECNL RL'], confirmed: false, action: false, travel: 'drive',
     league: 'Showcase', name: 'PDA Memorial Day',
     dates: 'Memorial Day weekend, May 2027 — dates being finalized', location: 'New Jersey',
-    note: 'Only the U17 ECNL RL are going. Memorial Day falls late this year, so this lands the same weekend as ECNL RL North Carolina — final dates are being adjusted. The 13s and 14s may be added as well (TBD).', teams: [],
+    note: 'U17 ECNL RL only. Dates being finalized — Memorial Day falls late in 2027 and this currently overlaps ECNL RL North Carolina (May 28–30). U13 and U14 attendance TBD.', teams: [],
   },
 
   // ================= CONFIRMED — ECNL Wilmington (U13/U14) =================
@@ -424,7 +424,7 @@ export const events = [
   { no: 18, sortDate: '2026-09-26', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
     name: 'League @ PDA Blue', dates: 'Sat, Sep 26, 2026', location: 'PDA Blue Main Complex, Somerset, NJ', venue: PDA_COMPLEX,
-    note: 'Schedule update (Aug 26, from PDA): ECNL’s new 9v9 field-size rule moved both U12 games to Field 7 (grass), and the U12 Pre-ECNL RL kickoff moved to 4:00 PM — that team NO longer needs the Friday-night stay.',
+    note: 'Schedule change (Aug 26, from PDA): under ECNL’s new 9v9 minimum field size, both U12 games moved to Field 7 (grass) and the U12 Pre-ECNL RL kickoff moved to 4:00 PM — no Friday night needed for that team.',
     // NJ venue: overnight if kickoff before 1:00 PM. Times/fields per Sandra O'Neill (PDA), Aug 26,
     // cross-checked against the PlayMetrics team calendars.
     games: [
@@ -440,7 +440,7 @@ export const events = [
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
     name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026', location: 'Toms River, NJ',
     venue: 'Toms River High School North, 1245 Old Freehold Rd, Toms River, NJ 08753 — Field 1',
-    note: 'Sunday times are confirmed. Note this is not at the PDA complex — it’s in Toms River, about an hour southeast of Somerset. Your team’s field and kickoff are listed below. All six teams play PDA Blue in Somerset on Saturday (Sep 26), so everyone stays Saturday night and needs driving time Sunday morning — for a 9:00 AM kickoff that means leaving around 7:15 AM.',
+    note: 'Sunday times and fields are listed below. Venue is in Toms River, NJ — not the PDA complex. All six teams play PDA Blue in Somerset on Saturday (Sep 26) and stay Saturday night.',
     // Sunday 9/27 kickoffs confirmed Sep 17-18 (ECNL league services). TWO venues, both in
     // Toms River, NOT the PDA Somerset complex: U13/U14 at Toms River HS North Field 1,
     // U12s at Walnut Street Elementary Field 1. U12 Flight I = Pre-ECNL (Campbell/Garrick),
@@ -486,7 +486,7 @@ export const events = [
     teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
     name: 'League Cup @ PDA Blue', dates: 'Sun, Dec 13, 2026', location: 'PDA Blue, New Jersey', venue: PDA_COMPLEX,
     coverage: SARA_COVER,
-    note: 'Sunday AWAY game at PDA Blue (NJ), per the league schedule. Note: every team also has a HOME League Cup game Saturday, Dec 12 (vs Match Fit) — so all teams play in MD Saturday, then drive to NJ and stay Saturday night before Sunday’s game. Kickoffs below are confirmed in PlayMetrics/Athlete One (ECNL teams on Field 5, RL teams on Field 3). U15 ECNL RL is shown with the same slot as U15 ECNL — confirm once its schedule posts.',
+    note: 'Away game at PDA Blue, NJ. All teams also have a home League Cup game Saturday, Dec 12 (vs Match Fit) in Maryland, then travel to NJ and stay Saturday night. Kickoffs below from Athlete One: ECNL teams on Field 5, RL teams on Field 3.',
     // Away in NJ, but all teams have a Sat 12/12 home game first, so everyone stays Sat night.
     // Times from the PlayMetrics team calendars (League Cup schedules activated in A1, Aug 27).
     games: [
