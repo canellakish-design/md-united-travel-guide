@@ -90,8 +90,28 @@ const ECC_U12RL_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCS
 // (blocks created by Jen, Sep 16; rooms release back to general inventory Wed, Sep 23).
 const NCFC_U13RL_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTorSOl4l-2F3OFgm3Y-2B5O8mMKmCclK_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr9vFd1Nu-2F-2Fdx-2Bva-2Bb-2BEM4etJCm6gXu1ZcAt70AsgZoTARgCT9MJnuvOJg1mmtbdGSxpsEZEujjmWavhof1f69bAUQR9pPBVdGxZ4bAlkQEpaLA8GoZCgfF0IPBp8tKllUrj3IZq2Pz0F9Jv5zM4ZGVga4Ev-2B6Qr-2Bq7nFwWv9A3muQ-3D-3D'
 const NCFC_U14RL_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTorl0eU34jHx3rvffjHmsIv8udQJ_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr97Nq8Vakr8stFpll0ayDuRWx-2BtbnV-2FYUzil4SthhgTUkprs-2FPSUS7D0-2FKrORx0ucUaW1-2FBXus3vIZbwhZCkdaQKs1yurB-2FWHd41ecxe014qa4wWoukH7Wza-2FSsQnZCd4KNyaG0hj0s4-2B5apMkbNf5dQCqkF32lYV2PoiLn9a3CPQ-3D-3D'
-// Block is registered with TTS as "MD United U12G (2014/2015) South Calvert".
 const NCFC_U12_SOUTHCALVERT_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTooGaJLoj4mBHUwIFF7pd-2BEY7XP-_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8zftzC71Vzsh4KzFg73Nb-2B2kiXwGFHqqtYnFt2sBqL75Wb5NuQ69AlbWr83iRwB9QhJAZJEqzl9N4YBWJ8RRcaGvR1kRHnnKFhKDcPGI5Mv76Qr2CMD8pNtLzxjMpkEVEWu9i4IQET3MjzlChDrLBcPYLE0eBCvvhXYN1XpYpl9Q-3D-3D'
+
+const NCFC_U10WHITE_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTorMgkw1bPo4o50ndZaMF8lif-iA_VsVQwjg8Bs8wrF-2BBehcYDvxmWShX-2B9Ih5JEDiOhUEcTdRoylXQR7Eld3jb0yWvCUo3Rl-2B2T0cFfnEjMV-2B7e8FCIJJHSNYyOA8Px5iOQ5feHL224wepYK0iW3uTxHNpPgLmJzuQPVkciS4hW0ksl0xP2UiKslAsnh0tMNOk3rc7o04FaMcMt4SzFVQ7s4KYHpwrHEjtZYgCmYYQtQAuw5bsGlIqJ4lZbOcI0jfytOPtM-3D'
+
+// NCFC Girls College Showcase (Raleigh, Nov 20–22) — Team Travel Source group blocks
+// (created by Jen, Sep 16; rooms release Wed, Sep 23). Block window is Thu Nov 19 – Sun Nov 22.
+const NCFC_U15PREM_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeU5HVbyHC6PwlPdrAeqwtrGEluRBWxD5HpPZMeTluW3cmkBtxyknHNqTxQXoyZWORbeddOkAuV-2FpC4w9Q5k1oNMnFgX_VsVQwjg8Bs8wrF-2BBehcYDvxmWShX-2B9Ih5JEDiOhUEcQ4JBiyh4KU3mORpjRUnBobbtJe-2BXxXsoUrcriWXqVTbXrSNrg6jBuUXwQViKtlGQq6gkEt3N5ffUPJvXRsd-2BrHm0qyAccRcCANh0COL49XOseo3E0Q-2Fz4S8-2B4sb4nVsXnOk2OZ2K2qkJXknGlyfPfI94KoGR4Vh3DXFIEBDrDr2w-3D-3D'
+const NCFC_U16PREM_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeU5HVbyHC6PwlPdrAeqwtrGEluRBWxD5HpPZMeTluW3cmkBtxyknHNqTxQXoyZWORb-2BMMBTiTX0Mb2FraVa2958o-fy_VsVQwjg8Bs8wrF-2BBehcYDvxmWShX-2B9Ih5JEDiOhUEcT4OVwby2JrApQDi1ZuZ6fPtbE2w1IB4-2F8jd-2Bcv7WzHc7wc-2FT78MeWVy8kbDmptWeZ74yboZYm8kHiIp4JK-2BeXRtrup9zq48LrgPEPDKkSQH2O151u4InTpDIwiWr6wzh9ilN9k8euCkN6OGo0cDkZIXODkjGOX06lEujAh2IYJFQ-3D-3D'
+
+// Booking instructions supplied by Jen Pagliaro for both NCFC weekends (Team Travel Source
+// stay-to-play platform). Wording is hers; capitalisation normalised per house style.
+const NCFC_BOOKING_STEPS = [
+  'Hotel reservations for this stay-to-play event must be made through Team Travel Source (TTS).',
+  'Click your team’s hotel reservation link below.',
+  'Use your team code to access your team hotel reservation page.',
+  'In the “Age Division” drop-down, select any field for your age group to reach your team hotel. Team divisions and field assignments are pending.',
+  'Select your check-in and check-out dates.',
+  'Select your room type and number of rooms.',
+  'Complete your reservation with your personal information and credit card.',
+  'You will receive an email confirmation once your reservation is complete.',
+  'Booking help: Team Travel Source, (502) 354-9103.',
+]
 
 // Conference away-game rosters differ by season:
 //   Fall  = U12 Pre-ECNL & Pre-ECNL RL, U13–U14 ECNL & ECNL RL
@@ -304,9 +324,14 @@ export const events = [
     confirmed: true, action: true, travel: 'drive',
     league: 'Showcase', name: 'NCFC Girls Junior Showcase',
     dates: 'Nov 7–8, 2026 (Sat–Sun)', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
-    note: 'Hotel blocks are open through Team Travel Source. Rooms release Wednesday, Sept 23; unclaimed rooms return to general inventory. Blocks in place for U12 South Calvert, U13 ECNL RL and U14 ECNL RL below; remaining teams to follow. Team Travel Source: (502) 354-9103.',
+    note: 'Hotel blocks are open through Team Travel Source. Rooms release Wednesday, Sept 23; unclaimed rooms return to general inventory. Blocks in place for U10 White, U12 South Calvert, U13 ECNL RL and U14 ECNL RL below. U11 Pre-ECNL RL, U12 Pre-ECNL and U12 Pre-ECNL RL are not yet listed as accepted in the hotel portal (Jen, Sept 20).',
+    bookingSteps: NCFC_BOOKING_STEPS,
     teams: [
-      { team: 'U10 White', bookDeadline: 'Wed, Sep 23 (rooms release)', teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U10 White', bookDeadline: 'Wed, Sep 23 (rooms release)',
+        teamCode: 'Group G-00773636', hotelLink: NCFC_U10WHITE_BOOKING,
+        hotels: [
+          { name: 'La Quinta Inn by Wyndham Raleigh Durham Airport', address: 'Raleigh Durham Airport, Morrisville, NC', rooms: '24 room nights held · Group G-00773636', bookLink: NCFC_U10WHITE_BOOKING },
+        ] },
       { team: 'U11 Pre-ECNL RL', bookDeadline: 'Wed, Sep 23 (rooms release)', teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U12 Pre-ECNL', bookDeadline: 'Wed, Sep 23 (rooms release)', teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U12 Pre-ECNL RL', bookDeadline: 'Wed, Sep 23 (rooms release)', teamCode: '', hotelLink: '', hotels: [] },
@@ -329,11 +354,23 @@ export const events = [
   },
   {
     no: 14, sortDate: '2026-11-20', ages: ['U15', 'U16'],
-    teamsList: ['U15 Premier', 'U16 Premier'],
-    confirmed: true, action: false, travel: 'drive',
+    confirmed: true, action: true, travel: 'drive',
     league: 'Showcase', name: 'NCFC Girls College Showcase',
     dates: 'Nov 20–22, 2026', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
-    note: 'Premier teams only. The ECNL RL teams play the PDA Girls Invitational (Nov 21–22) that weekend.', teams: [],
+    note: 'Premier teams only. The ECNL RL teams play the PDA Girls Invitational (Nov 21–22) that weekend. Hotel blocks are open through Team Travel Source, held Thu Nov 19 – Sun Nov 22. Rooms release Wednesday, Sept 23; unclaimed rooms return to general inventory.',
+    bookingSteps: NCFC_BOOKING_STEPS,
+    teams: [
+      { team: 'U15 Premier', bookDeadline: 'Wed, Sep 23 (rooms release)',
+        teamCode: 'Group G-00773786', hotelLink: NCFC_U15PREM_BOOKING,
+        hotels: [
+          { name: 'Candlewood Suites Rocky Mount', address: 'Rocky Mount, NC', rooms: '51 room nights held · Group G-00773786', bookLink: NCFC_U15PREM_BOOKING },
+        ] },
+      { team: 'U16 Premier', bookDeadline: 'Wed, Sep 23 (rooms release)',
+        teamCode: 'Group G-00773815', hotelLink: NCFC_U16PREM_BOOKING,
+        hotels: [
+          { name: 'Home2 Suites by Hilton Durham Chapel Hill', address: 'Durham, NC', rooms: '54 room nights held · Group G-00773815', bookLink: NCFC_U16PREM_BOOKING },
+        ] },
+    ],
   },
   {
     no: 15, sortDate: '2026-11-21', ages: ['U15', 'U16', 'U17', 'U18/19'],

@@ -255,6 +255,26 @@ a { color: inherit; }
 .event-note { margin: 14px 0 0; color: var(--muted); font-size: 14px; }
 .event-empty { margin: 14px 0 4px; color: var(--muted); font-size: 14px; }
 
+/* ---------- Booking steps ---------- */
+.booking-steps {
+  margin: 16px 0 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fafafa;
+}
+.booking-steps h3 {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.booking-steps ol { margin: 0; padding-left: 20px; }
+.booking-steps li { font-size: 14px; line-height: 1.5; margin-bottom: 6px; }
+.booking-steps li:last-child { margin-bottom: 0; }
+
 .team-list { display: flex; flex-direction: column; gap: 14px; margin-top: 16px; }
 
 /* ---------- Team ---------- */

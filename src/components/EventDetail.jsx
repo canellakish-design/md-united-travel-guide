@@ -54,6 +54,15 @@ export default function EventDetail({ event }) {
       {guidance && <p className={`guidance guidance-${guidance.cls}`}>{guidance.text}</p>}
       {event.note && <p className="event-note">{event.note}</p>}
 
+      {event.bookingSteps && event.bookingSteps.length > 0 && (
+        <div className="booking-steps">
+          <h3>How to book</h3>
+          <ol>
+            {event.bookingSteps.map((step, i) => <li key={i}>{step}</li>)}
+          </ol>
+        </div>
+      )}
+
       {hasTeams ? (
         <div className="team-list">
           {event.teams.map((team, i) => (
