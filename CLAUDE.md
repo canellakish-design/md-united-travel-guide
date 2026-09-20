@@ -45,6 +45,12 @@ read from it.
 Overnight rule for league away games: New Jersey venues, stay the night before if
 kickoff is before 1:00 PM; elsewhere, before 11:00 AM.
 
+For travel showcases and tournaments, teams almost always arrive the night before
+the first day of play. A hotel block that opens a night ahead of the event dates
+is normal, not a mistake — set `arrivalDate` and `nights` accordingly. It isn't
+universal though, so follow the block dates and kickoff times when they say
+otherwise (e.g. a late first kickoff can make a same-day arrival right).
+
 ## Never guess a team mapping
 
 Booking systems label teams differently from this guide — birth-year pairs

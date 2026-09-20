@@ -357,15 +357,17 @@ export const events = [
     confirmed: true, action: true, travel: 'drive',
     league: 'Showcase', name: 'NCFC Girls College Showcase',
     dates: 'Nov 20–22, 2026', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
-    note: 'Premier teams only. The ECNL RL teams play the PDA Girls Invitational (Nov 21–22) that weekend. Hotel blocks are open through Team Travel Source, held Thu Nov 19 – Sun Nov 22. Rooms release Wednesday, Sept 23; unclaimed rooms return to general inventory.',
+    note: 'Premier teams only. The ECNL RL teams play the PDA Girls Invitational (Nov 21–22) that weekend. Hotel blocks are open through Team Travel Source. Rooms release Wednesday, Sept 23; unclaimed rooms return to general inventory.',
     bookingSteps: NCFC_BOOKING_STEPS,
     teams: [
       { team: 'U15 Premier', bookDeadline: 'Wed, Sep 23 (rooms release)',
+        arrivalDate: 'Thu, Nov 19 (night before)', nights: '3 · Thu·Fri·Sat',
         teamCode: 'Group G-00773786', hotelLink: NCFC_U15PREM_BOOKING,
         hotels: [
           { name: 'Candlewood Suites Rocky Mount', address: 'Rocky Mount, NC', rooms: '51 room nights held · Group G-00773786', bookLink: NCFC_U15PREM_BOOKING },
         ] },
       { team: 'U16 Premier', bookDeadline: 'Wed, Sep 23 (rooms release)',
+        arrivalDate: 'Thu, Nov 19 (night before)', nights: '3 · Thu·Fri·Sat',
         teamCode: 'Group G-00773815', hotelLink: NCFC_U16PREM_BOOKING,
         hotels: [
           { name: 'Home2 Suites by Hilton Durham Chapel Hill', address: 'Durham, NC', rooms: '54 room nights held · Group G-00773815', bookLink: NCFC_U16PREM_BOOKING },
