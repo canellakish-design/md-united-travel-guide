@@ -320,11 +320,11 @@ export const events = [
 
   // ================= PENDING — Non-ECNL travel events (applied; NOT yet confirmed) =================
   {
-    no: 13, sortDate: '2026-11-07', ages: ['U10', 'U11', 'U12', 'U13', 'U14'],
+    no: 13, sortDate: '2026-11-07', ages: ['U10', 'U12', 'U13', 'U14'],
     confirmed: true, action: true, travel: 'drive',
     league: 'Showcase', name: 'NCFC Girls Junior Showcase',
     dates: 'Nov 7–8, 2026 (Sat–Sun)', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
-    note: 'Hotel blocks are open through Team Travel Source. Rooms release Wednesday, Sept 23; unclaimed rooms return to general inventory. Blocks in place for U10 White, U12 South Calvert, U13 ECNL RL and U14 ECNL RL below. U11 Pre-ECNL RL, U12 Pre-ECNL and U12 Pre-ECNL RL are not yet listed as accepted in the hotel portal (Jen, Sept 20).',
+    note: 'Four teams attend, per the club tournament plan: U10 White, U12 South Calvert, U13 ECNL RL and U14 ECNL RL. Hotel blocks are open through Team Travel Source. Rooms release Wednesday, Sept 23; unclaimed rooms return to general inventory.',
     bookingSteps: NCFC_BOOKING_STEPS,
     teams: [
       { team: 'U10 White', bookDeadline: 'Wed, Sep 23 (rooms release)',
@@ -332,9 +332,6 @@ export const events = [
         hotels: [
           { name: 'La Quinta Inn by Wyndham Raleigh Durham Airport', address: 'Raleigh Durham Airport, Morrisville, NC', rooms: '24 room nights held · Group G-00773636', bookLink: NCFC_U10WHITE_BOOKING },
         ] },
-      { team: 'U11 Pre-ECNL RL', bookDeadline: 'Wed, Sep 23 (rooms release)', teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U12 Pre-ECNL', bookDeadline: 'Wed, Sep 23 (rooms release)', teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U12 Pre-ECNL RL', bookDeadline: 'Wed, Sep 23 (rooms release)', teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U12 South Calvert', bookDeadline: 'Wed, Sep 23 (rooms release)',
         teamCode: 'Group G-00777448', hotelLink: NCFC_U12_SOUTHCALVERT_BOOKING,
         hotels: [
