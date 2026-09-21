@@ -25,6 +25,13 @@ Leave out:
 If a fact is uncertain, say it plainly and briefly, or leave it out. Don't pad it
 with hedging prose.
 
+## Working with Harry
+
+Don't ask questions unless he asks for them. Make the call, do the work, and say
+what you did and what you assumed. Where something is genuinely his decision or
+genuinely blocked, state it as a fact — "X is still pending because Y" — not as a
+question, an offer, or a "want me to…". He'll say if he wants something different.
+
 ## Data model
 
 One object per event in the `events` array:
