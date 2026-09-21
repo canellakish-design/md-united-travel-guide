@@ -32,6 +32,12 @@ what you did and what you assumed. Where something is genuinely his decision or
 genuinely blocked, state it as a fact — "X is still pending because Y" — not as a
 question, an offer, or a "want me to…". He'll say if he wants something different.
 
+Email he asks you to send goes out at the size of the ask. "Tell them it's up" is
+two lines and a link. Don't append status summaries, re-list information back to
+the person who supplied it, explain reasoning they didn't ask for, or hand people
+tasks he didn't give you. Extra context belongs in the reply to Harry, not in mail
+to his staff.
+
 ## Data model
 
 One object per event in the `events` array:
