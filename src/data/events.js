@@ -460,11 +460,11 @@ export const events = [
   { no: 18, sortDate: '2026-09-26', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
     name: 'League @ PDA Blue', dates: 'Sat, Sep 26, 2026', location: 'PDA Blue Main Complex, Somerset, NJ', venue: PDA_COMPLEX,
-    note: 'Schedule change (Aug 26, from PDA): under ECNL’s new 9v9 minimum field size, both U12 games moved to Field 7 (grass) and the U12 Pre-ECNL RL kickoff moved to 4:00 PM — no Friday night needed for that team.',
+    note: 'Schedule change (Aug 26, from PDA): under ECNL’s new 9v9 minimum field size, both U12 games moved to Field 7 (grass) and the U12 Pre-ECNL RL kickoff moved to 4:00 PM. Neither U12 team stays Friday night — the U12 Pre-ECNL Friday rooms have been cancelled.',
     // NJ venue: overnight if kickoff before 1:00 PM. Times/fields per Sandra O'Neill (PDA), Aug 26,
     // cross-checked against the PlayMetrics team calendars.
     games: [
-      { team: 'U12 Pre-ECNL', time: '12:00 PM · Field 7 (grass)', overnight: true },
+      { team: 'U12 Pre-ECNL', time: '12:00 PM · Field 7 (grass)', overnight: false },
       { team: 'U12 Pre-ECNL RL', time: '4:00 PM · Field 7 (grass)', overnight: false },
       { team: 'U13 ECNL', time: '10:00 AM · Field 1', overnight: true },
       { team: 'U14 ECNL', time: '12:00 PM · Field 5', overnight: true },
