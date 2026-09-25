@@ -86,6 +86,11 @@ const ECC_U11RL_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCS
 const ECC_U12_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFavKojd8IFN6IHmQoTChTGTZ4UmRrgOO5-2B6Illhi54Uqtb-2Fa7M4TieFZVvcPfONBVWC56O6UisLr3lDJVKeY6WIQmw7utaeFgfbUZWO5ujlyS-2FRCl0Ezg9dBlO56qFqsqoNKt5lKCfvwkdSQ2-2FZ8auKfGXhG9qA2EnYPcdpoXfoN3nJaHb2gUZA-2Br0UjJH-2FxxqUv7ngsTIv-2FGt198LhEQrza-2Bmi1-2FLsCOBoZWWtQPy-2BG9-2Fvp3yeuSvyHhN15o61AQE-3DeWTD_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKfLSROQg5VH8jzWqkSWGm-2BU9R27ldh3u2hpjNCQvTRmBIhi8g7lu16ejLVRUUy3INU7fJPQojIL3cCO60oGBuFWkv33kVTkcwZnde1sP-2BWSBD6vH4DQtb6C7wbxpSfR0QZFxxHS1zcprM9QYW2nnftcBg66kzQ3-2FWIoEDcRwnVWpGrl0gJfBeJyuY2d-2FlDXeQ3mC1ttYphaP7J56WBmrolxrQnpUxbJ-2FEZx0-2FEqBMqaYClWnrMz-2FLYEcg5uK0YcFX4Ou8DhFnhsyYZIWZd1782IZqEKIwsHC2GAFVPB3fH7v4iihYYuwXdjEjm06zhPqavgXHhc-2Fz-2BIXG16vQ3QlJCA-3D'
 const ECC_U12RL_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFavKojd8IFN6IHmQoTChTGTZ4UmRrgOO5-2B6Illhi54UqmpzHuDVozMM4r-2FTLVK71TITEMK-2Fy6atqekNrz1-2BqRpcSInmYsq8XppRDvWsw-2FU0mgjahaPQt-2B1b9wIdvQ4nZ3AV7Ap8rxRlSKULIkwAMLcr8y7yeHseg1B4kMpWSmDr9xGsOyT0TCrSld5imPyfDs-2FjxoqD0-2FAoVDzEE6gGGmm5OAh2UP9RKP-2Fm-2F7p0X51X-2FyIdFrLC7oaL3LTEO9e9x9o-3DIKhg_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKfLSROQg5VH8jzWqkSWGm-2BU9R27ldh3u2hpjNCQvTRmBIhi8g7lu16ejLVRUUy3INZ5McI2A-2FJIzi4fdYgObPFEqbR-2Bp-2Bfy-2BowT4slWnhuLfAFnLvtDmKha23AqDghYT3p1JqHhWsxLwWOg896dF8Tg0xWXijxrRNvObOw9IkmHllxh7AwTNRPqSMzdUEbv2UGhS5syaTa-2Fb-2Bo473UlLQ5nKb6A32lP-2FBqG9AHWBIw16TUmHwfbIoyTDwl-2FIk08Y-2FBXraqieJmL9pQZ1Fzot-2F9nisxXXkvfXY-2F0myfhlwwLHr6UFvXg4z9H9VYcHFbCd1cOp7-2FMRGGMVwtc9lvnCYmY-3D'
 
+// ECNL Girls Florida 2026 / Orlando (Sanford, Dec 5–7) EventConnect room-block booking links
+// (blocks created by Jen, Sep 24; booking open until Wed, Sep 30 @ 7:00 PM EST).
+const ORLANDO_U16_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFYFmZoJkQ0lU1VEPp6QkVyzHQXNpOjMFDz8i76FpTDGkRykh-2BZlDOgMI8RAXrnpla5ph4TlIbVWL1KcbrKbidHt8aajsOewu5NGovp9-2FDgccZntl91q-2FprStIwwnoT-2BlhPy84btfiUPnK7NodpRIlUxsuCik-2BSA1ndmHR2BoihW-2FAoSpyKSxoUFoSr03kuhcHN8kBa0qq5Ga6PTUCD1rTqtdinOgz6v8fLGOpfW01-2F8hkyr8w3u9vy29ZFlPwB48Sw-3DsjR6_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKbQbCYoRC3sY7cEBnhEroUM6QrQ-2BS-2B41xut4jDBm9OkXxZk5sRHzkV0Lfi449cfCL9Uv9e-2BtvpA4QRWa9EtrBXuJTaMIfe2eaxM03QIftOimyD-2ByMiBJ41MnfZnXf8C-2FvMUhqBKG-2FH6vWPDlbfzqM-2BqaJu0qYdyrxTx8X88VnSXBE-2B2nLnwwUmvr2XA9p12CciDXe5U-2Fcw5Izn3yFZ-2B1m3rgx6D-2Fizw6Rz04lJDyHa-2F7VVFtmvFw2nVCXL079HZr46BC9HAVkouP2BZ8q8bDl-2BlgQWe0LcSkfSkjAsk2bmWLwDQgEXFG19BRb4KC3EWTXuLSlwbT6vGaD0Pk0a-2BCvhY34YtnERUb4sUk5gxjSeGr'
+const ORLANDO_U17_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFYFmZoJkQ0lU1VEPp6QkVyzHQXNpOjMFDz8i76FpTDGkW0-2BOnlWyiN9BpovFh2iQrDfU9dJXurnWunLHLjGXnfTuaH5ZeoZ-2BKQBf1r1Yyvuae16f1C33aTxCbuu-2B-2FwbH4Fy6WGR7oKR1YQNU1WUuRgbkqoNaqgMjehs47QiywxGkZowMZvhG4UObeKYxu9Ijj77zT8vlX5x1rtowyveAX4FmAch0dn9vNToB0dS5xkpSEE4qDTiQmwQBAgrNJ9IILQ-3D6Vuc_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKbQbCYoRC3sY7cEBnhEroUM6QrQ-2BS-2B41xut4jDBm9OkXxZk5sRHzkV0Lfi449cfCL9yMTfUtKIc-2B7BCRhtFKsfYkjYSWYAeGSmZwgS6q-2FMAavqYZ5O8TsycMxiZc2lUL20I8n8DDsMTLYyf2CT8UzSfka28qX4-2Fjda7BgJ08PBTjuYLz8uv7r9ss09Eav2b9Sz45JGIpEBAD5W0-2FoCaDYIL9rWNOSyYRDDZ7zMK70Zax7ahLY4W4bCFbplsiEWwsk8nPFUBdU7o9cBL2WWDsHT4Y72NtJEEsVoDQ97tzs1-2Fl9N3R3wgIRCRdSJ-2BDzJy4ib6104QE62x4t0QChOyuGu9X1GFKYH6E9mjsku3CtvXs'
+
 // NCFC Girls Junior Showcase (Raleigh, Nov 7–8) — Team Travel Source group-block links
 // (blocks created by Jen, Sep 16; rooms release back to general inventory Wed, Sep 23).
 const NCFC_U13RL_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTorSOl4l-2F3OFgm3Y-2B5O8mMKmCclK_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr9vFd1Nu-2F-2Fdx-2Bva-2Bb-2BEM4etJCm6gXu1ZcAt70AsgZoTARgCT9MJnuvOJg1mmtbdGSxpsEZEujjmWavhof1f69bAUQR9pPBVdGxZ4bAlkQEpaLA8GoZCgfF0IPBp8tKllUrj3IZq2Pz0F9Jv5zM4ZGVga4Ev-2B6Qr-2Bq7nFwWv9A3muQ-3D-3D'
@@ -255,10 +260,21 @@ export const events = [
   {
     no: 5, sortDate: '2026-12-05', ages: ['U16', 'U17'], confirmed: true, action: true, travel: 'fly',
     league: 'ECNL', name: 'ECNL Orlando',
-    dates: 'Dec 5–7, 2026 (Sat–Mon)', location: 'Sanford (Orlando area), FL', note: '',
+    dates: 'Dec 5–7, 2026 (Sat–Mon)', location: 'Sanford (Orlando area), FL',
+    note: 'Both teams are in the same hotel. Blocks are held until Wed, Sep 30 at 7:00 PM.',
     teams: [
-      { team: 'U16 ECNL', players: 19, playerRooms: 19, coaches: 'Harry Canellakis', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U17 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U16 ECNL', players: 19, playerRooms: 19, coaches: 'Harry Canellakis', coachRooms: 1,
+        bookDeadline: 'Wed, Sep 30 @ 7:00 PM', arrivalDate: 'Fri, Dec 4 (night before)', nights: '3 · Fri·Sat·Sun',
+        teamCode: '#2341598', hotelLink: ORLANDO_U16_BOOKING,
+        hotels: [
+          { name: 'Courtyard Orlando Lake Buena Vista in the Marriott Village', address: '8623 Vineland Avenue, Orlando, FL', rooms: '18-room block · 2 Queen Beds, non-smoking · $152/night avg · 407-938-9001' },
+        ] },
+      { team: 'U17 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1,
+        bookDeadline: 'Wed, Sep 30 @ 7:00 PM', arrivalDate: 'Fri, Dec 4 (night before)', nights: '3 · Fri·Sat·Sun',
+        teamCode: '#2341600', hotelLink: ORLANDO_U17_BOOKING,
+        hotels: [
+          { name: 'Courtyard Orlando Lake Buena Vista in the Marriott Village', address: '8623 Vineland Avenue, Orlando, FL', rooms: '18-room block · 2 Queen Beds, non-smoking · $152/night avg · 407-938-9001' },
+        ] },
     ],
   },
   {
