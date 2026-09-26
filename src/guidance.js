@@ -1,5 +1,8 @@
 // Shared guidance-banner logic used by the event detail view.
 export function getGuidance(event, hasHotels) {
+  if (event.postponed) {
+    return { cls: 'closed', text: 'This fixture has been postponed. Do not travel or book hotels for this date. New details will be posted here once the reschedule is confirmed.' }
+  }
   if (event.closed) {
     return { cls: 'closed', text: 'Booking for this event has closed (deadline passed). Contact your team manager or the club office with any questions.' }
   }

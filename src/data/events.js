@@ -473,38 +473,37 @@ export const events = [
   // Families book their OWN hotel near the facility IF their team's kickoff meets the
   // overnight rule (NJ before 1 PM · elsewhere before 11 AM). No action until game times
   // are released; then flip action:true and list only the teams that qualify.
-  { no: 18, sortDate: '2026-09-26', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
+  { no: 18, sortDate: '2026-09-26', league: 'League', type: 'league', confirmed: true, action: false, postponed: true, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
-    name: 'League @ PDA Blue', dates: 'Sat, Sep 26, 2026', location: 'PDA Blue Main Complex, Somerset, NJ', venue: PDA_COMPLEX,
-    note: 'Schedule change (Aug 26, from PDA): under ECNL’s new 9v9 minimum field size, both U12 games moved to Field 7 (grass) and the U12 Pre-ECNL RL kickoff moved to 4:00 PM. Neither U12 team stays Friday night — the U12 Pre-ECNL Friday rooms have been cancelled.',
-    // NJ venue: overnight if kickoff before 1:00 PM. Times/fields per Sandra O'Neill (PDA), Aug 26,
-    // cross-checked against the PlayMetrics team calendars.
-    games: [
-      { team: 'U12 Pre-ECNL', time: '12:00 PM · Field 7 (grass)', overnight: false },
-      { team: 'U12 Pre-ECNL RL', time: '4:00 PM · Field 7 (grass)', overnight: false },
-      { team: 'U13 ECNL', time: '10:00 AM · Field 1', overnight: true },
-      { team: 'U14 ECNL', time: '12:00 PM · Field 5', overnight: true },
-      { team: 'U13 ECNL RL', time: '4:00 PM · Field 5', overnight: false },
-      { team: 'U14 ECNL RL', time: '2:00 PM · Field 5', overnight: false },
-    ],
+    name: 'League @ PDA Blue', dates: 'Sat, Sep 26, 2026 — postponed', location: 'PDA Blue Main Complex, Somerset, NJ', venue: PDA_COMPLEX,
+    note: 'Postponed Sep 25. Maryland United, Philadelphia Ukrainians, PDA White and PDA Blue jointly rescheduled the U12–U14 fixtures for forecast 40 MPH winds and rain. Tentative new date is Nov 14–15, 2026; not yet final.',
+    // NJ venue: overnight if kickoff before 1:00 PM. Times/fields below are the SEP 26 schedule
+    // (Sandra O'Neill, PDA, Aug 26, cross-checked against PlayMetrics) — kept for reference only;
+    // the reschedule will carry its own times. Restore into `games` once Nov 14-15 is confirmed.
+    //   U12 Pre-ECNL     12:00 PM · Field 7 (grass)   same-day
+    //   U12 Pre-ECNL RL   4:00 PM · Field 7 (grass)   same-day
+    //   U13 ECNL         10:00 AM · Field 1           night before
+    //   U14 ECNL         12:00 PM · Field 5           night before
+    //   U13 ECNL RL       4:00 PM · Field 5           same-day
+    //   U14 ECNL RL       2:00 PM · Field 5           same-day
+    games: [],
     teams: [] },
-  { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
+  { no: 19, sortDate: '2026-09-27', league: 'League', type: 'league', confirmed: true, action: false, postponed: true, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
-    name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026', location: 'Toms River, NJ',
+    name: 'League @ PDA White', dates: 'Sun, Sep 27, 2026 — postponed', location: 'Toms River, NJ',
     venue: 'Toms River High School North, 1245 Old Freehold Rd, Toms River, NJ 08753 — Field 1',
-    note: 'Sunday times and fields are listed below. Venue is in Toms River, NJ — not the PDA complex. All six teams play PDA Blue in Somerset on Saturday (Sep 26) and stay Saturday night.',
-    // Sunday 9/27 kickoffs confirmed Sep 17-18 (ECNL league services). TWO venues, both in
-    // Toms River, NOT the PDA Somerset complex: U13/U14 at Toms River HS North Field 1,
-    // U12s at Walnut Street Elementary Field 1. U12 Flight I = Pre-ECNL (Campbell/Garrick),
-    // Flight II = Pre-ECNL RL (KJ). Everyone stays Sat night — all six play PDA Blue Saturday.
-    games: [
-      { team: 'U12 Pre-ECNL', time: '9:00 AM · Walnut St Elementary, Field 1', overnight: true },
-      { team: 'U12 Pre-ECNL RL', time: '10:30 AM · Walnut St Elementary, Field 1', overnight: true },
-      { team: 'U14 ECNL', time: '9:00 AM · Toms River HS North, Field 1', overnight: true },
-      { team: 'U13 ECNL', time: '10:30 AM · Toms River HS North, Field 1', overnight: true },
-      { team: 'U14 ECNL RL', time: '12:00 PM · Toms River HS North, Field 1', overnight: true },
-      { team: 'U13 ECNL RL', time: '1:30 PM · Toms River HS North, Field 1', overnight: true },
-    ],
+    note: 'Postponed Sep 25. Maryland United, Philadelphia Ukrainians, PDA White and PDA Blue jointly rescheduled the U12–U14 fixtures for forecast 40 MPH winds and rain. Tentative new date is Nov 14–15, 2026; not yet final.',
+    // Sep 27 kickoffs confirmed Sep 17-18 (ECNL league services). TWO venues, both in Toms River,
+    // NOT the PDA Somerset complex: U13/U14 at Toms River HS North Field 1, U12s at Walnut Street
+    // Elementary Field 1. U12 Flight I = Pre-ECNL (Campbell/Garrick), Flight II = Pre-ECNL RL (KJ).
+    // Kept for reference only; restore into `games` once Nov 14-15 is confirmed.
+    //   U12 Pre-ECNL      9:00 AM · Walnut St Elementary, Field 1
+    //   U12 Pre-ECNL RL  10:30 AM · Walnut St Elementary, Field 1
+    //   U14 ECNL          9:00 AM · Toms River HS North, Field 1
+    //   U13 ECNL         10:30 AM · Toms River HS North, Field 1
+    //   U14 ECNL RL      12:00 PM · Toms River HS North, Field 1
+    //   U13 ECNL RL       1:30 PM · Toms River HS North, Field 1
+    games: [],
     teams: [] },
   { no: 20, sortDate: '2026-10-24', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,

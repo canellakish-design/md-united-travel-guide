@@ -19,7 +19,9 @@ export default function EventListItem({ event, number }) {
       <span className="list-tags">
         <span className={`dot ${event.confirmed ? 'dot-green' : 'dot-grey'}`} title={event.confirmed ? 'Participation Confirmed' : 'Pending Confirmation'} />
         {event.type === 'league' && <span className="tag tag-grey">League</span>}
-        {event.closed
+        {event.postponed
+          ? <span className="tag tag-grey">Postponed</span>
+          : event.closed
           ? <span className="tag tag-grey">Closed</span>
           : event.action
             ? <span className="tag tag-red">Action</span>

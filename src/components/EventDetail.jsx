@@ -41,7 +41,9 @@ export default function EventDetail({ event }) {
             {event.confirmed ? 'Participation Confirmed' : 'Pending Confirmation'}
           </span>
           {event.type === 'league' && <span className="indicator indicator-blue">League Game</span>}
-          {event.closed
+          {event.postponed
+            ? <span className="indicator indicator-grey">Postponed</span>
+            : event.closed
             ? <span className="indicator indicator-grey">Closed</span>
             : event.action
               ? <span className="indicator indicator-red">Action Needed</span>
