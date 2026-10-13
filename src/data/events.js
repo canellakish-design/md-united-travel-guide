@@ -222,31 +222,31 @@ export const events = [
     note: 'Hotel booking closed Sun, Sep 6 @ 7:00 PM. All five teams check in Friday, Oct 30 (2 nights, Fri & Sat). Rooms still needed: contact your team manager or EventConnect, (888) 723-2064.',
     teams: [
       { team: 'U10 Red', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
-        arrivalDate: 'Fri, Oct 30', nights: '2 · Fri·Sat',
+        arrivalDate: 'Fri, Oct 30 (night before)', nights: '2 · Fri·Sat',
         teamCode: '', hotelLink: ECC_U10_BOOKING,
         hotels: [
           { name: 'Hampton Inn Richmond West Innsbrook', address: '10800 W Broad St, Glen Allen, VA', rooms: '13-room block · 2 Queen Beds · $179/night avg (shares hotel with U11 Pre-ECNL RL)' },
         ] },
       { team: 'U11 Pre-ECNL', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
-        arrivalDate: 'Fri, Oct 30', nights: '2 · Fri·Sat',
+        arrivalDate: 'Fri, Oct 30 (night before)', nights: '2 · Fri·Sat',
         teamCode: '', hotelLink: ECC_U11_BOOKING,
         hotels: [
           { name: 'Richmond Marriott Short Pump', address: '4240 Dominion Boulevard, Glen Allen, VA', rooms: '13-room block · 2 Queen Beds · $169/night avg (shares hotel with U12 Pre-ECNL)' },
         ] },
       { team: 'U11 Pre-ECNL RL', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
-        arrivalDate: 'Fri, Oct 30', nights: '2 · Fri·Sat',
+        arrivalDate: 'Fri, Oct 30 (night before)', nights: '2 · Fri·Sat',
         teamCode: '', hotelLink: ECC_U11RL_BOOKING,
         hotels: [
           { name: 'Hampton Inn Richmond West Innsbrook', address: '10800 W Broad St, Glen Allen, VA', rooms: '14-room block · 2 Queen Beds · $179/night avg (shares hotel with U10 Red)' },
         ] },
       { team: 'U12 Pre-ECNL', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
-        arrivalDate: 'Fri, Oct 30', nights: '2 · Fri·Sat',
+        arrivalDate: 'Fri, Oct 30 (night before)', nights: '2 · Fri·Sat',
         teamCode: '', hotelLink: ECC_U12_BOOKING,
         hotels: [
           { name: 'Richmond Marriott Short Pump', address: '4240 Dominion Boulevard, Glen Allen, VA', rooms: '13-room block · 2 Queen Beds · $169/night avg (shares hotel with U11 Pre-ECNL)' },
         ] },
       { team: 'U12 Pre-ECNL RL', bookDeadline: 'Sun, Sep 6 @ 7:00 PM',
-        arrivalDate: 'Fri, Oct 30', nights: '2 · Fri·Sat',
+        arrivalDate: 'Fri, Oct 30 (night before)', nights: '2 · Fri·Sat',
         teamCode: '', hotelLink: ECC_U12RL_BOOKING,
         hotels: [
           { name: 'Hyatt House Richmond / Short Pump', address: '11800 W Broad Street, Richmond, VA', rooms: '14-room block · 2 Queen Beds · $179/night avg' },
@@ -342,11 +342,13 @@ export const events = [
     bookingSteps: NCFC_BOOKING_STEPS,
     teams: [
       { team: 'U10 White', bookDeadline: 'Wed, Sep 23 (rooms release)',
+        arrivalDate: 'Fri, Nov 6 (night before)', nights: '2 · Fri·Sat',
         teamCode: 'Group G-00773636', hotelLink: NCFC_U10WHITE_BOOKING,
         hotels: [
           { name: 'La Quinta Inn by Wyndham Raleigh Durham Airport', address: 'Raleigh Durham Airport, Morrisville, NC', rooms: '24 room nights held · Group G-00773636', bookLink: NCFC_U10WHITE_BOOKING },
         ] },
       { team: 'U12 South Calvert', bookDeadline: 'Wed, Sep 23 (rooms release)',
+        arrivalDate: 'Fri, Nov 6 (night before)', nights: '2 · Fri·Sat',
         teamCode: 'Group G-00777448', hotelLink: NCFC_U12_SOUTHCALVERT_BOOKING,
         hotels: [
           { name: 'La Quinta Inn by Wyndham Raleigh Durham Airport', address: 'Raleigh Durham Airport, Morrisville, NC', rooms: '32 room nights held · Group G-00777448', bookLink: NCFC_U12_SOUTHCALVERT_BOOKING },
@@ -385,46 +387,46 @@ export const events = [
     coverage: SARA_COVER,
     teams: [
       { team: 'U15 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--T7', hotelLink: PDA_BK_T7,
+        arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--T7', hotelLink: PDA_BK_T7,
         hotels: [
           { name: 'Hyatt House Branchburg/Bridgewater', address: '3141 U.S. 22, Branchburg, NJ', rooms: '15 rooms · 1-BR Suite, King + sofa bed · $144/night · Code PDA--T7', bookLink: PDA_BK_T7 },
           { name: 'Residence Inn Bridgewater Branchburg', address: '3241 Route 22, Branchburg, NJ', rooms: '3 overflow rooms · King + sofa bed · $150/night · Code PDA--U8', bookLink: PDA_BK_U8 },
         ] },
       { team: 'U15 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM', coaches: 'Sara Butler (Harry covering)', coachRooms: 0,
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--N9', hotelLink: PDA_BK_N9,
+        arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--N9', hotelLink: PDA_BK_N9,
         hotels: [
           { name: 'Sonesta Select Whippany Hanover', address: '157 New Jersey 10, Whippany, NJ', rooms: '17 rooms · 2 Queen Beds · $169/night · Code PDA--N9', bookLink: PDA_BK_N9 },
         ] },
       { team: 'U16 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--O9 (letter O)', hotelLink: PDA_BK_O9,
+        arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--O9 (letter O)', hotelLink: PDA_BK_O9,
         hotels: [
           { name: 'Delta Hotels by Marriott Basking Ridge', address: '80 Allen Rd, Basking Ridge, NJ', rooms: '14 rooms · 2 Queen Beds · $169/night · Code PDA--O9 (letter O, not zero) · pet-free hotel', bookLink: PDA_BK_O9 },
           { name: 'Residence Inn Bridgewater Branchburg', address: '3241 Route 22, Branchburg, NJ', rooms: '6 overflow rooms · King + sofa bed · $150/night · Code PDA--D9', bookLink: PDA_BK_D9 },
         ] },
       { team: 'U16 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--N6', hotelLink: PDA_BK_N6,
+        arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--N6', hotelLink: PDA_BK_N6,
         hotels: [
           { name: 'DoubleTree by Hilton Princeton', address: '4355 U.S. 1, Princeton, NJ', rooms: '20 rooms · 7 King + sofa bed ($179/night) & 13 × 2 Queen ($199/night) · Code PDA--N6', bookLink: PDA_BK_N6 },
         ] },
       { team: 'U17 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--J5', hotelLink: PDA_BK_J5,
+        arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--J5', hotelLink: PDA_BK_J5,
         hotels: [
           { name: 'Courtyard by Marriott Ewing Princeton', address: '360 Scotch Road, Ewing Township, NJ', rooms: '15 rooms · 2 Queen Beds · $144/night · Code PDA--J5', bookLink: PDA_BK_J5 },
         ] },
       { team: 'U17 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--Z2', hotelLink: PDA_BK_Z2,
+        arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--Z2', hotelLink: PDA_BK_Z2,
         hotels: [
           { name: 'Holiday Inn Express and Suites North Brunswick', address: '2095 US Hwy 1, North Brunswick, NJ', rooms: '14 rooms · 2 Queen Beds · $139/night · Code PDA--Z2', bookLink: PDA_BK_Z2 },
           { name: 'The Heldrich Hotel', address: '10 Livingston Avenue, New Brunswick, NJ', rooms: '3 overflow rooms · 2 Double Beds · $135/night · Code PDA--K8', bookLink: PDA_BK_K8 },
         ] },
       { team: 'U18/19 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--Q7', hotelLink: PDA_BK_Q7,
+        arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--Q7', hotelLink: PDA_BK_Q7,
         hotels: [
           { name: 'Crowne Plaza Edison', address: '2055 Lincoln Hwy, Edison, NJ', rooms: '11 rooms · 2 Queen Beds · $149/night · Code PDA--Q7', bookLink: PDA_BK_Q7 },
           { name: 'Home2 Suites by Hilton Edison', address: '858 New Durham Road, Edison, NJ', rooms: '8 overflow rooms · King + sofa bed · $159/night · Code PDA--D2', bookLink: PDA_BK_D2 },
         ] },
       { team: 'U18/19 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
-        arrivalDate: 'Fri, Nov 20', nights: '2 · Fri·Sat', teamCode: 'PDA--O4 (letter O)', hotelLink: PDA_BK_O4,
+        arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--O4 (letter O)', hotelLink: PDA_BK_O4,
         hotels: [
           { name: 'Sonesta Select Whippany Hanover', address: '157 New Jersey 10, Whippany, NJ', rooms: '18 rooms · 2 Queen Beds · $169/night · Code PDA--O4 (letter O, not zero)', bookLink: PDA_BK_O4 },
         ] },
