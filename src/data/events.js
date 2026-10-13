@@ -93,8 +93,6 @@ const ORLANDO_U17_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cU
 
 // NCFC Girls Junior Showcase (Raleigh, Nov 7–8) — Team Travel Source group-block links
 // (blocks created by Jen, Sep 16; rooms release back to general inventory Wed, Sep 23).
-const NCFC_U13RL_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTorSOl4l-2F3OFgm3Y-2B5O8mMKmCclK_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr9vFd1Nu-2F-2Fdx-2Bva-2Bb-2BEM4etJCm6gXu1ZcAt70AsgZoTARgCT9MJnuvOJg1mmtbdGSxpsEZEujjmWavhof1f69bAUQR9pPBVdGxZ4bAlkQEpaLA8GoZCgfF0IPBp8tKllUrj3IZq2Pz0F9Jv5zM4ZGVga4Ev-2B6Qr-2Bq7nFwWv9A3muQ-3D-3D'
-const NCFC_U14RL_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTorl0eU34jHx3rvffjHmsIv8udQJ_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr97Nq8Vakr8stFpll0ayDuRWx-2BtbnV-2FYUzil4SthhgTUkprs-2FPSUS7D0-2FKrORx0ucUaW1-2FBXus3vIZbwhZCkdaQKs1yurB-2FWHd41ecxe014qa4wWoukH7Wza-2FSsQnZCd4KNyaG0hj0s4-2B5apMkbNf5dQCqkF32lYV2PoiLn9a3CPQ-3D-3D'
 const NCFC_U12_SOUTHCALVERT_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTooGaJLoj4mBHUwIFF7pd-2BEY7XP-_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8zftzC71Vzsh4KzFg73Nb-2B2kiXwGFHqqtYnFt2sBqL75Wb5NuQ69AlbWr83iRwB9QhJAZJEqzl9N4YBWJ8RRcaGvR1kRHnnKFhKDcPGI5Mv76Qr2CMD8pNtLzxjMpkEVEWu9i4IQET3MjzlChDrLBcPYLE0eBCvvhXYN1XpYpl9Q-3D-3D'
 
 const NCFC_U10WHITE_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTorMgkw1bPo4o50ndZaMF8lif-iA_VsVQwjg8Bs8wrF-2BBehcYDvxmWShX-2B9Ih5JEDiOhUEcTdRoylXQR7Eld3jb0yWvCUo3Rl-2B2T0cFfnEjMV-2B7e8FCIJJHSNYyOA8Px5iOQ5feHL224wepYK0iW3uTxHNpPgLmJzuQPVkciS4hW0ksl0xP2UiKslAsnh0tMNOk3rc7o04FaMcMt4SzFVQ7s4KYHpwrHEjtZYgCmYYQtQAuw5bsGlIqJ4lZbOcI0jfytOPtM-3D'
@@ -336,11 +334,11 @@ export const events = [
 
   // ================= PENDING — Non-ECNL travel events (applied; NOT yet confirmed) =================
   {
-    no: 13, sortDate: '2026-11-07', ages: ['U10', 'U12', 'U13', 'U14'],
+    no: 13, sortDate: '2026-11-07', ages: ['U10', 'U12'],
     confirmed: true, action: true, travel: 'drive',
     league: 'Showcase', name: 'NCFC Girls Junior Showcase',
     dates: 'Nov 7–8, 2026 (Sat–Sun)', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
-    note: 'Four teams attend, per the club tournament plan: U10 White, U12 South Calvert, U13 ECNL RL and U14 ECNL RL. Hotel blocks are open through Team Travel Source. Rooms release Wednesday, Sept 23; unclaimed rooms return to general inventory.',
+    note: 'Two teams attend, per the club tournament plan: U10 White and U12 South Calvert. U13 ECNL RL and U14 ECNL RL withdrew on Oct 2, 2026. Hotel blocks are open through Team Travel Source. Rooms release Wednesday, Sept 23; unclaimed rooms return to general inventory.',
     bookingSteps: NCFC_BOOKING_STEPS,
     teams: [
       { team: 'U10 White', bookDeadline: 'Wed, Sep 23 (rooms release)',
@@ -352,16 +350,6 @@ export const events = [
         teamCode: 'Group G-00777448', hotelLink: NCFC_U12_SOUTHCALVERT_BOOKING,
         hotels: [
           { name: 'La Quinta Inn by Wyndham Raleigh Durham Airport', address: 'Raleigh Durham Airport, Morrisville, NC', rooms: '32 room nights held · Group G-00777448', bookLink: NCFC_U12_SOUTHCALVERT_BOOKING },
-        ] },
-      { team: 'U13 ECNL RL', bookDeadline: 'Wed, Sep 23 (rooms release)',
-        teamCode: 'Group G-00777460', hotelLink: NCFC_U13RL_BOOKING,
-        hotels: [
-          { name: 'Holiday Inn Express & Suites Research Triangle Park', address: 'Research Triangle Park, Durham, NC', rooms: '36 room nights held · Group G-00777460', bookLink: NCFC_U13RL_BOOKING },
-        ] },
-      { team: 'U14 ECNL RL', bookDeadline: 'Wed, Sep 23 (rooms release)',
-        teamCode: 'Group G-00773628', hotelLink: NCFC_U14RL_BOOKING,
-        hotels: [
-          { name: 'Holiday Inn Express & Suites Raleigh Durham Airport', address: 'Raleigh Durham Airport, Morrisville, NC', rooms: '36 room nights held · Group G-00773628', bookLink: NCFC_U14RL_BOOKING },
         ] },
     ],
   },
