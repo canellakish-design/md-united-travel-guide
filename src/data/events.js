@@ -335,19 +335,19 @@ export const events = [
   // ================= PENDING — Non-ECNL travel events (applied; NOT yet confirmed) =================
   {
     no: 13, sortDate: '2026-11-07', ages: ['U10', 'U12'],
-    confirmed: true, action: true, travel: 'drive',
+    confirmed: true, action: false, closed: true, travel: 'drive',
     league: 'Showcase', name: 'NCFC Girls Junior Showcase',
     dates: 'Nov 7–8, 2026 (Sat–Sun)', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
-    note: 'Two teams attend, per the club tournament plan: U10 White and U12 South Calvert. U13 ECNL RL and U14 ECNL RL withdrew on Oct 2, 2026. Hotel blocks are open through Team Travel Source. Rooms release Wednesday, Sept 23; unclaimed rooms return to general inventory.',
+    note: 'Two teams attend, per the club tournament plan: U10 White and U12 South Calvert. U13 ECNL RL and U14 ECNL RL withdrew on Oct 2, 2026. Hotel blocks were held through Team Travel Source; unclaimed rooms returned to general inventory on Wednesday, Sept 23. Booking help: Team Travel Source, (502) 354-9103.',
     bookingSteps: NCFC_BOOKING_STEPS,
     teams: [
-      { team: 'U10 White', bookDeadline: 'Wed, Sep 23 (rooms release)',
+      { team: 'U10 White', bookDeadline: 'Closed — rooms released Wed, Sep 23',
         arrivalDate: 'Fri, Nov 6 (night before)', nights: '2 · Fri·Sat',
         teamCode: 'Group G-00773636', hotelLink: NCFC_U10WHITE_BOOKING,
         hotels: [
           { name: 'La Quinta Inn by Wyndham Raleigh Durham Airport', address: 'Raleigh Durham Airport, Morrisville, NC', rooms: '24 room nights held · Group G-00773636', bookLink: NCFC_U10WHITE_BOOKING },
         ] },
-      { team: 'U12 South Calvert', bookDeadline: 'Wed, Sep 23 (rooms release)',
+      { team: 'U12 South Calvert', bookDeadline: 'Closed — rooms released Wed, Sep 23',
         arrivalDate: 'Fri, Nov 6 (night before)', nights: '2 · Fri·Sat',
         teamCode: 'Group G-00777448', hotelLink: NCFC_U12_SOUTHCALVERT_BOOKING,
         hotels: [
@@ -357,19 +357,19 @@ export const events = [
   },
   {
     no: 14, sortDate: '2026-11-20', ages: ['U15', 'U16'],
-    confirmed: true, action: true, travel: 'drive',
+    confirmed: true, action: false, closed: true, travel: 'drive',
     league: 'Showcase', name: 'NCFC Girls College Showcase',
     dates: 'Nov 20–22, 2026', location: 'Raleigh, NC', venue: 'WRAL Soccer Park, Raleigh, NC',
-    note: 'Premier teams only. The ECNL RL teams play the PDA Girls Invitational (Nov 21–22) that weekend. Hotel blocks are open through Team Travel Source. Rooms release Wednesday, Sept 23; unclaimed rooms return to general inventory.',
+    note: 'Premier teams only. The ECNL RL teams play the PDA Girls Invitational (Nov 21–22) that weekend. Hotel blocks were held through Team Travel Source; unclaimed rooms returned to general inventory on Wednesday, Sept 23. Booking help: Team Travel Source, (502) 354-9103.',
     bookingSteps: NCFC_BOOKING_STEPS,
     teams: [
-      { team: 'U15 Premier', bookDeadline: 'Wed, Sep 23 (rooms release)',
+      { team: 'U15 Premier', bookDeadline: 'Closed — rooms released Wed, Sep 23',
         arrivalDate: 'Thu, Nov 19 (night before)', nights: '3 · Thu·Fri·Sat',
         teamCode: 'Group G-00773786', hotelLink: NCFC_U15PREM_BOOKING,
         hotels: [
           { name: 'Candlewood Suites Rocky Mount', address: 'Rocky Mount, NC', rooms: '51 room nights held · Group G-00773786', bookLink: NCFC_U15PREM_BOOKING },
         ] },
-      { team: 'U16 Premier', bookDeadline: 'Wed, Sep 23 (rooms release)',
+      { team: 'U16 Premier', bookDeadline: 'Closed — rooms released Wed, Sep 23',
         arrivalDate: 'Thu, Nov 19 (night before)', nights: '3 · Thu·Fri·Sat',
         teamCode: 'Group G-00773815', hotelLink: NCFC_U16PREM_BOOKING,
         hotels: [
@@ -380,52 +380,52 @@ export const events = [
   {
     no: 15, sortDate: '2026-11-21', ages: ['U15', 'U16', 'U17', 'U18/19'],
     teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
-    confirmed: false, action: true, travel: 'drive',
+    confirmed: true, action: false, closed: true, travel: 'drive',
     league: 'Showcase', name: 'PDA Girls Invitational (Thanksgiving Showcase)',
     dates: 'Nov 21–22, 2026 (Sat–Sun)', location: 'New Jersey', venue: PDA_COMPLEX,
-    note: 'Participation applied for; acceptance pending. Hotel blocks are held and open for booking through On Location / Anthony Travel. Book by Friday, Sept 25 @ 8:00 AM. All blocks are Friday & Saturday nights (check in Fri, Nov 20 · check out Sun, Nov 22). Team codes below use a double dash; PDA--O9 and PDA--O4 use the letter O, not zero. On Location Anthony Travel: (866) 386-0059.',
+    note: 'Booking closed Friday, Sept 25 @ 8:00 AM. Blocks were held through On Location / Anthony Travel and are Friday & Saturday nights (check in Fri, Nov 20 · check out Sun, Nov 22). Hotels and team codes below are the blocks as booked. Team codes use a double dash; PDA--O9 and PDA--O4 use the letter O, not zero. On Location Anthony Travel: (866) 386-0059.',
     coverage: SARA_COVER,
     teams: [
-      { team: 'U15 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+      { team: 'U15 ECNL', bookDeadline: 'Closed — booked Fri, Sep 25',
         arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--T7', hotelLink: PDA_BK_T7,
         hotels: [
           { name: 'Hyatt House Branchburg/Bridgewater', address: '3141 U.S. 22, Branchburg, NJ', rooms: '15 rooms · 1-BR Suite, King + sofa bed · $144/night · Code PDA--T7', bookLink: PDA_BK_T7 },
           { name: 'Residence Inn Bridgewater Branchburg', address: '3241 Route 22, Branchburg, NJ', rooms: '3 overflow rooms · King + sofa bed · $150/night · Code PDA--U8', bookLink: PDA_BK_U8 },
         ] },
-      { team: 'U15 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM', coaches: 'Sara Butler (Harry covering)', coachRooms: 0,
+      { team: 'U15 ECNL RL', bookDeadline: 'Closed — booked Fri, Sep 25', coaches: 'Sara Butler (Harry covering)', coachRooms: 0,
         arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--N9', hotelLink: PDA_BK_N9,
         hotels: [
           { name: 'Sonesta Select Whippany Hanover', address: '157 New Jersey 10, Whippany, NJ', rooms: '17 rooms · 2 Queen Beds · $169/night · Code PDA--N9', bookLink: PDA_BK_N9 },
         ] },
-      { team: 'U16 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+      { team: 'U16 ECNL', bookDeadline: 'Closed — booked Fri, Sep 25',
         arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--O9 (letter O)', hotelLink: PDA_BK_O9,
         hotels: [
           { name: 'Delta Hotels by Marriott Basking Ridge', address: '80 Allen Rd, Basking Ridge, NJ', rooms: '14 rooms · 2 Queen Beds · $169/night · Code PDA--O9 (letter O, not zero) · pet-free hotel', bookLink: PDA_BK_O9 },
           { name: 'Residence Inn Bridgewater Branchburg', address: '3241 Route 22, Branchburg, NJ', rooms: '6 overflow rooms · King + sofa bed · $150/night · Code PDA--D9', bookLink: PDA_BK_D9 },
         ] },
-      { team: 'U16 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+      { team: 'U16 ECNL RL', bookDeadline: 'Closed — booked Fri, Sep 25',
         arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--N6', hotelLink: PDA_BK_N6,
         hotels: [
           { name: 'DoubleTree by Hilton Princeton', address: '4355 U.S. 1, Princeton, NJ', rooms: '20 rooms · 7 King + sofa bed ($179/night) & 13 × 2 Queen ($199/night) · Code PDA--N6', bookLink: PDA_BK_N6 },
         ] },
-      { team: 'U17 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+      { team: 'U17 ECNL', bookDeadline: 'Closed — booked Fri, Sep 25',
         arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--J5', hotelLink: PDA_BK_J5,
         hotels: [
           { name: 'Courtyard by Marriott Ewing Princeton', address: '360 Scotch Road, Ewing Township, NJ', rooms: '15 rooms · 2 Queen Beds · $144/night · Code PDA--J5', bookLink: PDA_BK_J5 },
         ] },
-      { team: 'U17 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+      { team: 'U17 ECNL RL', bookDeadline: 'Closed — booked Fri, Sep 25',
         arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--Z2', hotelLink: PDA_BK_Z2,
         hotels: [
           { name: 'Holiday Inn Express and Suites North Brunswick', address: '2095 US Hwy 1, North Brunswick, NJ', rooms: '14 rooms · 2 Queen Beds · $139/night · Code PDA--Z2', bookLink: PDA_BK_Z2 },
           { name: 'The Heldrich Hotel', address: '10 Livingston Avenue, New Brunswick, NJ', rooms: '3 overflow rooms · 2 Double Beds · $135/night · Code PDA--K8', bookLink: PDA_BK_K8 },
         ] },
-      { team: 'U18/19 ECNL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+      { team: 'U18/19 ECNL', bookDeadline: 'Closed — booked Fri, Sep 25',
         arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--Q7', hotelLink: PDA_BK_Q7,
         hotels: [
           { name: 'Crowne Plaza Edison', address: '2055 Lincoln Hwy, Edison, NJ', rooms: '11 rooms · 2 Queen Beds · $149/night · Code PDA--Q7', bookLink: PDA_BK_Q7 },
           { name: 'Home2 Suites by Hilton Edison', address: '858 New Durham Road, Edison, NJ', rooms: '8 overflow rooms · King + sofa bed · $159/night · Code PDA--D2', bookLink: PDA_BK_D2 },
         ] },
-      { team: 'U18/19 ECNL RL', bookDeadline: 'Fri, Sep 25 @ 8:00 AM',
+      { team: 'U18/19 ECNL RL', bookDeadline: 'Closed — booked Fri, Sep 25',
         arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--O4 (letter O)', hotelLink: PDA_BK_O4,
         hotels: [
           { name: 'Sonesta Select Whippany Hanover', address: '157 New Jersey 10, Whippany, NJ', rooms: '18 rooms · 2 Queen Beds · $169/night · Code PDA--O4 (letter O, not zero)', bookLink: PDA_BK_O4 },
