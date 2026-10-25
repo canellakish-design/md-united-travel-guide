@@ -256,10 +256,10 @@ export const events = [
 
   // ================= CONFIRMED — ECNL Florida (FLY — book flights now) =================
   {
-    no: 5, sortDate: '2026-12-05', ages: ['U16', 'U17'], confirmed: true, action: true, travel: 'fly',
+    no: 5, sortDate: '2026-12-05', ages: ['U16', 'U17'], confirmed: true, action: false, closed: true, travel: 'fly',
     league: 'ECNL', name: 'ECNL Orlando',
     dates: 'Dec 5–7, 2026 (Sat–Mon)', location: 'Sanford (Orlando area), FL',
-    note: 'Both teams are in the same hotel. Blocks are held until Wed, Sep 30 at 7:00 PM.',
+    note: 'Both teams are in the same hotel. Hotel booking closed Wed, Sep 30 at 7:00 PM. Flights are still open to book.',
     teams: [
       { team: 'U16 ECNL', players: 19, playerRooms: 19, coaches: 'Harry Canellakis', coachRooms: 1,
         bookDeadline: 'Wed, Sep 30 @ 7:00 PM', arrivalDate: 'Fri, Dec 4 (night before)', nights: '3 · Fri·Sat·Sun',
@@ -278,7 +278,8 @@ export const events = [
   {
     no: 6, sortDate: '2027-01-09', ages: ['U16', 'U17', 'U18/19'], confirmed: true, action: true, travel: 'fly',
     league: 'ECNL', name: 'ECNL Girls Florida — Winter',
-    dates: 'Jan 9–11, 2027 (Sat–Mon)', location: 'Lakewood Ranch, FL', note: '',
+    dates: 'Jan 9–11, 2027 (Sat–Mon)', location: 'Lakewood Ranch, FL',
+    note: 'Placement confirmed by the ECNL on Oct 19; the team list is final. Hotel details to follow.',
     teams: [
       { team: 'U16 ECNL', players: 19, playerRooms: 19, coaches: 'Harry Canellakis', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
       { team: 'U17 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
@@ -312,7 +313,7 @@ export const events = [
     no: 10, sortDate: '2027-01-08', ages: ['U17', 'U18/19'], teamsList: ['U17 ECNL RL', 'U18/19 ECNL RL'], confirmed: true, action: false, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Winter',
     dates: 'Jan 8–10, 2027 (Fri–Sun)', location: 'Sanford, FL',
-    note: 'U17 and U18/19 ECNL RL placed. Hotel and flight details to follow.', teams: [],
+    note: 'U17 and U18/19 ECNL RL placed. Placement confirmed by the ECNL on Oct 20; the team list is final. Hotel and flight details to follow.', teams: [],
   },
   // ── OFF the guide (per Win, Sep 12): ECNL RL Florida — Spring (Feb 26–28) is Leaders Cup
   //    qualifiers only at U15–U17; we are NOT attending. Restore if that changes. ──
@@ -498,9 +499,10 @@ export const events = [
       { team: 'U14 ECNL RL', time: '', overnight: null },
     ],
     teams: [] },
-  { no: 20, sortDate: '2026-10-24', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
+  { no: 20, sortDate: '2026-10-24', league: 'League', type: 'league', confirmed: true, action: false, closed: true, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
-    name: 'League @ Penn Fusion', dates: 'Sat, Oct 24, 2026', location: 'Downingtown, PA', note: '',
+    name: 'League @ Penn Fusion', dates: 'Sat, Oct 24, 2026', location: 'Downingtown, PA',
+    note: 'Played Sat, Oct 24, 2026.',
     // PA venue: overnight if kickoff before 11:00 AM
     games: [
       { team: 'U12 Pre-ECNL', time: '10:30 AM', overnight: true },
