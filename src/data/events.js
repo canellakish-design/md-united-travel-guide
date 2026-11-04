@@ -464,13 +464,12 @@ export const events = [
   // Families book their OWN hotel near the facility IF their team's kickoff meets the
   // overnight rule (NJ before 1 PM · elsewhere before 11 AM). No action until game times
   // are released; then flip action:true and list only the teams that qualify.
-  { no: 18, sortDate: '2026-11-14', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
+  { no: 18, sortDate: '2026-11-14', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
     name: 'League @ PDA Blue', dates: 'Sat, Nov 14, 2026', location: 'PDA Blue Main Complex, Somerset, NJ', venue: PDA_COMPLEX,
-    note: 'Rescheduled from Sat, Sep 26, which was rained out. Times and fields below are from Athlete One. The four 8:00 and 10:00 AM teams also play PDA White in Toms River on Sunday, Nov 15.',
-    // NJ venue: overnight if kickoff before 1:00 PM. Times/fields pulled from Athlete One
-    // (ECNL Girls North Atlantic 2026-27, ECNL RL North Atlantic, Pre-ECNL North Atlantic), Nov 4.
-    // All six also play PDA White on Sun Nov 15, so every team stays Saturday night regardless.
+    note: 'Rescheduled from Sat, Sep 26, which was rained out. Times and fields from PlayMetrics, checked Nov 4, and approved in Athlete One. All six teams also play PDA White in Toms River on Sunday, Nov 15. U13 ECNL, U14 ECNL and U14 ECNL RL are flagged for Friday and Saturday night — a two-night stay.',
+    // NJ venue: overnight if kickoff before 1:00 PM. Times/fields per PlayMetrics, Nov 4,
+    // matching Athlete One (ECNL Girls North Atlantic 2026-27, ECNL RL and Pre-ECNL North Atlantic).
     games: [
       { team: 'U13 ECNL', time: '8:00 AM · Field 5', overnight: true },
       { team: 'U13 ECNL RL', time: '8:00 AM · Field 3', overnight: true },
@@ -480,21 +479,24 @@ export const events = [
       { team: 'U12 Pre-ECNL RL', time: '2:00 PM · Field 7', overnight: false },
     ],
     teams: [] },
-  { no: 19, sortDate: '2026-11-15', league: 'League', type: 'league', confirmed: true, action: false, travel: 'drive',
+  { no: 19, sortDate: '2026-11-15', league: 'League', type: 'league', confirmed: true, action: true, travel: 'drive',
     ages: FALL_LEAGUE_AGES, teamsList: FALL_LEAGUE_TEAMS,
     name: 'League @ PDA White', dates: 'Sun, Nov 15, 2026', location: 'Toms River, NJ',
-    venue: 'Toms River High School North, 1245 Old Freehold Rd, Toms River, NJ 08753',
-    note: 'Rescheduled from Sun, Sep 27, which was rained out. Two venues, both in Toms River — not the PDA complex. The U13 and U14 teams play at Toms River HS North; the U12s play at Walnut Street Elementary. All six teams play PDA Blue in Somerset on Saturday, Nov 14 and stay Saturday night. Times are from PDA White and are not yet entered in Athlete One.',
-    // Times from Josh Osit (PDA White / Seton Hall), Nov 2. Athlete One holds all six Nov 15
-    // fixtures but with no time or venue set as of Nov 4.
+    venue: 'Toms River High School North, 1245 Old Freehold Rd, Toms River, NJ 08753 — Field 1',
+    note: 'Rescheduled from Sun, Sep 27, which was rained out. Times and fields from PlayMetrics, checked Nov 4, and approved in Athlete One. Two venues, both in Toms River — not the PDA complex. The U13 and U14 teams play at Toms River HS North, Field 1; the U12s play at Walnut Street Elementary, Field 1. All six teams play PDA Blue in Somerset on Saturday, Nov 14 and stay Saturday night. Somerset to Toms River is about an hour, so book near Toms River, not Somerset.',
+    // PlayMetrics, Nov 4. This supersedes Josh Osit's Nov 2 email, which had U13 RL and U14 RL
+    // the other way round (U13 RL 12:30, U14 RL 2:15).
+    // Walnut Street Elementary appears in PlayMetrics under two names; it is one venue.
     // PDA flight labels: Pre-ECNL 1 = our U12 Pre-ECNL, Pre-ECNL 2 = our U12 Pre-ECNL RL.
+    // Every team played in NJ on Saturday, so all six stay Saturday night whatever Sunday's
+    // kickoff — the kickoff-time rule does not apply to the second day of an away weekend.
     games: [
-      { team: 'U14 ECNL', time: '9:00 AM · Toms River HS North (turf)', overnight: true },
-      { team: 'U13 ECNL', time: '10:45 AM · Toms River HS North (turf)', overnight: true },
-      { team: 'U12 Pre-ECNL RL', time: '12:00 PM · Walnut St Elementary', overnight: true },
-      { team: 'U13 ECNL RL', time: '12:30 PM · Toms River HS North (turf)', overnight: true },
-      { team: 'U12 Pre-ECNL', time: '1:30 PM · Walnut St Elementary', overnight: true },
-      { team: 'U14 ECNL RL', time: '2:15 PM · Toms River HS North (turf)', overnight: true },
+      { team: 'U14 ECNL', time: '9:00 AM · Toms River HS North, Field 1', overnight: true },
+      { team: 'U13 ECNL', time: '10:45 AM · Toms River HS North, Field 1', overnight: true },
+      { team: 'U12 Pre-ECNL RL', time: '12:00 PM · Walnut St Elementary, Field 1', overnight: true },
+      { team: 'U14 ECNL RL', time: '12:30 PM · Toms River HS North, Field 1', overnight: true },
+      { team: 'U12 Pre-ECNL', time: '1:30 PM · Walnut St Elementary, Field 1', overnight: true },
+      { team: 'U13 ECNL RL', time: '2:15 PM · Toms River HS North, Field 1', overnight: true },
     ],
     teams: [] },
   { no: 20, sortDate: '2026-10-24', league: 'League', type: 'league', confirmed: true, action: false, closed: true, travel: 'drive',

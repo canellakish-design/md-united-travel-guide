@@ -58,6 +58,11 @@ read from it.
 Overnight rule for league away games: New Jersey venues, stay the night before if
 kickoff is before 1:00 PM; elsewhere, before 11:00 AM.
 
+Back-to-back away weekends override the kickoff rule on the second day. If a team
+plays away on Saturday and again on Sunday, it stays Saturday night whatever Sunday's
+kickoff time — the families are already up there. Mark every team on the Sunday card
+`overnight: true`. The kickoff rule still decides the Friday night on the Saturday card.
+
 For travel showcases and tournaments, teams almost always arrive the night before
 the first day of play. A hotel block that opens a night ahead of the event dates
 is normal, not a mistake — set `arrivalDate` and `nights` accordingly. It isn't
