@@ -91,6 +91,11 @@ const ECC_U12RL_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCS
 const ORLANDO_U16_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFYFmZoJkQ0lU1VEPp6QkVyzHQXNpOjMFDz8i76FpTDGkRykh-2BZlDOgMI8RAXrnpla5ph4TlIbVWL1KcbrKbidHt8aajsOewu5NGovp9-2FDgccZntl91q-2FprStIwwnoT-2BlhPy84btfiUPnK7NodpRIlUxsuCik-2BSA1ndmHR2BoihW-2FAoSpyKSxoUFoSr03kuhcHN8kBa0qq5Ga6PTUCD1rTqtdinOgz6v8fLGOpfW01-2F8hkyr8w3u9vy29ZFlPwB48Sw-3DsjR6_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKbQbCYoRC3sY7cEBnhEroUM6QrQ-2BS-2B41xut4jDBm9OkXxZk5sRHzkV0Lfi449cfCL9Uv9e-2BtvpA4QRWa9EtrBXuJTaMIfe2eaxM03QIftOimyD-2ByMiBJ41MnfZnXf8C-2FvMUhqBKG-2FH6vWPDlbfzqM-2BqaJu0qYdyrxTx8X88VnSXBE-2B2nLnwwUmvr2XA9p12CciDXe5U-2Fcw5Izn3yFZ-2B1m3rgx6D-2Fizw6Rz04lJDyHa-2F7VVFtmvFw2nVCXL079HZr46BC9HAVkouP2BZ8q8bDl-2BlgQWe0LcSkfSkjAsk2bmWLwDQgEXFG19BRb4KC3EWTXuLSlwbT6vGaD0Pk0a-2BCvhY34YtnERUb4sUk5gxjSeGr'
 const ORLANDO_U17_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFYFmZoJkQ0lU1VEPp6QkVyzHQXNpOjMFDz8i76FpTDGkW0-2BOnlWyiN9BpovFh2iQrDfU9dJXurnWunLHLjGXnfTuaH5ZeoZ-2BKQBf1r1Yyvuae16f1C33aTxCbuu-2B-2FwbH4Fy6WGR7oKR1YQNU1WUuRgbkqoNaqgMjehs47QiywxGkZowMZvhG4UObeKYxu9Ijj77zT8vlX5x1rtowyveAX4FmAch0dn9vNToB0dS5xkpSEE4qDTiQmwQBAgrNJ9IILQ-3D6Vuc_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKbQbCYoRC3sY7cEBnhEroUM6QrQ-2BS-2B41xut4jDBm9OkXxZk5sRHzkV0Lfi449cfCL9yMTfUtKIc-2B7BCRhtFKsfYkjYSWYAeGSmZwgS6q-2FMAavqYZ5O8TsycMxiZc2lUL20I8n8DDsMTLYyf2CT8UzSfka28qX4-2Fjda7BgJ08PBTjuYLz8uv7r9ss09Eav2b9Sz45JGIpEBAD5W0-2FoCaDYIL9rWNOSyYRDDZ7zMK70Zax7ahLY4W4bCFbplsiEWwsk8nPFUBdU7o9cBL2WWDsHT4Y72NtJEEsVoDQ97tzs1-2Fl9N3R3wgIRCRdSJ-2BDzJy4ib6104QE62x4t0QChOyuGu9X1GFKYH6E9mjsku3CtvXs'
 
+// ECNL RL Girls Florida 2027 / Sanford (Jan 8–10) EventConnect room-block booking links
+// (blocks created by Jen, Nov 5; booking open until Wed, Nov 11 @ 7:00 PM EST).
+const RLFL_U17_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFbylQSmPhWGIjS1Aqd3acJN5EwdtFOWxhRqThvt5bT2XfX0Dv-2FcC59dBDA5LD7AmApfJ26KD8Rp5Qmw2Xb5fViiWtReMXJkaX6uB0FP1hr2DrhpfKcXJ56C9bw6CqON4WpN0fh-2BuADnT4ysWdNOUETH5SFW7SX7Yn9RftVSAZB3xTV0Ylk05fpcnzGQRrINIpps6dnmwWDaVcXKZv1mGaUesUo-2BiGYV6RaXgsXoGWpsHrEiUrFvOK2zJUgVUMGFzXE-3DrzTG_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKcM3A0HXAIGg0zjhh9573KtWknO95nVP-2BpG-2FrJwa3PiOCnF44yg5d9DFqiWtC8IK-2F4cm1FUYYIE-2FgN49zIv4UFi9Ye7Fq7nk8NsZ3MpKVymdUqfIw9rjyEJe8TSL3tIbU6o83sICflNDr0js7HA7OJbbekWpZ1oT4lj1DLmrv-2BCVHs4YLCDmn3UhtV-2ByGn-2FGa0d1-2BwSqxoXgoChf0LkktdBVRtyDu2AprMae4UgkYzGOAtvohmDdHPZ4bnKZHCqb8hxgMkGqeUPHwjKllReacVCC1VRkPrBmpIiCLyDW76kIOI9x8XPP9DO-2BP57njPH03HczTAphuG9WDqRtR5qL6cMlkU3z1RNJ7RQETxYnCIYp'
+const RLFL_U18_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFbylQSmPhWGIjS1Aqd3acJN5EwdtFOWxhRqThvt5bT2XTxhtaf2Q8RFjES3d9-2BFD5DA5GfUashs0C52xCTvm-2BZ8MBvGitDQNIwxPA5Q8y3o9K6D-2FbPJHs-2BMuA6CqoGOdIPqBX97i7gREQ3ZN8YbyS8MH0s8vjxROfhakiA5NVqBPiZ8I0lXJ015Hk2l82-2BdOGjLX-2F3tdVz1ItI51NifQIBRsDp-2FM277jB0Y7JVoADg5w20JnRSDvjIHU71mGnJnHLY-3DEPAM_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKcM3A0HXAIGg0zjhh9573KtWknO95nVP-2BpG-2FrJwa3PiOCnF44yg5d9DFqiWtC8IK-2FyJYARnKwP3p3YA4D7JOKbtdQDi6LzLJyJL5CCjvmlmJrb3FxiKUNEM2xUn34HRp2LzHu-2FhQNkyBTq4hTwgTPDwu2TkKAkTMDNC456PYuTAadtSPgZ1UM6sW2TLT4GAqbZf2azHCotVf1h90PL83m-2B4Z9Dwo41ArTlHbgsIpJ96Y-2B-2BD3GO0AIEKGlxan2EB8MMVZ72ycV21LIY2zPkzHHH4gNWphgzzlBvkFzBu6Dvp9a1fkU48d9SKVkjiruwLkH18vyfUiELpWtrtDHyNdFRk-3D'
+
 // NCFC Girls Junior Showcase (Raleigh, Nov 7–8) — Team Travel Source group-block links
 // (blocks created by Jen, Sep 16; rooms release back to general inventory Wed, Sep 23).
 const NCFC_U12_SOUTHCALVERT_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTooGaJLoj4mBHUwIFF7pd-2BEY7XP-_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8zftzC71Vzsh4KzFg73Nb-2B2kiXwGFHqqtYnFt2sBqL75Wb5NuQ69AlbWr83iRwB9QhJAZJEqzl9N4YBWJ8RRcaGvR1kRHnnKFhKDcPGI5Mv76Qr2CMD8pNtLzxjMpkEVEWu9i4IQET3MjzlChDrLBcPYLE0eBCvvhXYN1XpYpl9Q-3D-3D'
@@ -310,10 +315,24 @@ export const events = [
 
   // ================= ECNL RL showcases =================
   {
-    no: 10, sortDate: '2027-01-08', ages: ['U17', 'U18/19'], teamsList: ['U17 ECNL RL', 'U18/19 ECNL RL'], confirmed: true, action: false, travel: 'fly',
+    no: 10, sortDate: '2027-01-08', ages: ['U17', 'U18/19'], teamsList: ['U17 ECNL RL', 'U18/19 ECNL RL'], confirmed: true, action: true, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Winter',
     dates: 'Jan 8–10, 2027 (Fri–Sun)', location: 'Sanford, FL',
-    note: 'U17 and U18/19 ECNL RL placed. Placement confirmed by the ECNL on Oct 20; the team list is final. Hotel and flight details to follow.', teams: [],
+    note: 'Placement confirmed by the ECNL on Oct 20; the team list is final. Both teams are in the same hotel. Blocks are held until Wed, Nov 11 at 7:00 PM.',
+    teams: [
+      { team: 'U17 ECNL RL', bookDeadline: 'Wed, Nov 11 @ 7:00 PM',
+        arrivalDate: 'Thu, Jan 7 (night before)', nights: '3 · Thu·Fri·Sat',
+        teamCode: '#2387759', hotelLink: RLFL_U17_BOOKING,
+        hotels: [
+          { name: 'Hilton Orlando/Altamonte Springs', address: '350 S Northlake Blvd, Altamonte Springs, FL', rooms: '18-room block · 2 Queen Beds · $189/night avg · 407-830-1985', bookLink: RLFL_U17_BOOKING },
+        ] },
+      { team: 'U18/19 ECNL RL', bookDeadline: 'Wed, Nov 11 @ 7:00 PM',
+        arrivalDate: 'Thu, Jan 7 (night before)', nights: '3 · Thu·Fri·Sat',
+        teamCode: '#2387760', hotelLink: RLFL_U18_BOOKING,
+        hotels: [
+          { name: 'Hilton Orlando/Altamonte Springs', address: '350 S Northlake Blvd, Altamonte Springs, FL', rooms: '18-room block · 2 Queen Beds · $189/night avg · 407-830-1985', bookLink: RLFL_U18_BOOKING },
+        ] },
+    ],
   },
   // ── OFF the guide (per Win, Sep 12): ECNL RL Florida — Spring (Feb 26–28) is Leaders Cup
   //    qualifiers only at U15–U17; we are NOT attending. Restore if that changes. ──
