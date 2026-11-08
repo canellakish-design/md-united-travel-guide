@@ -308,7 +308,7 @@ export const events = [
         bookDeadline: 'Thu, Nov 12 @ 7:00 PM', arrivalDate: 'Fri, Jan 8 (night before)', nights: '3 · Fri·Sat·Sun',
         teamCode: '#2388677', hotelLink: LWR_U18_BOOKING,
         hotels: [
-          { name: 'Holiday Inn Express Tampa-Brandon', address: '510 Grand Regency Boulevard, Brandon, FL', rooms: '15-room block · 2 Queen Beds · $209/night avg · 813-643-3800 · 4 more rooms requested', bookLink: LWR_U18_BOOKING },
+          { name: 'Holiday Inn Express Tampa-Brandon', address: '510 Grand Regency Boulevard, Brandon, FL', rooms: '18-room block · 2 Queen Beds · $209/night avg · 813-643-3800', bookLink: LWR_U18_BOOKING },
         ] },
     ],
   },
