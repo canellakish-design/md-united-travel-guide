@@ -96,6 +96,12 @@ const ORLANDO_U17_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cU
 const RLFL_U17_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFbylQSmPhWGIjS1Aqd3acJN5EwdtFOWxhRqThvt5bT2XfX0Dv-2FcC59dBDA5LD7AmApfJ26KD8Rp5Qmw2Xb5fViiWtReMXJkaX6uB0FP1hr2DrhpfKcXJ56C9bw6CqON4WpN0fh-2BuADnT4ysWdNOUETH5SFW7SX7Yn9RftVSAZB3xTV0Ylk05fpcnzGQRrINIpps6dnmwWDaVcXKZv1mGaUesUo-2BiGYV6RaXgsXoGWpsHrEiUrFvOK2zJUgVUMGFzXE-3DrzTG_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKcM3A0HXAIGg0zjhh9573KtWknO95nVP-2BpG-2FrJwa3PiOCnF44yg5d9DFqiWtC8IK-2F4cm1FUYYIE-2FgN49zIv4UFi9Ye7Fq7nk8NsZ3MpKVymdUqfIw9rjyEJe8TSL3tIbU6o83sICflNDr0js7HA7OJbbekWpZ1oT4lj1DLmrv-2BCVHs4YLCDmn3UhtV-2ByGn-2FGa0d1-2BwSqxoXgoChf0LkktdBVRtyDu2AprMae4UgkYzGOAtvohmDdHPZ4bnKZHCqb8hxgMkGqeUPHwjKllReacVCC1VRkPrBmpIiCLyDW76kIOI9x8XPP9DO-2BP57njPH03HczTAphuG9WDqRtR5qL6cMlkU3z1RNJ7RQETxYnCIYp'
 const RLFL_U18_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFbylQSmPhWGIjS1Aqd3acJN5EwdtFOWxhRqThvt5bT2XTxhtaf2Q8RFjES3d9-2BFD5DA5GfUashs0C52xCTvm-2BZ8MBvGitDQNIwxPA5Q8y3o9K6D-2FbPJHs-2BMuA6CqoGOdIPqBX97i7gREQ3ZN8YbyS8MH0s8vjxROfhakiA5NVqBPiZ8I0lXJ015Hk2l82-2BdOGjLX-2F3tdVz1ItI51NifQIBRsDp-2FM277jB0Y7JVoADg5w20JnRSDvjIHU71mGnJnHLY-3DEPAM_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKcM3A0HXAIGg0zjhh9573KtWknO95nVP-2BpG-2FrJwa3PiOCnF44yg5d9DFqiWtC8IK-2FyJYARnKwP3p3YA4D7JOKbtdQDi6LzLJyJL5CCjvmlmJrb3FxiKUNEM2xUn34HRp2LzHu-2FhQNkyBTq4hTwgTPDwu2TkKAkTMDNC456PYuTAadtSPgZ1UM6sW2TLT4GAqbZf2azHCotVf1h90PL83m-2B4Z9Dwo41ArTlHbgsIpJ96Y-2B-2BD3GO0AIEKGlxan2EB8MMVZ72ycV21LIY2zPkzHHH4gNWphgzzlBvkFzBu6Dvp9a1fkU48d9SKVkjiruwLkH18vyfUiELpWtrtDHyNdFRk-3D'
 
+// ECNL Girls Florida Winter 2027 / Lakewood Ranch (Jan 9–11) EventConnect room-block booking
+// links (blocks created by Jen, Nov 6; booking open until Thu, Nov 12 @ 7:00 PM EST).
+const LWR_U16_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFaG470j8NwbRSvI7crdBzANGR1n1vlaiqHtDUgmfOE0gE2PNAf7a-2FLNM7WnvRJMQ66uMGvXBo6hXJ7uMStju686fHmfXhX-2B8-2FjyqjaT4XSSVEIEYrWaDQUJj-2BT3wQ1lethu-2B5sQd6GIggTkKQY6gakls55MFDQ3GcLTJzmsLsnRYunpPG7LMckUZ-2FeT9dUz18d-2BAC4qrNUer1VA6Gjyoyb34pVx-2FA4C-2F2J1dR-2FJl0OJB3us5Zd3oph2i9R4v2x-2FMqU-3DF-Rb_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKaEt9FblspgF3-2Fl0TFh-2FtaxZ7fQPlYT-2BG0n6LvIYDurjxpB4SA8aQaUjpMBN6yGohmTwxpRsV9eHi6yvR0MzM7Hw-2Bgk3dbH0NnzsnT1mBy8sLruMUQatjzCUysCCYfGAx5Gjy7UZf2-2FhxQ7e9B-2B1CCa33ni6THGNetzglUZnbY3inkk-2B24FsdjG3U5RQEq4YtACiuKDn1Gg61AUBqs5SrQtHjU4PLbNjNN2YvpPWlc1KCVsFn4-2BENZCLI5LDT2ULulAvDoaJm9U68a8aMf6-2FEsoxKnLUs-2FR1rHj6br9ROioxGGRCAjNVzUQBrrFYVfnjlewR0hRigDn4XXPbAgvL7knRCkVWqWj5WnRrgWb8lucn'
+const LWR_U17_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFaG470j8NwbRSvI7crdBzANGR1n1vlaiqHtDUgmfOE0gPEUkHu1tpVouysXC1tfRD0i5BHZ3RAobq9BiEAdyczJm0p5CKa1Kqulqi8RJ51Aj6omUFdo5ldbAoeeUzYbLaZRzAn4vjUHi1ybRH-2FBf04B2D6eQ-2F66i0sRQ-2FMjIGRwbbdFcvesXLs8RXOUb-2F53WHCdtUCN9HTUZ2Tk5MmvbRBOJmxqciXnN7XLLjmvt3PZ-2FTdrYQVExbiXDwZ4e3ZvflE-3DJAtC_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKaEt9FblspgF3-2Fl0TFh-2FtaxZ7fQPlYT-2BG0n6LvIYDurjxpB4SA8aQaUjpMBN6yGohnInxCWbNd96bEm9-2BZ85UyJoyXjE-2BP6hra4laR-2BruNcOHMBFMiMaygtoZ-2FIv6JH51H-2F4TMnbD2pSR2RXS0jLloCAp8C4yrZv647Z4WK64m2lV-2FWlkFvjJQgvWI1pNt2yMQ-2BSJdINqMWacZKkGENu43aVHVK12xbu6RYDdM2ddEY-2BrR8GkGbFn93GxfdqjY1eVpNO0SeCY-2BGDTyBT8Ig3xOKDLAEBCWPTSyeUQvmH275cOOmcqSJgfH-2FUE7Z5HDFXeum19iASak-2FSZdWYVGbreGt3iMWF0zhd66Hl7Ieg2-2F-2Ff'
+const LWR_U18_BOOKING = 'https://app.eventconnect.io/events/45586/hotels?registration=2388677&hotelContractId=313902'
+
 // NCFC Girls Junior Showcase (Raleigh, Nov 7–8) — Team Travel Source group-block links
 // (blocks created by Jen, Sep 16; rooms release back to general inventory Wed, Sep 23).
 const NCFC_U12_SOUTHCALVERT_BOOKING = 'https://u45467925.ct.sendgrid.net/ls/click?upn=u001.twiocRcK7Q2WvNS2eAoUiP7gSc3ysU7EqTeI696kqeVCCpGxqPFR8tToevsnQiFABhlis8rpEtfMAqfE8F4iBE5e6By954x5EO0ysFcHTooGaJLoj4mBHUwIFF7pd-2BEY7XP-_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8zftzC71Vzsh4KzFg73Nb-2B2kiXwGFHqqtYnFt2sBqL75Wb5NuQ69AlbWr83iRwB9QhJAZJEqzl9N4YBWJ8RRcaGvR1kRHnnKFhKDcPGI5Mv76Qr2CMD8pNtLzxjMpkEVEWu9i4IQET3MjzlChDrLBcPYLE0eBCvvhXYN1XpYpl9Q-3D-3D'
@@ -284,11 +290,26 @@ export const events = [
     no: 6, sortDate: '2027-01-09', ages: ['U16', 'U17', 'U18/19'], confirmed: true, action: true, travel: 'fly',
     league: 'ECNL', name: 'ECNL Girls Florida — Winter',
     dates: 'Jan 9–11, 2027 (Sat–Mon)', location: 'Lakewood Ranch, FL',
-    note: 'Placement confirmed by the ECNL on Oct 19; the team list is final. Hotel details to follow.',
+    note: 'Placement confirmed by the ECNL on Oct 19; the team list is final. U17 and U18/19 ECNL are in the same hotel; U16 ECNL is in a separate one. All three blocks are held until Thu, Nov 12 at 7:00 PM. Rates are plus tax.',
     teams: [
-      { team: 'U16 ECNL', players: 19, playerRooms: 19, coaches: 'Harry Canellakis', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U17 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U18/19 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
+      { team: 'U16 ECNL', players: 19, playerRooms: 19, coaches: 'Harry Canellakis', coachRooms: 1,
+        bookDeadline: 'Thu, Nov 12 @ 7:00 PM', arrivalDate: 'Fri, Jan 8 (night before)', nights: '3 · Fri·Sat·Sun',
+        teamCode: '#2388674', hotelLink: LWR_U16_BOOKING,
+        hotels: [
+          { name: 'Hilton St. Petersburg Carillon Park', address: '950 Lake Carillon Dr, St. Petersburg, FL', rooms: '18-room block · 2 Full Beds · $189/night avg · 727-540-0050', bookLink: LWR_U16_BOOKING },
+        ] },
+      { team: 'U17 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1,
+        bookDeadline: 'Thu, Nov 12 @ 7:00 PM', arrivalDate: 'Fri, Jan 8 (night before)', nights: '3 · Fri·Sat·Sun',
+        teamCode: '#2388676', hotelLink: LWR_U17_BOOKING,
+        hotels: [
+          { name: 'Holiday Inn Express Tampa-Brandon', address: '510 Grand Regency Boulevard, Brandon, FL', rooms: '18-room block · 2 Queen Beds · $209/night avg · 813-643-3800', bookLink: LWR_U17_BOOKING },
+        ] },
+      { team: 'U18/19 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1,
+        bookDeadline: 'Thu, Nov 12 @ 7:00 PM', arrivalDate: 'Fri, Jan 8 (night before)', nights: '3 · Fri·Sat·Sun',
+        teamCode: '#2388677', hotelLink: LWR_U18_BOOKING,
+        hotels: [
+          { name: 'Holiday Inn Express Tampa-Brandon', address: '510 Grand Regency Boulevard, Brandon, FL', rooms: '15-room block · 2 Queen Beds · $209/night avg · 813-643-3800 · 4 more rooms requested', bookLink: LWR_U18_BOOKING },
+        ] },
     ],
   },
   {
