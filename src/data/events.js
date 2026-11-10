@@ -267,23 +267,26 @@ export const events = [
 
   // ================= CONFIRMED — ECNL Florida (FLY — book flights now) =================
   {
-    no: 5, sortDate: '2026-12-05', ages: ['U16', 'U17'], confirmed: true, action: false, closed: true, travel: 'fly',
+    no: 5, sortDate: '2026-12-05', ages: ['U16', 'U17', 'U18/19'], confirmed: true, action: true, travel: 'fly',
     league: 'ECNL', name: 'ECNL Orlando',
     dates: 'Dec 5–7, 2026 (Sat–Mon)', location: 'Sanford (Orlando area), FL',
-    note: 'Both teams are in the same hotel. Hotel booking closed Wed, Sep 30 at 7:00 PM. Flights are still open to book.',
+    note: 'U18/19 ECNL was added on Nov 10, when a spot opened; their hotel block is still to come. U16 and U17 ECNL are in the same hotel and their booking closed Wed, Sep 30 at 7:00 PM. Flights are open to book for all three teams.',
     teams: [
       { team: 'U16 ECNL', players: 19, playerRooms: 19, coaches: 'Harry Canellakis', coachRooms: 1,
-        bookDeadline: 'Wed, Sep 30 @ 7:00 PM', arrivalDate: 'Fri, Dec 4 (night before)', nights: '3 · Fri·Sat·Sun',
+        bookDeadline: 'Closed — booked Wed, Sep 30', arrivalDate: 'Fri, Dec 4 (night before)', nights: '3 · Fri·Sat·Sun',
         teamCode: '#2341598', hotelLink: ORLANDO_U16_BOOKING,
         hotels: [
           { name: 'Courtyard Orlando Lake Buena Vista in the Marriott Village', address: '8623 Vineland Avenue, Orlando, FL', rooms: '18-room block · 2 Queen Beds, non-smoking · $152/night avg · 407-938-9001' },
         ] },
       { team: 'U17 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1,
-        bookDeadline: 'Wed, Sep 30 @ 7:00 PM', arrivalDate: 'Fri, Dec 4 (night before)', nights: '3 · Fri·Sat·Sun',
+        bookDeadline: 'Closed — booked Wed, Sep 30', arrivalDate: 'Fri, Dec 4 (night before)', nights: '3 · Fri·Sat·Sun',
         teamCode: '#2341600', hotelLink: ORLANDO_U17_BOOKING,
         hotels: [
           { name: 'Courtyard Orlando Lake Buena Vista in the Marriott Village', address: '8623 Vineland Avenue, Orlando, FL', rooms: '18-room block · 2 Queen Beds, non-smoking · $152/night avg · 407-938-9001' },
         ] },
+      { team: 'U18/19 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1,
+        arrivalDate: 'Fri, Dec 4 (night before)', nights: '3 · Fri·Sat·Sun',
+        bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
     ],
   },
   {
@@ -313,12 +316,12 @@ export const events = [
     ],
   },
   {
-    no: 7, sortDate: '2027-02-26', ages: ['U15', 'U18/19'], confirmed: true, action: true, travel: 'fly',
+    no: 7, sortDate: '2027-02-26', ages: ['U15'], confirmed: true, action: true, travel: 'fly',
     league: 'ECNL', name: 'ECNL Girls Florida — Spring',
-    dates: 'Feb 26–28, 2027 (Fri–Sun)', location: 'Lakewood Ranch, FL', note: '',
+    dates: 'Feb 26–28, 2027 (Fri–Sun)', location: 'Lakewood Ranch, FL',
+    note: 'U15 ECNL only. U18/19 ECNL came off this event on Nov 10 and plays ECNL Orlando on Dec 5–7 instead.',
     teams: [
       { team: 'U15 ECNL', players: 16, playerRooms: 16, coaches: 'Scott Villagran', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
-      { team: 'U18/19 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
     ],
   },
 
