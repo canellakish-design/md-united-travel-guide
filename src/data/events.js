@@ -102,9 +102,6 @@ const LWR_U16_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVx
 const LWR_U17_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFaG470j8NwbRSvI7crdBzANGR1n1vlaiqHtDUgmfOE0gPEUkHu1tpVouysXC1tfRD0i5BHZ3RAobq9BiEAdyczJm0p5CKa1Kqulqi8RJ51Aj6omUFdo5ldbAoeeUzYbLaZRzAn4vjUHi1ybRH-2FBf04B2D6eQ-2F66i0sRQ-2FMjIGRwbbdFcvesXLs8RXOUb-2F53WHCdtUCN9HTUZ2Tk5MmvbRBOJmxqciXnN7XLLjmvt3PZ-2FTdrYQVExbiXDwZ4e3ZvflE-3DJAtC_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKaEt9FblspgF3-2Fl0TFh-2FtaxZ7fQPlYT-2BG0n6LvIYDurjxpB4SA8aQaUjpMBN6yGohnInxCWbNd96bEm9-2BZ85UyJoyXjE-2BP6hra4laR-2BruNcOHMBFMiMaygtoZ-2FIv6JH51H-2F4TMnbD2pSR2RXS0jLloCAp8C4yrZv647Z4WK64m2lV-2FWlkFvjJQgvWI1pNt2yMQ-2BSJdINqMWacZKkGENu43aVHVK12xbu6RYDdM2ddEY-2BrR8GkGbFn93GxfdqjY1eVpNO0SeCY-2BGDTyBT8Ig3xOKDLAEBCWPTSyeUQvmH275cOOmcqSJgfH-2FUE7Z5HDFXeum19iASak-2FSZdWYVGbreGt3iMWF0zhd66Hl7Ieg2-2F-2Ff'
 const LWR_U18_BOOKING = 'https://app.eventconnect.io/events/45586/hotels?registration=2388677&hotelContractId=313902'
 
-// ECNL Girls Florida 2026 / Orlando — U18/19 block added after the team was placed on Nov 10
-// (created by Jen, Nov 10; booking open until Fri, Nov 13 @ 7:00 PM EST).
-const ORLANDO_U18_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q6KQMO-2FVXY89AU4inb1ObtPHJ0AQf-2BUou4V8KiLkRSU8n0qSo8QtUCZVxESsDUngalo0EgPsnB3MkWMQzEYZxLwmN8fEk5mLr7WnWvrjhP9BSsxWLfdZBAYcRAVn9qxtk6UzqiRJ0QZgYIGqpyT6eNeV0Cul5WV0pYi6ACIAhq863AHKjBjtE840lU3Jd2J1z1QjLQP34AqNgPkdkTamPykdHBbrgGXBV46wDSIzR7qrdadssAc1rlNzI5fAnfdl0zTO5OZPpWZLwpniKK4wsI12BTBy9xj-2Fwg2gq-2BOyr2LzC4MS_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKbQbCYoRC3sY7cEBnhEroUM6QrQ-2BS-2B41xut4jDBm9OkXxZk5sRHzkV0Lfi449cfCL5oGqebXkBtIRRoEfVwp1WcjO4kqM7-2B0278NEGf6Y05CpoP3nV8uqBf8ePUKjK2fR138P1geuHfAiP2yBLdcrShAZwQpm-2BGcjh-2F95IfjGQl7uT5WI1ClTjOBLKeeRm4faBJPiKl1pOOZCA5BHQqxaTlCAKdBFMNCHJhpW4wzaaiagYSOIWIzDIUGqtxR4KgVo-2B0UiVcerASlbLU9H9fqCWmabsnT49C1IZSTfR-2FTTex-2BIWyP9ep2zbKvZtBHV-2BCkcXUGa6RjIB54WSkQm6Q5Ae8IgH9Q0-2B2ijv4u74oDY-2BtZ'
 
 // NCFC Girls Junior Showcase (Raleigh, Nov 7–8) — Team Travel Source group-block links
 // (blocks created by Jen, Sep 16; rooms release back to general inventory Wed, Sep 23).
@@ -271,10 +268,10 @@ export const events = [
 
   // ================= CONFIRMED — ECNL Florida (FLY — book flights now) =================
   {
-    no: 5, sortDate: '2026-12-05', ages: ['U16', 'U17', 'U18/19'], confirmed: true, action: true, travel: 'fly',
+    no: 5, sortDate: '2026-12-05', ages: ['U16', 'U17'], confirmed: true, action: false, closed: true, travel: 'fly',
     league: 'ECNL', name: 'ECNL Orlando',
     dates: 'Dec 5–7, 2026 (Sat–Mon)', location: 'Sanford (Orlando area), FL',
-    note: 'U18/19 ECNL was added on Nov 10, when a spot opened, and is in a different hotel from the other two. Their booking closes Fri, Nov 13 at 7:00 PM; the rate is plus tax. U16 and U17 ECNL share the Courtyard and their booking closed Wed, Sep 30. Flights are open to book for all three teams.',
+    note: 'Both teams are in the same hotel. Hotel booking closed Wed, Sep 30 at 7:00 PM. Flights are open to book. U18/19 ECNL is not attending (withdrawn Nov 11).',
     teams: [
       { team: 'U16 ECNL', players: 19, playerRooms: 19, coaches: 'Harry Canellakis', coachRooms: 1,
         bookDeadline: 'Closed — booked Wed, Sep 30', arrivalDate: 'Fri, Dec 4 (night before)', nights: '3 · Fri·Sat·Sun',
@@ -287,12 +284,6 @@ export const events = [
         teamCode: '#2341600', hotelLink: ORLANDO_U17_BOOKING,
         hotels: [
           { name: 'Courtyard Orlando Lake Buena Vista in the Marriott Village', address: '8623 Vineland Avenue, Orlando, FL', rooms: '18-room block · 2 Queen Beds, non-smoking · $152/night avg · 407-938-9001' },
-        ] },
-      { team: 'U18/19 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1,
-        bookDeadline: 'Fri, Nov 13 @ 7:00 PM', arrivalDate: 'Fri, Dec 4 (night before)', nights: '3 · Fri·Sat·Sun',
-        teamCode: '#2390577', hotelLink: ORLANDO_U18_BOOKING,
-        hotels: [
-          { name: 'Holiday Inn Express & Suites Orange City - Deltona', address: '1330 Saxon Blvd, Orange City, FL', rooms: '18-room block · 2 Queen Beds · $149/night avg · 386-917-0004', bookLink: ORLANDO_U18_BOOKING },
         ] },
     ],
   },
@@ -326,7 +317,7 @@ export const events = [
     no: 7, sortDate: '2027-02-26', ages: ['U15'], confirmed: true, action: true, travel: 'fly',
     league: 'ECNL', name: 'ECNL Girls Florida — Spring',
     dates: 'Feb 26–28, 2027 (Fri–Sun)', location: 'Lakewood Ranch, FL',
-    note: 'U15 ECNL only. U18/19 ECNL came off this event on Nov 10 and plays ECNL Orlando on Dec 5–7 instead.',
+    note: 'U15 ECNL only. U18/19 ECNL plays ECNL Girls Florida Winter, Jan 9–11.',
     teams: [
       { team: 'U15 ECNL', players: 16, playerRooms: 16, coaches: 'Scott Villagran', coachRooms: 1, bookDeadline: '', teamCode: '', hotelLink: '', hotels: [] },
     ],
