@@ -269,7 +269,7 @@ export const events = [
   // ================= CONFIRMED — ECNL Florida (FLY — book flights now) =================
   {
     no: 5, sortDate: '2026-12-05', ages: ['U16', 'U17'], confirmed: true, action: false, closed: true, travel: 'fly',
-    league: 'ECNL', name: 'ECNL Orlando',
+    league: 'ECNL', name: 'ECNL Girls Florida — Fall',
     dates: 'Dec 5–7, 2026 (Sat–Mon)', location: 'Sanford (Orlando area), FL',
     note: 'Both teams are in the same hotel. Hotel booking closed Wed, Sep 30 at 7:00 PM. Flights are open to book. U18/19 ECNL is not attending (withdrawn Nov 11).',
     teams: [
