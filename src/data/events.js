@@ -425,11 +425,11 @@ export const events = [
     confirmed: true, action: false, closed: true, travel: 'drive',
     league: 'Showcase', name: 'PDA Girls Invitational (Thanksgiving Showcase)',
     dates: 'Nov 21–22, 2026 (Sat–Sun)', location: 'New Jersey', venue: PDA_COMPLEX,
-    note: 'Kickoffs are out: two games per team, Saturday and Sunday, across seven sites in central New Jersey. Only four of the eight teams play at the PDA complex; each team’s times and fields are in its block below. Booking closed Friday, Sept 25 @ 8:00 AM. Blocks were held through On Location / Anthony Travel and are Friday & Saturday nights (check in Fri, Nov 20 · check out Sun, Nov 22). Hotels and team codes below are the blocks as booked. Team codes use a double dash; PDA--O9 and PDA--O4 use the letter O, not zero. On Location Anthony Travel: (866) 386-0059.',
+    note: 'Kickoffs are out: two games per team, Saturday and Sunday, across seven sites in central New Jersey. Only four of the eight teams play at the PDA complex; each team’s times and fields are in its block below. Booking closed Friday, Sept 25 @ 8:00 AM. Blocks were held through On Location / Anthony Travel and are Friday & Saturday nights (check in Fri, Nov 20 · check out Sun, Nov 22). U15 ECNL, U16 ECNL and U16 ECNL RL kick off Saturday afternoon and stay Saturday night only; a booking that includes Friday night is changed through On Location / Anthony Travel (the confirmation email or the number below), not with the hotel. Hotels and team codes below are the blocks as booked. Team codes use a double dash; PDA--O9 and PDA--O4 use the letter O, not zero. On Location Anthony Travel: (866) 386-0059.',
     coverage: SARA_COVER,
     teams: [
       { team: 'U15 ECNL', bookDeadline: 'Closed — booked Fri, Sep 25', kickoff: 'Sat 1:00 PM · Mountain Park, Field 2 · Sun 8:00 AM · Somerville HS, Field 2',
-        arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--T7', hotelLink: PDA_BK_T7,
+        arrivalDate: 'Sat, Nov 21 (day of first game)', nights: '1 · Sat', teamCode: 'PDA--T7', hotelLink: PDA_BK_T7,
         hotels: [
           { name: 'Hyatt House Branchburg/Bridgewater', address: '3141 U.S. 22, Branchburg, NJ', rooms: '15 rooms · 1-BR Suite, King + sofa bed · $144/night · Code PDA--T7', bookLink: PDA_BK_T7 },
           { name: 'Residence Inn Bridgewater Branchburg', address: '3241 Route 22, Branchburg, NJ', rooms: '3 overflow rooms · King + sofa bed · $150/night · Code PDA--U8', bookLink: PDA_BK_U8 },
@@ -440,13 +440,13 @@ export const events = [
           { name: 'Sonesta Select Whippany Hanover', address: '157 New Jersey 10, Whippany, NJ', rooms: '17 rooms · 2 Queen Beds · $169/night · Code PDA--N9', bookLink: PDA_BK_N9 },
         ] },
       { team: 'U16 ECNL', bookDeadline: 'Closed — booked Fri, Sep 25', kickoff: 'Sat 2:40 PM · PDA Main Complex, Field 5 · Sun 9:40 AM · PDA Main Complex, Field 7',
-        arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--O9 (letter O)', hotelLink: PDA_BK_O9,
+        arrivalDate: 'Sat, Nov 21 (day of first game)', nights: '1 · Sat', teamCode: 'PDA--O9 (letter O)', hotelLink: PDA_BK_O9,
         hotels: [
           { name: 'Delta Hotels by Marriott Basking Ridge', address: '80 Allen Rd, Basking Ridge, NJ', rooms: '14 rooms · 2 Queen Beds · $169/night · Code PDA--O9 (letter O, not zero) · pet-free hotel', bookLink: PDA_BK_O9 },
           { name: 'Residence Inn Bridgewater Branchburg', address: '3241 Route 22, Branchburg, NJ', rooms: '6 overflow rooms · King + sofa bed · $150/night · Code PDA--D9', bookLink: PDA_BK_D9 },
         ] },
       { team: 'U16 ECNL RL', bookDeadline: 'Closed — booked Fri, Sep 25', kickoff: 'Sat 2:40 PM · Somerville HS, Field 1 · Sun 2:40 PM · PDA Morningside, Field 13',
-        arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--N6', hotelLink: PDA_BK_N6,
+        arrivalDate: 'Sat, Nov 21 (day of first game)', nights: '1 · Sat', teamCode: 'PDA--N6', hotelLink: PDA_BK_N6,
         hotels: [
           { name: 'DoubleTree by Hilton Princeton', address: '4355 U.S. 1, Princeton, NJ', rooms: '20 rooms · 7 King + sofa bed ($179/night) & 13 × 2 Queen ($199/night) · Code PDA--N6', bookLink: PDA_BK_N6 },
         ] },
