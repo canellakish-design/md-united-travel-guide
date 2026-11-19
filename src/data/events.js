@@ -141,12 +141,6 @@ const SPRING_LEAGUE_TEAMS = [
   'U18/19 ECNL', 'U18/19 ECNL RL',
 ]
 
-// Nov 2026 – Feb 2027: Harry is covering U15 ECNL RL for Sara Butler. He's
-// local, so the covering coach needs no hotel room (coachRooms: 0). Applied
-// via `coverage` on each in-window event.
-const SARA_COVER = { 'U15 ECNL RL': { coach: 'Sara Butler (Harry covering)', coachRooms: 0 } }
-// Feb RL Florida — Harry likely covering but not confirmed, so coach + room are TBD.
-const SARA_COVER_TBD = { 'U15 ECNL RL': { coach: 'Sara Butler (Harry covering — TBD)', coachRooms: 'TBD' } }
 
 export const events = [
   // ================= CONFIRMED — ECNL New Jersey (COMPLETE — booking closed, event underway) =================
@@ -362,7 +356,7 @@ export const events = [
   //   no: 11, sortDate: '2027-02-26', ages: ['U15', 'U16'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL'], confirmed: false, action: false, travel: 'fly',
   //   league: 'ECNL RL', name: 'ECNL RL Girls Florida — Spring',
   //   dates: 'Feb 26–28, 2027 (Fri–Sun)', location: 'Lakewood Ranch, FL',
-  //   note: 'Requested for U15–U18/19.', coverage: SARA_COVER_TBD, teams: [],
+  //   note: 'Requested for U15–U18/19.', teams: [],
   // },
   {
     no: 12, sortDate: '2027-05-28', ages: ['U15', 'U16'], teamsList: ['U15 ECNL RL', 'U16 ECNL RL'], confirmed: true, action: false, travel: 'drive',
@@ -426,7 +420,6 @@ export const events = [
     league: 'Showcase', name: 'PDA Girls Invitational (Thanksgiving Showcase)',
     dates: 'Nov 21–22, 2026 (Sat–Sun)', location: 'New Jersey', venue: PDA_COMPLEX,
     note: 'Kickoffs are out: two games per team, Saturday and Sunday, across seven sites in central New Jersey. Only four of the eight teams play at the PDA complex; each team’s times and fields are in its block below. Booking closed Friday, Sept 25 @ 8:00 AM. Blocks were held through On Location / Anthony Travel and are Friday & Saturday nights (check in Fri, Nov 20 · check out Sun, Nov 22). U15 ECNL, U16 ECNL and U16 ECNL RL kick off Saturday afternoon and stay Saturday night only; a booking that includes Friday night is changed through On Location / Anthony Travel (the confirmation email or the number below), not with the hotel. Hotels and team codes below are the blocks as booked. Team codes use a double dash; PDA--O9 and PDA--O4 use the letter O, not zero. On Location Anthony Travel: (866) 386-0059.',
-    coverage: SARA_COVER,
     teams: [
       { team: 'U15 ECNL', bookDeadline: 'Closed — booked Fri, Sep 25', kickoff: 'Sat 1:00 PM · Mountain Park, Field 2 · Sun 8:00 AM · Somerville HS, Field 2',
         arrivalDate: 'Sat, Nov 21 (day of first game)', nights: '1 · Sat', teamCode: 'PDA--T7', hotelLink: PDA_BK_T7,
@@ -434,7 +427,7 @@ export const events = [
           { name: 'Hyatt House Branchburg/Bridgewater', address: '3141 U.S. 22, Branchburg, NJ', rooms: '15 rooms · 1-BR Suite, King + sofa bed · $144/night · Code PDA--T7', bookLink: PDA_BK_T7 },
           { name: 'Residence Inn Bridgewater Branchburg', address: '3241 Route 22, Branchburg, NJ', rooms: '3 overflow rooms · King + sofa bed · $150/night · Code PDA--U8', bookLink: PDA_BK_U8 },
         ] },
-      { team: 'U15 ECNL RL', bookDeadline: 'Closed — booked Fri, Sep 25', kickoff: 'Sat 9:40 AM · Princeton Day School, Field 1 · Sun 1:00 PM · Princeton Day School, Field 1', coaches: 'Sara Butler (Harry covering)', coachRooms: 0,
+      { team: 'U15 ECNL RL', bookDeadline: 'Closed — booked Fri, Sep 25', kickoff: 'Sat 9:40 AM · Princeton Day School, Field 1 · Sun 1:00 PM · Princeton Day School, Field 1', coaches: 'Sara Butler',
         arrivalDate: 'Fri, Nov 20 (night before)', nights: '2 · Fri·Sat', teamCode: 'PDA--N9', hotelLink: PDA_BK_N9,
         hotels: [
           { name: 'Sonesta Select Whippany Hanover', address: '157 New Jersey 10, Whippany, NJ', rooms: '17 rooms · 2 Queen Beds · $169/night · Code PDA--N9', bookLink: PDA_BK_N9 },
@@ -572,7 +565,6 @@ export const events = [
     ages: ['U15', 'U16', 'U17', 'U18/19'],
     teamsList: ['U15 ECNL', 'U15 ECNL RL', 'U16 ECNL', 'U16 ECNL RL', 'U17 ECNL', 'U17 ECNL RL', 'U18/19 ECNL', 'U18/19 ECNL RL'],
     name: 'League Cup @ PDA Blue', dates: 'Sun, Dec 13, 2026', location: 'PDA Blue, New Jersey', venue: PDA_COMPLEX,
-    coverage: SARA_COVER,
     note: 'Away game at PDA Blue, NJ. All teams also have a home League Cup game Saturday, Dec 12 (vs Match Fit) in Maryland, then travel to NJ and stay Saturday night. Kickoffs below from Athlete One: ECNL teams on Field 5, RL teams on Field 3.',
     // Away in NJ, but all teams have a Sat 12/12 home game first, so everyone stays Sat night.
     // Times from the PlayMetrics team calendars (League Cup schedules activated in A1, Aug 27).
