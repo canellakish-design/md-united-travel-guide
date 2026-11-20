@@ -144,6 +144,7 @@ const SPRING_LEAGUE_TEAMS = [
 
 const PAC_U15PREM_BOOKING = 'https://app.eventpipe.com/event/62a0d5eb-bfac-4add-85b8-92895e81f832/search/G-00910602'
 const PAC_U16PREM_BOOKING = 'https://app.eventpipe.com/event/62a0d5eb-bfac-4add-85b8-92895e81f832/search/G-00910609'
+const PAC_U16PREM_SAT_BOOKING = 'https://app.eventpipe.com/event/62a0d5eb-bfac-4add-85b8-92895e81f832/search/G-00911039'
 
 export const events = [
   // ================= CONFIRMED — ECNL New Jersey (COMPLETE — booking closed, event underway) =================
@@ -593,7 +594,7 @@ export const events = [
   // ================= PA Classics — Premier (Dec) =================
   { no: 27, sortDate: '2026-12-12', ages: ['U15', 'U16'], teamsList: ['U15 Premier', 'U16 Premier'], confirmed: false, action: true, travel: 'drive',
     league: 'Showcase', name: 'PA Classics Winter College Showcase', dates: 'Dec 12–13, 2026 (Sat–Sun)', location: 'Lancaster, PA',
-    note: 'Premier teams only. Hotel blocks held through Halpern Travel; unclaimed rooms return to general inventory Tue, Nov 24. Booking help: Halpern Travel, (888) 640-6400, reservations@halperntravel.com, Mon–Fri 8:30 AM–5:30 PM ET; reference your Group ID.',
+    note: 'Premier teams only. Hotel blocks held through Halpern Travel; unclaimed rooms return to general inventory Tue, Nov 24 (U16 Premier Saturday night block: Wed, Nov 25). Booking help: Halpern Travel, (888) 640-6400, reservations@halperntravel.com, Mon–Fri 8:30 AM–5:30 PM ET; reference your Group ID.',
     teams: [
       { team: 'U15 Premier', bookDeadline: 'Tue, Nov 24',
         arrivalDate: 'Fri, Dec 11 (night before)', nights: '2 · Fri·Sat',
@@ -601,11 +602,12 @@ export const events = [
         hotels: [
           { name: 'Comfort Inn & Suites Lancaster County North', address: 'Denver, PA', rooms: '15 Two Double Bed Rooms · $135/night plus tax', bookLink: PAC_U15PREM_BOOKING },
         ] },
-      { team: 'U16 Premier', bookDeadline: 'Tue, Nov 24',
-        arrivalDate: 'Fri, Dec 11 (night before)', nights: '1 · Fri (Saturday block to follow)',
-        teamCode: 'Group G-00910609', hotelLink: PAC_U16PREM_BOOKING,
+      { team: 'U16 Premier', bookDeadline: 'Tue, Nov 24 (Fri) · Wed, Nov 25 (Sat)',
+        arrivalDate: 'Fri, Dec 11 (night before)', nights: '2 · Fri·Sat (separate block each night)',
+        teamCode: 'Fri: Group G-00910609 · Sat: Group G-00911039', hotelLink: PAC_U16PREM_BOOKING,
         hotels: [
-          { name: 'Comfort Inn & Suites Lancaster County North', address: 'Denver, PA', rooms: '15 Two Double Bed Rooms · $135/night plus tax', bookLink: PAC_U16PREM_BOOKING },
+          { name: 'Comfort Inn & Suites Lancaster County North (Friday night)', address: 'Denver, PA', rooms: '15 Two Double Bed Rooms · $135/night plus tax · Group G-00910609', bookLink: PAC_U16PREM_BOOKING },
+          { name: 'Comfort Inn & Suites Lancaster County North (Saturday night)', address: 'Denver, PA', rooms: '15 Two Double Bed Rooms · $135/night plus tax · Group G-00911039', bookLink: PAC_U16PREM_SAT_BOOKING },
         ] },
     ] },
 ]
