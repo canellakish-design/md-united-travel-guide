@@ -101,8 +101,11 @@ const RLFL_U18_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSV
 const LWR_U16_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFaG470j8NwbRSvI7crdBzANGR1n1vlaiqHtDUgmfOE0gE2PNAf7a-2FLNM7WnvRJMQ66uMGvXBo6hXJ7uMStju686fHmfXhX-2B8-2FjyqjaT4XSSVEIEYrWaDQUJj-2BT3wQ1lethu-2B5sQd6GIggTkKQY6gakls55MFDQ3GcLTJzmsLsnRYunpPG7LMckUZ-2FeT9dUz18d-2BAC4qrNUer1VA6Gjyoyb34pVx-2FA4C-2F2J1dR-2FJl0OJB3us5Zd3oph2i9R4v2x-2FMqU-3DF-Rb_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKaEt9FblspgF3-2Fl0TFh-2FtaxZ7fQPlYT-2BG0n6LvIYDurjxpB4SA8aQaUjpMBN6yGohmTwxpRsV9eHi6yvR0MzM7Hw-2Bgk3dbH0NnzsnT1mBy8sLruMUQatjzCUysCCYfGAx5Gjy7UZf2-2FhxQ7e9B-2B1CCa33ni6THGNetzglUZnbY3inkk-2B24FsdjG3U5RQEq4YtACiuKDn1Gg61AUBqs5SrQtHjU4PLbNjNN2YvpPWlc1KCVsFn4-2BENZCLI5LDT2ULulAvDoaJm9U68a8aMf6-2FEsoxKnLUs-2FR1rHj6br9ROioxGGRCAjNVzUQBrrFYVfnjlewR0hRigDn4XXPbAgvL7knRCkVWqWj5WnRrgWb8lucn'
 const LWR_U17_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFaG470j8NwbRSvI7crdBzANGR1n1vlaiqHtDUgmfOE0gPEUkHu1tpVouysXC1tfRD0i5BHZ3RAobq9BiEAdyczJm0p5CKa1Kqulqi8RJ51Aj6omUFdo5ldbAoeeUzYbLaZRzAn4vjUHi1ybRH-2FBf04B2D6eQ-2F66i0sRQ-2FMjIGRwbbdFcvesXLs8RXOUb-2F53WHCdtUCN9HTUZ2Tk5MmvbRBOJmxqciXnN7XLLjmvt3PZ-2FTdrYQVExbiXDwZ4e3ZvflE-3DJAtC_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKaEt9FblspgF3-2Fl0TFh-2FtaxZ7fQPlYT-2BG0n6LvIYDurjxpB4SA8aQaUjpMBN6yGohnInxCWbNd96bEm9-2BZ85UyJoyXjE-2BP6hra4laR-2BruNcOHMBFMiMaygtoZ-2FIv6JH51H-2F4TMnbD2pSR2RXS0jLloCAp8C4yrZv647Z4WK64m2lV-2FWlkFvjJQgvWI1pNt2yMQ-2BSJdINqMWacZKkGENu43aVHVK12xbu6RYDdM2ddEY-2BrR8GkGbFn93GxfdqjY1eVpNO0SeCY-2BGDTyBT8Ig3xOKDLAEBCWPTSyeUQvmH275cOOmcqSJgfH-2FUE7Z5HDFXeum19iASak-2FSZdWYVGbreGt3iMWF0zhd66Hl7Ieg2-2F-2Ff'
 const LWR_U18_BOOKING = 'https://app.eventconnect.io/events/45586/hotels?registration=2388677&hotelContractId=313902'
-// U17 ECNL new team hotel (Fairfield Inn & Suites Venice), from Jen Pagliaro's EventConnect forward of Nov 22
-const LWR_U17_FAIRFIELD_BOOKING = 'http://url5260.eventconnect.io/ls/click?upn=u001.cUCSVxMZY2gTfuHKt-2FJ5Q5bv00MV60A6WyEsD9ygjFaG470j8NwbRSvI7crdBzANGR1n1vlaiqHtDUgmfOE0gPEUkHu1tpVouysXC1tfRD0i5BHZ3RAobq9BiEAdyczJ8DtRqZTbwv1KY55uO6WoaLngfCY4BgXD3-2BKiAtN3eJNt7LKQS0MVzOt1QDB8dIdXZHxAcYzjCa2BVFpnr28is04F04L6VDdaNjrtYtU4-2F11WiiFxWcHGq6uZwI1rhwlAPHcbjxQF05BjLiU9xk-2Bz9uy0Z9D0BXb9p7wPFgmaaLU-3DADkZ_w31U-2F1YMhLU7dy-2BxDmaakwuTWn8o4WB6JO1lMeHYmr8CmtOVHSTYjjQ9P5Y0sbNsEQcr3eCGFrUQz2cwXGQCurFLoZ6-2Fk3w-2Fmh9K8AoVa0qvd81Xcl2yQHD1YPgjSn7foNxyq2LIpXAvPu4665MsKaEt9FblspgF3-2Fl0TFh-2FtaxZ7fQPlYT-2BG0n6LvIYDurjxpB4SA8aQaUjpMBN6yGohgDa7bHRGHZ993HNvgylvkwFeKxjynfjiXZMnrfnf1Oq9vRGHXq4u3F7kKxtt8gT-2FZ5-2BEgsWjNCt-2Fr10o-2F0yMdFa8y7G3RgkGOXp36BA6-2FGOPEC-2Bk4yvsFO3tFQEsxaMTm9Wgl3xk0T67OgIyz6-2FB1xDWL5DhaK5FTO0ioBrMhzEFLkOolSgsfhEFnF45WWzhZcYeq-2Fo2FwMmLos7T0ekTJzcdB-2F-2Bn0z63sMGWO5TFs-2FyL1ndY-2BSrZPoWhFZBpYo0FOqESQCpB61MpI-2BJ2ey-2FsCfsQvqtkkxFDESiapd8qa-2F'
+// Florida Winter team blocks still open (Jen Pagliaro PlayMetrics messages of Nov 27; links resolved and pages read Nov 28)
+const LWR_U17_FAIRFIELD_BOOKING = 'https://app.eventconnect.io/events/45586/hotels?registration=2388676&hotelContractId=313713'
+const LWR_U16_CARETTA_BOOKING = 'https://app.eventconnect.io/events/45586/hotels?registration=2388674&hotelContractId=324497'
+const LWR_U16_CORAL_BOOKING = 'https://app.eventconnect.io/events/45586/hotels?registration=2388674&hotelContractId=324485'
+const LWR_U18_STAYBRIDGE_BOOKING = 'https://app.eventconnect.io/events/45586/hotels?registration=2388677&hotelContractId=364561'
 
 
 // NCFC Girls Junior Showcase (Raleigh, Nov 7–8) — Team Travel Source group-block links
@@ -291,29 +294,29 @@ export const events = [
     no: 6, sortDate: '2027-01-09', ages: ['U16', 'U17', 'U18/19'], confirmed: true, action: true, travel: 'fly',
     league: 'ECNL', name: 'ECNL Girls Florida — Winter',
     dates: 'Jan 9–11, 2027 (Sat–Mon)', location: 'Lakewood Ranch, FL',
-    note: 'Placement confirmed by the ECNL on Oct 19; the team list is final. Team hotels changed Nov 20–22 (Jen Pagliaro). Reservations at the previous hotels transfer through the EventConnect confirmation email or EventConnect, (888) 723-2064; no new deposit. Rates are plus tax.',
+    note: 'Placement confirmed by the ECNL on Oct 19; the team list is final. Team hotels changed Nov 20–22 (Jen Pagliaro). Reservations at the previous hotels transfer through the EventConnect confirmation email or EventConnect, (888) 723-2064; no new deposit. Rooms for families who have not booked: team links below.',
     teams: [
       { team: 'U16 ECNL', players: 19, playerRooms: 19, coaches: 'Harry Canellakis', coachRooms: 1,
-        bookDeadline: 'Transfer by Tue, Nov 24', arrivalDate: 'Fri, Jan 8 (night before)', nights: '3 · Fri·Sat·Sun',
-        teamCode: '#2388674', hotelLink: '',
+        bookDeadline: 'Thu, Dec 3 @ 7:00 PM', arrivalDate: 'Fri, Jan 8 (night before)', nights: '3 · Fri·Sat·Sun',
+        teamCode: '#2388674', hotelLink: LWR_U16_CARETTA_BOOKING,
         hotels: [
-          { name: 'Coral Pointe Sarasota', address: 'Sarasota, FL', rooms: '$234–$244/night · replaces Hilton St. Petersburg Carillon Park' },
-          { name: 'Carletta Landing Sarasota', address: 'Sarasota, FL', rooms: '$234–$244/night · same property as Coral Pointe' },
+          { name: 'Caretta Landing Sarasota', address: '5965 Brookhill Boulevard, Sarasota, FL', rooms: 'Standard Room, 2 Queen Beds · replaces Hilton St. Petersburg Carillon Park', bookLink: LWR_U16_CARETTA_BOOKING },
+          { name: 'Coral Pointe Sarasota', address: 'Sarasota, FL', rooms: 'Same property as Caretta Landing', bookLink: LWR_U16_CORAL_BOOKING },
         ] },
       { team: 'U17 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1,
         bookDeadline: 'Sun, Nov 29 @ 7:00 PM', arrivalDate: 'Fri, Jan 8 (night before)', nights: '3 · Fri·Sat·Sun',
         teamCode: '#2388676', hotelLink: LWR_U17_FAIRFIELD_BOOKING,
         hotels: [
-          { name: 'Fairfield Inn & Suites by Marriott Venice', address: '2935 Executive Drive, Venice, FL', rooms: '7 rooms · Studio, 1 King Bed with Sofa Bed · $189/night avg · 941-488-4343 · replaces Holiday Inn Express Tampa-Brandon', bookLink: LWR_U17_FAIRFIELD_BOOKING },
+          { name: 'Fairfield Inn & Suites by Marriott Venice', address: '2935 Executive Drive, Venice, FL', rooms: '7-room block · Studio, 1 King Bed with Sofa Bed · 941-488-4343 · replaces Holiday Inn Express Tampa-Brandon', bookLink: LWR_U17_FAIRFIELD_BOOKING },
           { name: 'TownePlace Suites Venice', address: 'Venice, FL', rooms: 'Transferred reservations only' },
         ] },
       { team: 'U18/19 ECNL', players: 17, playerRooms: 17, coaches: 'Matt Dwyer', coachRooms: 1,
-        bookDeadline: 'Transfer by Tue, Nov 24', arrivalDate: 'Fri, Jan 8 (night before)', nights: '3 · Fri·Sat·Sun',
-        teamCode: '#2388677', hotelLink: '',
+        bookDeadline: 'Thu, Dec 3 @ 7:00 PM', arrivalDate: 'Fri, Jan 8 (night before)', nights: '3 · Fri·Sat·Sun',
+        teamCode: '#2388677', hotelLink: LWR_U18_STAYBRIDGE_BOOKING,
         hotels: [
-          { name: 'Staybridge Suites Sarasota Bradenton Airport', address: 'Sarasota, FL', rooms: '$209–$234/night · replaces Holiday Inn Express Tampa-Brandon' },
-          { name: 'Hampton Inn & Suites Sarasota/Bradenton Airport', address: 'Sarasota, FL', rooms: '$209–$234/night' },
-          { name: 'Hilton Garden Inn Sarasota Bradenton Airport', address: 'Sarasota, FL', rooms: '$209–$234/night' },
+          { name: 'Staybridge Suites Sarasota - Bradenton Airport', address: '2645 University Parkway, Sarasota, FL', rooms: 'Suites, 2 Queen Beds + Sofa Bed, Full Kitchen · replaces Holiday Inn Express Tampa-Brandon', bookLink: LWR_U18_STAYBRIDGE_BOOKING },
+          { name: 'Hampton Inn & Suites Sarasota/Bradenton Airport', address: 'Sarasota, FL', rooms: 'Transferred reservations only' },
+          { name: 'Hilton Garden Inn Sarasota Bradenton Airport', address: 'Sarasota, FL', rooms: 'Transferred reservations only' },
         ] },
     ],
   },
@@ -344,19 +347,19 @@ export const events = [
     no: 10, sortDate: '2027-01-08', ages: ['U17', 'U18/19'], teamsList: ['U17 ECNL RL', 'U18/19 ECNL RL'], confirmed: true, action: true, travel: 'fly',
     league: 'ECNL RL', name: 'ECNL RL Girls Florida — Winter',
     dates: 'Jan 8–10, 2027 (Fri–Sun)', location: 'Sanford, FL',
-    note: 'Placement confirmed by the ECNL on Oct 20; the team list is final. Both teams are in the same hotel. Blocks are held until Wed, Nov 11 at 7:00 PM.',
+    note: 'Placement confirmed by the ECNL on Oct 20; the team list is final. Both teams are in the same hotel. Hotel blocks closed Wed, Nov 11 at 7:00 PM.',
     teams: [
-      { team: 'U17 ECNL RL', bookDeadline: 'Wed, Nov 11 @ 7:00 PM',
+      { team: 'U17 ECNL RL', bookDeadline: 'Closed — Wed, Nov 11 @ 7:00 PM',
         arrivalDate: 'Thu, Jan 7 (night before)', nights: '3 · Thu·Fri·Sat',
         teamCode: '#2387759', hotelLink: RLFL_U17_BOOKING,
         hotels: [
-          { name: 'Hilton Orlando/Altamonte Springs', address: '350 S Northlake Blvd, Altamonte Springs, FL', rooms: '18-room block · 2 Queen Beds · $189/night avg · 407-830-1985', bookLink: RLFL_U17_BOOKING },
+          { name: 'Hilton Orlando/Altamonte Springs', address: '350 S Northlake Blvd, Altamonte Springs, FL', rooms: '18-room block · 2 Queen Beds · 407-830-1985', bookLink: RLFL_U17_BOOKING },
         ] },
-      { team: 'U18/19 ECNL RL', bookDeadline: 'Wed, Nov 11 @ 7:00 PM',
+      { team: 'U18/19 ECNL RL', bookDeadline: 'Closed — Wed, Nov 11 @ 7:00 PM',
         arrivalDate: 'Thu, Jan 7 (night before)', nights: '3 · Thu·Fri·Sat',
         teamCode: '#2387760', hotelLink: RLFL_U18_BOOKING,
         hotels: [
-          { name: 'Hilton Orlando/Altamonte Springs', address: '350 S Northlake Blvd, Altamonte Springs, FL', rooms: '18-room block · 2 Queen Beds · $189/night avg · 407-830-1985', bookLink: RLFL_U18_BOOKING },
+          { name: 'Hilton Orlando/Altamonte Springs', address: '350 S Northlake Blvd, Altamonte Springs, FL', rooms: '18-room block · 2 Queen Beds · 407-830-1985', bookLink: RLFL_U18_BOOKING },
         ] },
     ],
   },
@@ -598,9 +601,9 @@ export const events = [
     note: 'Non-ECNL travel tournament.', teams: [] },
 
   // ================= PA Classics — Premier (Dec) =================
-  { no: 27, sortDate: '2026-12-12', ages: ['U15', 'U16'], teamsList: ['U15 Premier', 'U16 Premier'], confirmed: false, action: true, travel: 'drive',
+  { no: 27, sortDate: '2026-12-12', ages: ['U15', 'U16'], teamsList: ['U15 Premier', 'U16 Premier'], confirmed: false, action: false, closed: true, travel: 'drive',
     league: 'Showcase', name: 'PA Classics Winter College Showcase', dates: 'Dec 12–13, 2026 (Sat–Sun)', location: 'Lancaster, PA',
-    note: 'Premier teams only. Hotel blocks held through Halpern Travel; U15 Premier block released Tue, Nov 24. U16 Premier: the Friday and Saturday blocks were merged Nov 23 into Group G-00911039, held until Wed, Nov 25. Booking help: Halpern Travel, (888) 640-6400, reservations@halperntravel.com, Mon–Fri 8:30 AM–5:30 PM ET; reference your Group ID.',
+    note: 'Premier teams only. Hotel blocks held through Halpern Travel; U15 Premier block released Tue, Nov 24. U16 Premier: the Friday and Saturday blocks were merged Nov 23 into Group G-00911039, released Wed, Nov 25. Booking help: Halpern Travel, (888) 640-6400, reservations@halperntravel.com, Mon–Fri 8:30 AM–5:30 PM ET; reference your Group ID.',
     teams: [
       { team: 'U15 Premier', bookDeadline: 'Closed — block released Tue, Nov 24',
         arrivalDate: 'Fri, Dec 11 (night before)', nights: '2 · Fri·Sat',
@@ -608,11 +611,11 @@ export const events = [
         hotels: [
           { name: 'Comfort Inn & Suites Lancaster County North', address: 'Denver, PA', rooms: '15 Two Double Bed Rooms · $135/night plus tax', bookLink: PAC_U15PREM_BOOKING },
         ] },
-      { team: 'U16 Premier', bookDeadline: 'Wed, Nov 25',
+      { team: 'U16 Premier', bookDeadline: 'Closed — block released Wed, Nov 25',
         arrivalDate: 'Fri, Dec 11 (night before)', nights: '2 · Fri·Sat',
         teamCode: 'Group G-00911039', hotelLink: PAC_U16PREM_SAT_BOOKING,
         hotels: [
-          { name: 'Comfort Inn & Suites Lancaster County North', address: 'Denver, PA', rooms: 'Two Double Bed Rooms · $135/night plus tax · Group G-00911039 covers Friday and Saturday nights', bookLink: PAC_U16PREM_SAT_BOOKING },
+          { name: 'Comfort Inn & Suites Lancaster County North', address: 'Denver, PA', rooms: 'Two Double Bed Rooms · Group G-00911039 covers Friday and Saturday nights', bookLink: PAC_U16PREM_SAT_BOOKING },
         ] },
     ] },
 ]
